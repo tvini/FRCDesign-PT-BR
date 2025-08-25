@@ -1,4 +1,4 @@
-# 1C: Practice Mechanisms
+# 1C: Practice Mech anisms
 
 ## Exercise Overview
 
