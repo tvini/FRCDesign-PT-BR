@@ -1,14 +1,14 @@
 
 
-# 1E: Subsystem Workflow - Detailing the Drivebase
+# 1E: Fluxo de Trabalho do Subsistema - Detalhando o Drivetrain
 
-## Exercise: Mounting Electronics
+## Exercício: Montagem da Eletrônica
 
-In the reference design, the Power Distribution Hub (PDH), main breaker, and RoboRIO are mounted onto the bellypan. The [`Electronic Mounting` Featurescript](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/83cfa4ae1a46ea05581445c9 "Electronic Mounting Featurescript Onshape Document"){:target="_blank"} can be very useful for generating the mounting holes for electronics. If you cannot accurately manufacture mounting holes for electronics, VHB tape (which comes in the Kit of Parts) can be a good option for robustly securing your electronics.
+No design de referência, o Power Distribution Hub (PDH), o disjuntor principal (main breaker), e o RoboRIO são montados na bellypan. O [Featurescript `Electronic Mounting`](https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/w/1f1ebce01a3b8eb6fa102975/e/83cfa4ae1a46ea05581445c9 "Electronic Mounting Featurescript Onshape Document"){:target="_blank"} pode ser muito útil para gerar os furos de montagem dos componentes eletrônicos. e você não puder fabricar com precisão os furos de montagem, a fita dupla face (que vem no Kit of Parts) pode ser uma boa opção para fixar a eletrônica de forma robusta.
 
-### Bellypan Mounting Instructions
+### Instruções de Montagem no Bellypan
 
-**Add mounting for some electronic components to your drivetrain.** You can take inspiration from the following instructions slides. 
+**Adicione a montagem de alguns componentes eletrônicos ao seu drivetrain.** Você pode se inspirar nos slides de instrução a seguir. 
 
 <!-- <center>**Sample Electronics Mounting Slides**</center> -->
 <!-- Slideshow container -->
@@ -17,13 +17,13 @@ In the reference design, the Power Distribution Hub (PDH), main breaker, and Rob
     <div id="slide1" class="mySlides fade">
         <figure>
             <img src="/img/learning-course/stage2-drivebase/elec/elec1s0.webp" style="width:100%">
-            <figcaption>0. Finished mounted electronics.</figcaption>
+            <figcaption>0. Eletrônicos montados finalizados.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
             <img src="/img/learning-course/stage2-drivebase/elec/elec1s1.webp" style="width:100%">
-            <figcaption>1. Draw box outline for PDH and RoboRIO. Also add the outline and holes for the main breaker. (The `Electronic Mounting` Featurescript does not support mounting holes for the main breaker at this time unforunately).</figcaption>
+            <figcaption>1. Desenhe o contorno em forma de caixa para o PDH e o RoboRIO. Também adicione o contorno e os furos para o main breaker. (O Featurescript `Electronic Mounting` infelizmente ainda não suporta furos de montagem para o main breaker).</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
@@ -32,13 +32,13 @@ In the reference design, the Power Distribution Hub (PDH), main breaker, and Rob
               <source src="/img/learning-course/stage2-drivebase/elec/elec1s2.webm" type="video/webm">
               Your browser does not support the video tag.
             </video>
-            <figcaption>2. Use the <code>Electronic Mounting</code> Featurescript to add the PDH and RoboRIO mounting holes. Optionally override the hole size for the PDH to be 5/32” diameter, which will allow the mounting bolt to screw directly into the bellypan.</figcaption>
+            <figcaption>2. Use o Featurescript <code>Electronic Mounting</code> para adicionar os furos de montagem do PDH e do RoboRIO. Opcionalmente, sobrescreva o tamanho do furo do PDH para diâmetro de 5/32”, permitindo que o parafuso de fixação seja rosqueado diretamente na bellypan.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
             <img src="/img/learning-course/stage2-drivebase/elec/elec1s0.webp" style="width:100%">
-            <figcaption>3. Insert the electronics from the MKCad parts library and fasten them. The Pigeon IMU can be fastened to the RoboRIO.</figcaption>
+            <figcaption>3. Insira os componentes eletrônicos a partir da biblioteca de peças MKCad e fixe-os. O Pigeon IMU pode ser fixado no RoboRIO.</figcaption>
         </figure>
     </div>
     <!-- Next and previous buttons -->
@@ -50,23 +50,23 @@ In the reference design, the Power Distribution Hub (PDH), main breaker, and Rob
     </div>
 </div>
 
-!!! Tip "Simplified Models"
-    It is recommended to use the Simplified electronics models to improve assembly performance. You can read more about simplified models on the [Assembly Best Practices Page](/best-practices/assembly-setup/ "Assembly Best Practices Page"){:target="_blank"}. Simplified swerve module models can also be used to reduce lag. 
+!!! Tip "Modelos Simplificados"
+      Recomenda-se usar modelos eletrônicos **simplificados** para melhorar o desempenho do assembly. Você pode ler mais sobre modelos simplificados na [Página de Boas Práticas de Montagem](/best-practices/assembly-setup/ "Assembly Best Practices Page"){:target="_blank"}. Também podem ser usados modelos simplificados de módulos Swerve para reduzir o lag.
 
 ### Robot Signal Light (RSL)
 
-Every robot is also required to have a Robot Signal Light (RSL). An easy location to mount the RSL is on the side of the drive frame. Typically, only one RSL is required and needs to be “easily visible while standing 3 ft. (~ 100 cm) away from at least one side of the ROBOT”. Be sure to check the latest game manual rules for the most up to date RSL mounting rules.
+Todo robô também é obrigado a ter uma Robot Signal Light (RSL). Um local simples para montar a RSL é na lateral do chassi. Normalmente, apenas uma RSL é necessária e ela precisa ser “facilmente visível a uma distância de 3 pés (~100 cm) de pelo menos um lado do robô”.
 
-**Add mounting for an RSL to your Stage 1D drivetrain.** You can take inspiration from the following image. 
+**Adicione a montagem de uma RSL ao seu drivetrain da Etapa 1D.** Você pode se inspirar na imagem abaixo. 
 
 <figure>
     <img src="\img\learning-course\stage2-drivebase\elec\RSL.webp" style="width:80%">
-    <figcaption>RSL mount constructed out of 1/8" thick polycarbonate plate. The mounting hole for the RSL is 1” in diameter. The RSL model can be found in the MKCad App.</figcaption>
+    <figcaption>Suporte de RSL construído em policarbonato com 1/8" de espessura. O furo de montagem da RSL tem 1” de diâmetro. O modelo da RSL pode ser encontrado no aplicativo MKCad.</figcaption>
 </figure>
 
 ### Radio
 
-Each robot is also required to have a radio. The radio should be mounted on the robot following Vivid Hosting's [radio mounting guidelines](https://frc-radio.vivid-hosting.net/getting-started/usage/mounting-your-radio "Vivid Hosting Radio Mounting Guidelines"){:target="_blank"}.
+Cada robô também é obrigado a ter um rádio. Ele deve ser montado no robô seguindo as [diretrizes de montagem do rádio da Vivid Hosting](https://frc-radio.vivid-hosting.net/getting-started/usage/mounting-your-radio "Vivid Hosting Radio Mounting Guidelines"){:target="_blank"}.
 
 
 
