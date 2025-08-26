@@ -1,17 +1,17 @@
-# Required Course Tools
+# Feramentas obrigatórias para o guia
 
-## Setting up MKCad
+## Configurando o MKCad
 
-MKCad is an Onshape plugin that contains a large library of parts that are often useful in FRC.
+O MKCad è um plugin do Onshape que possui uma larga biblioteca de partes que são muito usadas na FRC.
 
-To install it, go to the [MKCad App](https://appstore.onshape.com/apps/Manufacturers%20Models/2ZT7X5D646R3LM3ZND7LGBTYRVM4SVH6CDDGM6I=/description "MKCad App Store Page"){:target="_blank"} in the Onshape Appstore.
+Para instalar o MKCad, vá na página do [MKCad App](https://appstore.onshape.com/apps/Manufacturers%20Models/2ZT7X5D646R3LM3ZND7LGBTYRVM4SVH6CDDGM6I=/description "MKCad App Store Page"){:target="_blank"} na App store do Onshape.
 
-Press "Subscribe", then "Get for Free". This will automatically add MKCad to your Onshape account.
+Clique em "subscribe", e então em "Get for free". Isso vai adicionar o MKCad automaticamente na sua conta do Onshape.
 
 !!! Note
-    After subscribing, the MKCAD inserter won't show up in already open documents until you reload. This is a first-time thing though.
+    Depois de se inscrever o MKCad não aparecerá em documentos que estiverem abertos, sendo necessário recarregar a página, isso não acontecerá em documentos abertos posteriormente.
 
-!!! Video "Video Tutorial"
+!!! Video "Vídeo Tutorial"
     <video width="1920" controls="true" allowfullscreen="true" poster="/img/learning-course/course-setup/required-course-tools/subscribe.webp">
       <source src="/img/learning-course/course-setup/required-course-tools/MKCADsetup.webm" type="video/webm">
       Your browser does not support the video tag.
