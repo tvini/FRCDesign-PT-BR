@@ -1,18 +1,18 @@
-# 1D: Design Methodology - Simple Swerve Drivebase
+# 1D: Metodologia de Design - Simple Swerve Drivebase
 
-## Introduction
+## Introdução
 
-So far, you've worked on CAD fundamentals through courses and FRC-relevant exercises, but haven't done anything within a larger context. In this stage, you'll dive right into designing for a real robot. In this project, you will be designing a swerve drivebase while being introduced to a design workflow that will be applied to all future projects. 
+Até agora, você trabalhou nos fundamentos de CAD através de cursos e exercícios relevantes para FRC, mas não fez nada dentro de um contexto maior. Neste estágio, você vai mergulhar diretamente no design para um robô real. Neste projeto, você irá projetar uma swerve drivebase enquanto é introduzido a um workflow de design que será aplicado a todos os projetos futuros.
 
-1. Learn the basics of top-down design and layout sketching
-2. Model a swerve drivebase using COTS swerve modules
-3. Create a top-level assembly and insert a pre-modeled mechanism (1678's 2023 elevator and manipulator) 
+1. Aprender os fundamentos de top-down design e criação de layout sketches
+2. Modelar uma swerve drivebase usando módulos COTS swerve
+3. Criar um assembly de nível superior e inserir um mecanismo pré-modelado (elevator e manipulator do 1678 de 2023)
 
-Even if you've already modeled a drivetrain the past, this guide serves as an excellent introduction to the **top-down** layout sketch design methodology.
+Mesmo que você já tenha modelado um drivetrain no passado, este guia serve como uma excelente introdução à metodologia de design de layout sketch top-down.
 
 <figure>
     <img src="\img\learning-course\stage1d\FullAssy.webp" style="width:100%">
-    <figcaption>The swerve drivebase that you will be modeling with a pre-modeled scoring mechanism.</figcaption>
+    <figcaption>O swerve drivebase que você irá modelar incluirá um mecanismo de pontuação pré-modelado.</figcaption>
 </figure>
 
 <br>
