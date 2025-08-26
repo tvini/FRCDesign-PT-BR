@@ -1,37 +1,36 @@
-# New to Onshape
+# Novo no Onshape
 
-## Performance Tuning
-
-After your initial account setup, Onshape will run a browser check to ensure compatibility. Depending on your browser, additional steps can be taken to improve performance.
+## Ajuste de desempenho
+Depois da configuração inicial da conta, o Onshape vai verificar seu navegador para ter certeza que ele é compatível. Dependendo do navegador, configurações adicionais podem ser requeridas para melhorar sua performance.
 
 !!! Tip
-    You can test your current performance at the [Onshape Compatibility Check Page](https://cad.onshape.com/check "Compatibility Check").
+    Você pode testar sua performance atual na [Página de teste de compatibilidade do Onshape](https://cad.onshape.com/check "Compatibility Check").
 
 !!! Note
-    If the browser check fails, you may want to try a different browser. Currently, chromium browsers like Chrome, Edge, Opera, and Arc are the best supported browsers for Onshape, but Firefox usually works with no issues as well. Safari is not well supported.
+    Se o teste do navegador falhar, você pode tentar usar um navegador diferente. Atualmente, Navegadores baseados em chromium como Chrome, Edge, Opera e etc, são os melhores nevagadores suportados pelo Onshape, mas normalmente o Firefox funciona sem problemas. O Safari normalmente não funciona direito.
 
-### Improving Chrome Performance
-If you are using Chrome, You can try modifying the following settings to improve rendering speeds.
+### Melhorando a Performance do Chrome
+Se você estiver usando o Chrome, você pode tentar modificar as configurações a seguir para melhorar sua velocidade de processamento.
 
-- First, type `chrome://settings/` in your search bar to navigate to chrome settings. Make sure that "Use graphics acceleration when available" is enabled. Relaunch chrome if you have updated it to enable it.
+- Primeiro, escreva `chrome://settings/` na barra de pesquisa do Chrome para acessar suas configurações. Certifique-se que a opção "Use graphics acceleration when available" está ativada. Reinicie o Chrome se você precisou ativar essa configuração.
 
   <center><img src="/img/learning-course/course-setup/performance-tuning/graphicsacceleration.webp" style="width:80%;border:5px solid #ADADAD; border-radius: 2%"></center>
 
-- Go to `chrome://flags/` and enable "Override Software Rendering List":
+- Vá para `chrome://flags/` e habilite "Override Software Rendering List":
 
   <center><img src="/img/learning-course/course-setup/performance-tuning/override-rendering-list.png" style="width:80%;border:5px solid #ADADAD; border-radius: 2%"></center>
 
-- Finally, Try adjusting your ANGLE graphics backend:
+- E por último tente mudar o "ANGLE graphics backend":
 
   <center><img src="/img/learning-course/course-setup/performance-tuning/ANGLE-backend.png" style="width:80%; border:5px solid #ADADAD; border-radius: 2%"></center>
 
-Please note that performance will depend on your individual computer setup. We suggest the following process:
+Lembre-se que a performance depende dos componentes do seu computador. Nós sugerimos o processo a seguir:
 
-- Choose an ANGLE graphics backend: `chrome://flags/#use-angle`
-- Click the Relaunch button
-- [Check your performance](https://cad.onshape.com/check "Compatibility Check")
+- Escolha um "ANGLE graphics backend": `chrome://flags/#use-angle`
+- Clique no botão "Reiniciar"
+- [Teste sua performance](https://cad.onshape.com/check "Compatibility Check")
 
-Repeat these steps for each backend and use whichever is the most performant. Here are some examples all taken from the same machine.
+Repita esses passos para cada opção e use a que melhor performar. Aqui estão alguns exemplos, todos retirados da mesma máquina.
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -40,7 +39,7 @@ Repeat these steps for each backend and use whichever is the most performant. He
   <div id="slide1" class="mySlides fade">
     <figure markdown="span">
       <img src="/img/learning-course/course-setup/performance-tuning/performance-examples/default.png" style="width:80%; data-description="The default configuration">
-      <figcaption>The default configuration</figcaption>
+      <figcaption>A configuração padrão</figcaption>
     </figure>
   </div>
 
@@ -81,6 +80,6 @@ Repeat these steps for each backend and use whichever is the most performant. He
   </div>
 </div>
 
-In the above example, Direct3D 11 narrowly beats out OpenGL, but that won't always be the case.
+No exemplo acima, o Direct3D 11 ganha por pouco do openGL, mas isso nem sempre é o caso.
 
 <br>
