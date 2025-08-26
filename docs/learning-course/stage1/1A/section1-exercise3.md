@@ -1,58 +1,58 @@
-# 1A: Onshape Fundamentals - Section 1
-## Exercise 3: More Extrudes
+# 1A: Fundamentos do Onshape - Seção 1
+## Exercício 3: Mais Extrudes
 
-In this exercise, you'll extrude four rectangles by two inches symmetrically — and turn them into tubes.  
-Use just one extrude feature. What happens?
+Neste exercício, você irá extrudir quatro retângulos em duas polegadas de forma simétrica — e transformá-los em tubos.  
+Use apenas uma função de extrude. O que acontece?
 
 <figure>
   <img src="/img/learning-course/stage1a/exercise3-rectangles.webp" style="width:70%">
-  <figcaption>Starting setup with four rectangles.</figcaption>
+  <figcaption>Configuração inicial com quatro retângulos.</figcaption>
 </figure>
 
-Don't forget: use the Tube Converter after extruding.
+Não se esqueça: use o Tube Converter após a extrusão.
 
 ---
 
-??? question "Looks a bit weird? Click here after trying it."
+??? question "Parece meio estranho? Clique aqui depois de tentar."
 
-    If you followed the instructions and used a single extrude, all four rectangles probably merged into one big block.
-    In real life, you don't want parts fused together like this unless you meant to.
+    Se você seguiu as instruções e usou uma única extrusão, provavelmente todos os quatro retângulos se fundiram em um único bloco grande.  
+    Na vida real, você não quer que as peças fiquem fundidas assim, a menos que seja intencional.
 
-    > Can you figure out how to extrude them **individually** to keep them separate?
+    > Consegue descobrir como extrudir **individualmente** para mantê-las separadas?
 
-    If you need to restart, here's a quick video showing how to delete your bad tubes:
+    Se precisar recomeçar, aqui está um vídeo rápido mostrando como deletar seus tubos errados:
 
     <iframe width="100%" height="400" src="https://www.youtube.com/embed/2Jzb1Xr6NBE" frameborder="0" allowfullscreen></iframe>
 
 ---
 
-??? success "Click Here if you fixed your extrude."
+??? success "Clique aqui se corrigiu sua extrusão."
 
-    Manually doing four extrudes is tedious. There's a better way!
+    Fazer quatro extrudes manualmente é trabalhoso. Existe uma forma melhor!
 
-    - Delete your old extrudes.
+    - Delete suas extrudes antigas.
+  
+    - Use o `Extrude Individual` Featurescript que você adicionou em [ferramentas obrigatórias do curso](../../course-setup/required-course-tools/featurescripts.md){:target="_blank"}.  
+    - (Pressione `Alt+C` e pesquise "extrude individual", se necessário.)
 
-    - Use the `Extrude Individual` Featurescript you added in [required course tools](../../course-setup/required-course-tools/featurescripts.md){:target="_blank"}.
-    - (Hit `Alt+C` and search "extrude individual" if needed.)
+    Esta ferramenta permite extrudir múltiplas regiões de sketch separadamente, tudo em um único passo.
 
-    This tool lets you extrude multiple sketch regions separately, all in one step.
-
-    Also, if you click the "Symmetric" option inside Extrude Individual, you can force symmetry.
+    Além disso, se você clicar na opção "Symmetric" dentro do Extrude Individual, é possível forçar a simetria.
 
     <figure>
       <img src="/img/learning-course/stage1a/extrude-individual.webp" style="width:90%">
-      <figcaption>Using "Symmetric" inside Extrude Individual.</figcaption>
+      <figcaption>Usando "Symmetric" dentro do Extrude Individual.</figcaption>
     </figure>
 
 ---
 
-## Exercise 3.1: Sketching Basics
+## Exercício 3.1: Fundamentos do Sketch
 
-In the last exercise, you extruded an existing sketch. Now it's your turn to **create the sketch yourself**.
+No último exercício, você extrudiu um sketch existente. Agora é sua vez de **criar o sketch você mesmo**.
 
-When we sketch, we use rectangles to represent box tubes in 2D, and use **dimensions** and **constraints** to lock everything into place.
+Ao fazermos sketches, usamos retângulos para representar tubos quadrados em 2D, e usamos **dimensões** e **restrições** para travar tudo no lugar.
 
-Follow along with the video below to practice sketching fundamentals in Onshape.
+Acompanhe o vídeo abaixo para praticar os fundamentos do sketch no Onshape.
 
 <br>
 
@@ -62,14 +62,14 @@ Follow along with the video below to practice sketching fundamentals in Onshape.
 
 <br>
 
-!!! tip "Key Sketching Points"
+!!! tip "Principais Pontos de Sketch"
 
-    - **Dimensions** control distances (like making a rectangle exactly 5 inches wide).
-    - **Constraints** define relationships (like locking a rectangle edge to another).
-    - **Yellow dotted lines** show automatic constraints — use them!
-    - **The Origin** is your anchor. Attach sketches to the origin whenever possible.
-    - **Blue is bad** — a blue sketch means it's not fully defined yet. Everything should turn black.
-    - **Less is better** — use the fewest dimensions necessary to fully lock down your design.
+    - **Dimensões** controlam distâncias (como fazer um retângulo com exatamente 5 polegadas de largura).  
+    - **Restrições** definem relacionamentos (como travar uma aresta de retângulo a outra).  
+    - **Linhas pontilhadas amarelas** mostram restrições automáticas — use-as!  
+    - **A Origem** é sua âncora. Conecte sketches à origem sempre que possível.  
+    - **Azul é ruim** — um sketch azul significa que ainda não está totalmente definido. Tudo deve ficar preto.  
+    - **Menos é melhor** — use o mínimo de dimensões necessárias para travar totalmente o design.
 
 ---
 
