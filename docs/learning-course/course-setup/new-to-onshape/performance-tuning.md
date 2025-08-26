@@ -1,13 +1,13 @@
 # Novo no Onshape
 
 ## Ajuste de desempenho
-Depois da configuração inicial da conta, o Onshape vai verificar seu navegador para ter certeza que ele é compatível. Dependendo do navegador, configurações adicionais podem ser requeridas para melhorar sua performance.
+Depois da configuração inicial da conta, o Onshape vai verificar seu navegador para ter certeza de que ele é compatível. Dependendo do navegador, configurações adicionais podem ser requeridas para melhorar sua performance.
 
 !!! Tip
     Você pode testar sua performance atual na [Página de teste de compatibilidade do Onshape](https://cad.onshape.com/check "Compatibility Check").
 
 !!! Note
-    Se o teste do navegador falhar, você pode tentar usar um navegador diferente. Atualmente, Navegadores baseados em chromium como Chrome, Edge, Opera e etc, são os melhores nevagadores suportados pelo Onshape, mas normalmente o Firefox funciona sem problemas. O Safari normalmente não funciona direito.
+    Se o teste do navegador falhar, você pode tentar usar um navegador diferente. Atualmente, Navegadores baseados em chromium como Chrome, Edge, Opera, etc, são os melhores navegadores suportados pelo Onshape, mas normalmente o Firefox funciona sem problemas. O Safari normalmente não funciona direito.
 
 ### Melhorando a Performance do Chrome
 Se você estiver usando o Chrome, você pode tentar modificar as configurações a seguir para melhorar sua velocidade de processamento.
@@ -39,7 +39,7 @@ Repita esses passos para cada opção e use a que melhor performar. Aqui estão 
   <div id="slide1" class="mySlides fade">
     <figure markdown="span">
       <img src="/img/learning-course/course-setup/performance-tuning/performance-examples/default.png" style="width:80%; data-description="The default configuration">
-      <figcaption>A configuração padrão</figcaption>
+      <figcaption>Configuração padrão</figcaption>
     </figure>
   </div>
 
