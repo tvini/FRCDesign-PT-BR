@@ -1,4 +1,4 @@
-# 1D: Metodologia de Design - Simple Swerve Drivebase
+# 1D: Metodologia de Design - Simples Swerve Drivebase 
 
 ## Assembly
 
