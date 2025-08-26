@@ -1,4 +1,4 @@
-# 1C: Mecanismos de Prática
+# 1C: Mecanismos para Praticar
 
 ## Visão Geral do Exercício
 
