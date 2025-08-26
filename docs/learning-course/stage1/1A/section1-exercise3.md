@@ -73,60 +73,60 @@ Acompanhe o vídeo abaixo para praticar os fundamentos do sketch no Onshape.
 
 ---
 
-### What You Learned
+### O Que Você Aprendeu
 
-- How to extrude multiple tubes separately
-- How to create and constrain a sketch
-- How to make rectangles properly
-- How to use basic dimensions and relationships
-- How to mirror using construction lines
+- Como extrudir múltiplos tubos separadamente  
+- Como criar e restringir um sketch  
+- Como fazer retângulos corretamente  
+- Como usar dimensões e relacionamentos básicos  
+- Como espelhar usando linhas de construção
 
 ---
 
-## Exercise 3.2: Adding Rails
+## Exercício 3.2: Adicionando Travessas
 
 <figure>
   <img src="/img/learning-course/stage1a/3-2-sketch.webp" style="width:100%">
-  <figcaption>Edit this sketch</figcaption>
+  <figcaption>Edite este sketch</figcaption>
 </figure>
 
 
-Now let's apply this to the robot.
+Agora vamos aplicar isso ao robô.
 
-Open the Top Tube Sketch in the Exercise 3.2 part studio and **add two cross tubes** that are **8 inches apart**.  
+Abra o Top Tube Sketch no part studio do Exercício 3.2 e **adicione dois tubos transversais** que fiquem **8 polegadas de distância**.
 
 !!! Tip
-    Double-click the sketch in the feature tree to edit it.
+    Dê um duplo clique no sketch na árvore de features para editá-lo.
 
-Draw the new rails yourself. Only use **one new dimension** total.
+Desenhe as novas travessas você mesmo. Use **apenas uma nova dimensão** no total.
 
-The only numbers you should see:
+Os únicos números que você deve ver:
 
-- 4.25" (gap between modules)
-- 1" (tube width)
-- 8" (distance between cross rails)
+- 4,25" (espaço entre módulos)  
+- 1" (largura do tubo)  
+- 8" (distância entre as travessas)
 
 <figure>
   <img src="/img/learning-course/stage1a/drivetrain-crossrail-sketch2.webp" style="width:90%">
-  <figcaption>Final cross rail sketch setup.</figcaption>
+  <figcaption>Configuração final do sketch das travessas.</figcaption>
 </figure>
 
 ---
 
-### Check Your Work
+### Verifique Seu Trabalho
 
-??? info "Click here after you finish your sketch"
+??? info "Clique aqui depois de terminar seu sketch"
 
-    Here's an optimized way to sketch it:
+    Aqui está uma forma otimizada de desenhar:
 
     <iframe width="100%" height="400" src="https://www.youtube.com/embed/ktKuSFVV10U" frameborder="0" allowfullscreen></iframe>
 
-    Compare your approach to the video.  
-    > What did you do differently?  
-    > How would you avoid mistakes like that next time?
+    Compare sua abordagem com o vídeo.  
+    > O que você fez diferente?  
+    > Como você evitaria erros assim da próxima vez?
 
 <br>
 
-After you're done checking your work and reviewing your approach, move on to the next exercise.
+Após verificar seu trabalho e revisar sua abordagem, avance para o próximo exercício.
 
 <br>
