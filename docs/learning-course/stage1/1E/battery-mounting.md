@@ -5,7 +5,7 @@ Garantir que a bateria do seu robô não caia durante a operação é fundamenta
 O sucesso na fixação da bateria pode ser dividido em dois pontos principais: um bom posicionamento e um suporte robusto.
 
 ### Posicionamento da Bateria
-As baterias são pesadas: a bateria de um robô FRC pesa cerca de 13 lbs (6 kg). ela deve ser posicionada o mais baixo possível, ajudando a manter o centro de gravidade do robô baixo e evitando tombamentos. A maioria das equipes utiliza o bellypan para apoiar a bateria, já que essa é a posição mais baixa no robô. 
+As baterias são pesadas: a bateria de um robô FRC pesa cerca de 13 lbs (6 kg). ela deve ser posicionada o mais baixo possível, ajudando a manter o centro de gravidade do robô baixo e evitando tombamentos. A maioria das equipes utiliza a bellypan para apoiar a bateria, já que essa é a posição mais baixa no robô. 
 
 ### Suporte da Bateria
 
