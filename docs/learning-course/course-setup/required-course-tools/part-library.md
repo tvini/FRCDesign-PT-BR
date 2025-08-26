@@ -1,8 +1,8 @@
-# Feramentas obrigatórias para o guia
+# Ferramentas obrigatórias para o guia
 
 ## Configurando o MKCad
 
-O MKCad è um plugin do Onshape que possui uma larga biblioteca de partes que são muito usadas na FRC.
+O MKCad é um plugin do Onshape que possui uma larga biblioteca de partes que são muito usadas na FRC.
 
 Para instalar o MKCad, vá na página do [MKCad App](https://appstore.onshape.com/apps/Manufacturers%20Models/2ZT7X5D646R3LM3ZND7LGBTYRVM4SVH6CDDGM6I=/description "MKCad App Store Page"){:target="_blank"} na App store do Onshape.
 
