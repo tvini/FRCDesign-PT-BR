@@ -2,7 +2,7 @@
 
 ## Visão Geral do Exercício
 
-**Faça uma cópia do Documento de Exercícios da Fase 1C** através do botão abaixo. Cada exercício possui uma pasta, um guia de "referência" (uma pré-visualização de como o modelo final deve ficar) e uma ou duas abas para você realizar o exercício. As soluções também estão disponíveis no Documento de Soluções dos Exercícios 1C para conferir seu trabalho posteriormente.. Você **NÃO** precisa fazer uma cópia do documento de soluções.
+**Faça uma cópia do Documento de Exercícios da Fase 1C** através do botão abaixo. Cada exercício possui uma pasta, um guia de "referência" (uma pré-visualização de como o modelo final deve ficar) e uma ou duas abas para você realizar o exercício. As soluções também estão disponíveis no Documento de Soluções dos Exercícios 1C para conferir seu trabalho posteriormente. Você **NÃO** precisa fazer uma cópia do documento de soluções.
 
 <center markdown>
 [Documento de Exercícios da Fase 1C (COPIE ISSO)](https://cad.onshape.com/documents/a9be0985d5e798d784f8b4cb/w/5c862e02b9b471157ba3ca40/e/c5babadecc47dfbe0d8ab454 "Documento de Exercícios da Fase 1C"){:target="_blank"  .md-button .md-button--primary}
