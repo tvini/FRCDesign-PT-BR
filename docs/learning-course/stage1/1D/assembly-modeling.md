@@ -1,16 +1,16 @@
-# 1D: Design Methodology - Simple Swerve Drivebase
+# 1D: Metodologia de Design - Simple Swerve Drivebase
 
 ## Assembly
 
-Now that the part studio is finished, you can create the drivetrain assembly. 
+Agora que o Part Studio está finalizado, você pode criar o assembly do drivetrain
 
 <!-- Previously, in Stage 1A when you created assemblies one of the parts in the group mate was fixed in place. However, this is not considered a good practice as it is not parametric. This is where the origin cube comes in: the origin cube has a mate connector placed at the origin of the part studio.  -->
 
-Just like with the practice exercises in the previous stage, after inserting and grouping all of the parts, you should fasten the origin cube to the origin of the assembly. This aligns the part studio origin and assembly origin.
+Assim como nos exercícios de prática do estágio anterior, após inserir e agrupar todas as peças, você deve prender o origin cube à origem do assembly. Isso alinha a origem do Part Studio com a origem do assembly.
 
-### Instructions
+### Instruções
 
-Start by **creating a new assembly tab called `Drivetrain Assembly`** in the `Drivetrain` folder. **Follow the instructions in the slides** to complete the assembly.
+Comece **criando uma nova aba de assembly chamada `Drivetrain Assembly`** na pasta `Drivetrain`. **Siga as instruções nos slides** para completar o assembly.
 
 <!-- <center>**Drivetrain Assembly**</center> -->
 <!-- Slideshow container -->
@@ -20,14 +20,14 @@ Start by **creating a new assembly tab called `Drivetrain Assembly`** in the `Dr
   <div id="slide1" class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1d/SwerveBase/dtAssy0.webp" style="width:100%">
-      <figcaption>0. The assembly.</figcaption>
+      <figcaption>0. A montagem.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1d/SwerveBase/dtAssy1.webp" style="width:100%">
-      <figcaption>1. Add the part studio parts to the assembly. Like before, group mate the rigid components with the Origin Cube and mate the Origin Cube to the assembly origin.</figcaption>
+      <figcaption>1. Adicione as peças do Part Studio ao assembly. Como antes, faça o group mate dos componentes rígidos com o Origin Cube e faça o mate do Origin Cube à origem do assembly.</figcaption>
     </figure>
   </div>
 
@@ -37,7 +37,7 @@ Start by **creating a new assembly tab called `Drivetrain Assembly`** in the `Dr
         <source src="/img/learning-course/stage1d/SwerveBase/dtAssy2.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-      <figcaption>2. Insert the MK4i module from the MKCad app into the assembly and mate it into place. </figcaption>
+      <figcaption>2. Insira o módulo MK4i do app MKCad no assembly e faça o mate para posicioná-lo corretamente. </figcaption>
     </figure>
   </div>
 
@@ -47,7 +47,7 @@ Start by **creating a new assembly tab called `Drivetrain Assembly`** in the `Dr
         <source src="/img/learning-course/stage1d/SwerveBase/dtAssy3.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-      <figcaption>3. Use the <code>Circular Pattern</code> assembly tool to finish assembling the modules. </figcaption>
+      <figcaption>3. Use a ferramenta de assembly <code>Circular Pattern</code> para finalizar a montagem dos módulos. </figcaption>
     </figure>
   </div>
 
@@ -57,7 +57,7 @@ Start by **creating a new assembly tab called `Drivetrain Assembly`** in the `Dr
         <source src="/img/learning-course/stage1d/SwerveBase/dtAssy4.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-      <figcaption>4. Insert a 3/16" rivet from the MKCad app into the assembly and mate it. </figcaption>
+      <figcaption>4. Insira um rebite de 3/16" do app MKCad no assembly e faça o mate. </figcaption>
     </figure>
   </div>
 
@@ -67,21 +67,21 @@ Start by **creating a new assembly tab called `Drivetrain Assembly`** in the `Dr
         <source src="/img/learning-course/stage1d/SwerveBase/dtAssy5.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-      <figcaption>5. Use the <code>Replicate </code> assembly tool to replicate the rivet and rivet mate onto all matching geometry on the bottom face of the bellypan</figcaption>
+      <figcaption>5. Use a ferramenta de assembly <code>Replicate</code> para replicar o rebite e o mate do rebite em toda a geometria correspondente na face inferior do bellypan.</figcaption>
     </figure>
   </div> -->
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1d/SwerveBase/dtAssy4.webp" style="width:100%">
-      <figcaption>4. Insert, fasten, and replicate the 3/16" rivet from MKCad onto the bellypan holes. For the replicate feature, you can use "Select edges on face" rather than "Select individual edges" since we want all of the holes to have a rivet.</figcaption>
+      <figcaption>4. Insira, prenda e replique o rebite de 3/16" do MKCad nos furos do bellypan. Para a feature de replicate, você pode usar "Select edges on face" em vez de "Select individual edges", já que queremos que todos os furos tenham um rebite.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1d/SwerveBase/dtAssy0.webp" style="width:100%">
-      <figcaption>5. To finish the assembly, organize your components into folders and name your replicates.</figcaption>
+      <figcaption>5. Para finalizar o assembly, organize seus componentes em pastas e nomeie seus replicates.</figcaption>
     </figure>
   </div>
 
@@ -94,13 +94,13 @@ Start by **creating a new assembly tab called `Drivetrain Assembly`** in the `Dr
   </div>
 </div>
 
-### Replicate Tool
+### Ferramenta Replicate
 
-The `Replicate` tool is a very powerful tool for duplicating parts in assemblies. `Replicate` works by creating a copy of the selected parts, and duplicates the selected mate onto the selected geometry. Note that the selected geometry must exactly match the origin mate geometry, eg: the hole diameter must be the same for replicate to copy a rivet. 
+A ferramenta `Replicate` é uma ferramenta muito poderosa para duplicar peças em assemblies. O `Replicate` funciona criando uma cópia das peças selecionadas e duplicando o mate selecionado na geometria escolhida. Note que a geometria selecionada deve corresponder exatamente à geometria do mate de origem, por exemplo: o diâmetro do furo deve ser o mesmo para que o replicate copie um rebite.
 
-In your assembly, you use the select the face for replicate to apply to. What this does is identify all geometry that matches the original mate and then copy the selected components and mate to those matching locations on the selected face. If you want to replicate onto only specific holes, you can change the drop-down menu to "Match Individual Edges".
+No seu assembly, você usa a opção select the face para aplicar o replicate. Isso identifica toda a geometria que corresponde ao mate original e então copia os componentes e mates selecionados para essas posições correspondentes na face escolhida. Se você quiser replicar apenas em furos específicos, pode alterar o menu suspenso para "Match Individual Edges".
 
-!!! Video "Match Individual Edges for Replicate"
+!!! Video "Match Individual Edges para Replicate"
     <video width="1920" controls>
       <source src="/img/learning-course/stage1d/replicateExample.webm" type="video/mp4">
     </video>
