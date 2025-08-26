@@ -1,13 +1,13 @@
 # Novo no Onshape
 
 !!! Tip
-    Lembre de dar uma olhada no [guia de elementos do site](../../../website-feature-guide.md "Website Feature Guide Page"){:target="_blank"} para ter um maior entendimento dos diferentes tipos de formatação utilizados no passar do guia!
+    Lembre-se de dar uma olhada no [guia de elementos do site](../../../website-feature-guide.md "Website Feature Guide Page"){:target="_blank"} para ter um maior entendimento dos diferentes tipos de formatação utilizados no passar do guia!
 
 ## Criando uma conta
 
-O Onshape oferece uma licença gratis para estudantes que queiram utilizar o software. É altamente recomendado o uso do plano educacional, já que ele permite a criaçãi de documentos privados, alem de outras funcionalidades muito uteis.
+O Onshape oferece uma licença grátis para estudantes que queiram utilizar o software. É altamente recomendado o uso do plano educacional, já que ele permite a criação de documentos privados, além de outras funcionalidades muito uteis.
 
-To start registering, go to the [Onshape for Education](https://onshape.com/education-plan "Onshape Education Plan"){:target="_blank"} page and select "Create EDU ACCOUNT" or click [this link](https://www.onshape.com/en/education/sign-up "Onshape Sign Up Page"){:target="_blank"}. Follow the slides below to finish registering.
+Para começar seu cadastro, vá para a página do [Onshape para educação](https://onshape.com/education-plan "Onshape Education Plan"){:target="_blank"} e selecione "Create a Student Account" ou clique [nesse link](https://www.onshape.com/en/education/sign-up "Onshape Sign Up Page"){:target="_blank"}. Siga as fotos abaixo para terminar seu registro.
 
 <br>
 
@@ -18,21 +18,21 @@ To start registering, go to the [Onshape for Education](https://onshape.com/educ
   <div id="slide1" class="mySlides fade">
       <figure>
           <img src="/img/learning-course/course-setup/account-setup/signup.webp" style="width:90%; border:5px solid #ADADAD; border-radius: 2%">
-          <figcaption> Fill out the details in the sign up form. </figcaption>
+          <figcaption> Preencha os detalhes no formulário de inscrição. </figcaption>
       </figure>
   </div>
 
   <div class="mySlides fade">
       <figure>
           <img src="/img/learning-course/course-setup/account-setup/edusignup2.webp" style="width:90%; border:5px solid #ADADAD; border-radius: 2%">
-          <figcaption> On the next screen, select that you are a student and that you are in grade school.</figcaption>
+          <figcaption> Na próxima pagina, selecione que você é um estudante e que você está na "grade school".</figcaption>
       </figure>
   </div>
 
   <div class="mySlides fade">
       <figure>
           <img src="/img/learning-course/course-setup/account-setup/edusignup3.webp" style="width:60%; border:5px solid #ADADAD; border-radius: 2%">
-          <figcaption> Finally, fill the form with your school information. You may enter "Robotics" as the reason for using Onshape. </figcaption>
+          <figcaption> Por último, preencha o formulário com as informações da sua escola. Você pode colocar "Robótica" como a razão de querer usar o Onshape. </figcaption>
       </figure>
   </div>
 
@@ -46,21 +46,21 @@ To start registering, go to the [Onshape for Education](https://onshape.com/educ
   </div>
 </div>
 
-Onshape will proceed to check your information (which may take some time), then send a verification email to activate your account. You'll be asked to set a password, then you'll enter your dashboard.
+O Onshape vai verificar suas informações (o que pode demorar um tempinho), em seguida vão te mandar um e-mail para ativar sua conta. Você será solicitado a definir uma senha, e então você entrará na sua dashboard.
 
-### Account Setup
+### Configuração da conta
 
-The first time you enter Onshape, it will prompt you to set up your account, including the default units and mouse controls used when doing CAD. You can also set a profile picture and a nickname (we recommend keeping this as your real name).
+Na Primeira vez que entrar no Onshape, você precisará configurar sua conta, incluindo as unidades padrões e os comandos do seu mouse para quando estiver fazendo CAD. Você também pode configurar uma foto de perfil e um apelido (é recomendado manter seu nome real).
 
-If your team uses Onshape, contact your mentor/design lead for access to the Onshape classroom/team.
+Se sua equipe usar Onshape, contate seu mentor/líder de design para ter acesso a classe/time (Classroom/Team) da sua equipe no Onshape.
 
 <center><img src="/img/learning-course/course-setup/account-setup/units.webp" style="width:60%; border:5px solid #ADADAD; border-radius: 2%"></center>
 
-## OPTIONAL: Onshape Educator Plan 
-Besides individual setup, if your team uses Onshape or are switching to it, one of your mentors or design leads should get the Educator plan and add all members to a "classroom". The Educator plan is free for FIRST teams and will make document management easier. It also provides a suite of features for all students added to the "classroom", such as simulation, release management, and classes/assignments. 
+## OPICIONAL: Onshape para educadores 
+Além da configuração individual, se seu time usar Onshape ou estiver migrando para ele, um dos seus mentores ou líderes de design pode ter um plano de educador e adicionar todos os membros para uma "classe". O Plano de educador é grátis para times da FIRST e fará administração de documentos mais fácil. Isso também proverá algumas funções adicionais para todos os estudantes adicionados a "classe", como simulação e atividades/tarefas. 
 
-If you are interested, direct your design lead or mentors to read the ChiefDelphi post linked below for a better overview and walkthrough to set it up for your team.
+Se você estiver interessado, envie o post do Cheif Delphi linkado a baixo para seu líder de design ou mentor para ter um melhor passo a passo e configurar isso para seu time.
 
-[Onshape Educator Plan: What it Means for FRC Teams](https://www.chiefdelphi.com/t/onshape-educator-plan-what-it-means-for-frc-teams/446394 "Onshape Educator Plan Chief Delphi Thread"){:target="_blank"}
+[Onshape para educadores: O que isso significa para FRC](https://www.chiefdelphi.com/t/onshape-educator-plan-what-it-means-for-frc-teams/446394 "Onshape Educator Plan Chief Delphi Thread"){:target="_blank"}
 
 <br>
