@@ -1,38 +1,37 @@
-# New to Onshape
+# Novo no Onshape
 
-## Documents Page
-Documents can be viewed and managed from the documents page. You can sort them with folders and labels. 
+## Documentos
+Documentos podem ser visualizados e administrados a partir da página "Documents". Você pode filtrar eles com pastas e etiquetas. 
 
 !!! Tip 
-    Documents are somewhat analogous to "projects" in other CAD programs and contain multiple types of workspaces related to a project. 
-
+    Documentos são de alguma forma análogos a "projetos" em outros softwares de CAD e contém multiplos tipos de áreas de trabalho relacionadas a um projeto.
 <center><img src="/img/learning-course/course-setup/navigation/documentsPage.webp" style="width:90%; border:5px solid #ADADAD"></center>
 
-On the sidebar, you can switch between stuff owned by you and stuff owned by a classroom/team/organization, and a public search page which can be used to look through public Onshape files. 
+Na barra lateral, você pode escolher entre coisas criadas por você, criadas por classes/times/oraganizações e pesquisar por conteudos publicos no Onshape.
 
 
 
 !!! Tip
-    The search page can help you find a ton of publicly available robot CAD from other teams to use as examples.
+    A Barra de pesquisa pode te ajudar a encontrar diversos CADs de robôs disponíveis ao publico para usar como exemplo.
 
 <center><img src="/img/learning-course/course-setup/navigation/public-search-results.webp" style="width:90%; border:5px solid #ADADAD"></center>
 
-### Customizing Your Account
-In the top right corner of the page, you can access the app store, learning center, and account settings. Feel free to adjust settings to your liking.
+### Customizando sua conta
+No canto superior direito da página você pode acessar a app store, o centro de aprendizado e as configurações da conta. Se sinta livre para ajustar as configurações como desejar.
 
-- Change default units and precision
-- Change email notification preferences
-- Change default view manipulation if you're more familiar with a different CAD software
-- Use the subscriptions section to renew your student/educator subscription each year
-- Change and add keybinds to specific actions
+- Troque unidades padrões e a precisão;
+- Troque as preferências de notificações via email;
+- Troque a configuração padrão de manipulação de visualização, se você estiver mais familiarizado com outro software de CAD;
+- Use a seleção de inscrição para renovar sua inscrição de aluno/professor cada ano;
+- Troque e adicione atalhos para diferentes funções.
 
-### Creating Documents
-You can create a document or folder or import CAD files from your computer using the "Create" dropdown button on the left. You'll be able to see any copied documents from the learning course here whenever you want to return to them.
+### Criando documentos
+Você pode criar documentos, pastas ou importar arquivos de CAD do seu computador cliquando no botão "create" na esquerda. Você será capaz de ver qualquer documento copiado do guia aqui a qualquer momento que você quiser revê-los.
 
-**Try creating a document!** Take a look at the different types of workspaces you can create within it and the tools available for each.
+**Tente criar um documento!** De uma olhada nas diferentes áreas de trabalho que você pode criar e as ferramentas disponiveis para cada uma delas.
 
 !!! Tip
-    You can complete the [Navigating Onshape Course](https://learn.onshape.com/learn/course/navigating-onshape/onshape-interface/the-documents-page?page=1 "Navigating Onshape Learning Center Course"){:target="_blank"} in the Onshape learning center to learn more about the documents page.
+    Você pode completar o [curso de navegação no onshape](https://learn.onshape.com/learn/course/navigating-onshape/onshape-interface/the-documents-page?page=1 "Navigating Onshape Learning Center Course"){:target="_blank"} disponível no centro de aprendizado do Onshape para aprender mais sobre a página de documentos.
 
 
 <br>
