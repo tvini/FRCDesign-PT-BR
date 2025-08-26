@@ -2,7 +2,7 @@
 ## Exercício 5: Construindo uma Superestrutura de Tubo
 ### Introdução
 
-Frames feitos de tubos quadrados (box tube) podem ser adicionados ao topo de um drivetrain para oferecer pontos extras de montagem para mais partes de subsistemas, como um lançador (shooter) ou um braço.
+Frames feitos de tubos retangulares (box tube) podem ser adicionados ao topo de um drivetrain para oferecer pontos extras de montagem para mais partes de subsistemas, como um lançador (shooter) ou um braço.
 
 <figure style="margin-bottom: 2rem;">
   <img src="/img/learning-course/stage1a/exercise-5-973-example.webp" style="width:60%; border:5px solid #ADADAD">
