@@ -1,11 +1,11 @@
-# 1A: Onshape Fundamentals - Section 1
+# 1A: Fundamentos do Onshape - Seção 1
 
 ## Drivetrains
 
-Drivetrains are pretty important — they let the robot move. 
-They're usually built out of box tube and have to be strong enough to survive to not explode when running into things. 
+Os drivetrains são muito importantes — eles permitem que o robô se mova.  
+Normalmente são construídos com tubos quadrados (box tube) e precisam ser fortes o suficiente para não se quebrar ao colidir com obstáculos.
 
-Check out the video below to see a drivetrain in action. Spot where box tube is used.
+Assista ao vídeo abaixo para ver um drivetrain em ação. Observe onde o box tube é utilizado.
 
 <figure>
     <iframe width="768" height="432" src="https://www.youtube.com/embed/iDWhp80-axc" frameborder="0" allowfullscreen></iframe>
@@ -13,50 +13,50 @@ Check out the video below to see a drivetrain in action. Spot where box tube is 
 
 ---
 
-## Exercise 2: Adding Cross Rails
+## Exercício 2: Adicionando Travessas (Cross Rails)
 
-In the document you copied previously, navigate to the part studio for Exercise 2.
+No documento que você copiou anteriormente, navegue até o Part Studio do Exercício 2.
 
-You will be adding extra cross rails to the drivetrain in the part studio. This will create extra structure for subsystems to attach to.
+Você irá adicionar travessas extras ao drivetrain no Part Studio. Isso criará estrutura adicional para que os subsistemas possam ser conectados.
 
-**Use the `extrude` tool and `tube converter` to create cross rails for the drivetrain**. Use what you learned in the previous exercise to try to figure it out. Good luck!
+**Use a ferramenta `extrude` e o `tube converter` para criar as travessas do drivetrain**. Use o que aprendeu no exercício anterior para tentar descobrir como fazer. Boa sorte!
 
 <div style="display: flex; gap: 5px; align-items: flex-start;">
   <figure style="flex: 1;">
     <img src="/img/learning-course/stage1a/dt-top.webp" style="width:90%">
-    <figcaption>Missing Cross Rails</figcaption>
+    <figcaption>Travessas faltando</figcaption>
   </figure>
 
   <figure style="flex: 1;">
     <img src="/img/learning-course/stage1a/drivetrain-example.webp" style="width:90%">
-    <figcaption>Complete Drivetrain</figcaption>
+    <figcaption>Drivetrain completo</figcaption>
   </figure>
 </div>
 
 
-!!! Tip "Think About This While You Work"
-    Which extrude setting makes sure the cross rails end up in the right spot?
+!!! Tip "Pense Nisso Enquanto Trabalha"
+    Qual configuração de extrude garante que as travessas fiquem na posição correta?
 
-After the extrude is complete, turn the blocks into tubes using `Tube Converter`.
+Após a extrusão ser concluída, transforme os blocos em tubos usando o `Tube Converter`.
 
 !!! Tip
-    Use the same settings for `Tube Converter` as you did for the previous exercise.
+    Use as mesmas configurações do `Tube Converter` que você utilizou no exercício anterior.
 
-### Quick Part Studio Check
+### Verificação Rápida do Part Studio
 
-Your Part Studio should match what you'd build in real life. If it overlaps like this, how do you fix it? 
+Seu Part Studio deve corresponder ao que você construiria na vida real. Se ele se sobrepuser assim, como você corrige isso?
 
 <figure>
   <img src="/img/learning-course/stage1a/noclipping.webp" style="width:70%">
-  <figcaption>Make sure your parts don't overlap!</figcaption>
+  <figcaption>Certifique-se de que suas peças não se sobreponham!</figcaption>
 </figure>
 
-Always check that your CAD makes sense physically.
+Sempre verifique se seu CAD faz sentido fisicamente.
 
 ---
 
-### Make It Look Nicer
-Once the two tubes are created, the appearance of the drivetrain tubes can be changed so it looks nicer. Watch the video, then change all of the tubes to a color of your choosing. 
+### Deixe Visualmente Melhor
+Depois que os dois tubos forem criados, a aparência dos tubos do drivetrain pode ser alterada para ficar mais agradável. Assista ao vídeo e depois mude todos os tubos para a cor de sua preferência. 
 
 <figure>
     <iframe width="768" height="432" src="https://www.youtube.com/embed/Wr5-n--PbuI" frameborder="0" allowfullscreen></iframe>
@@ -64,6 +64,6 @@ Once the two tubes are created, the appearance of the drivetrain tubes can be ch
 
 <br>
 
-When you're done changing the appearance of the tubes, move on to the next exercise.
+Quando terminar de alterar a aparência dos tubos, avance para o próximo exercício.
 
 <br>
