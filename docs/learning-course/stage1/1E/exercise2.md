@@ -51,7 +51,7 @@ No design de referência, o Power Distribution Hub (PDH), o disjuntor principal 
 </div>
 
 !!! Tip "Modelos Simplificados"
-      Recomenda-se usar modelos eletrônicos **simplificados** para melhorar o desempenho do assembly. Você pode ler mais sobre modelos simplificados na [Página de Boas Práticas de Montagem](/best-practices/assembly-setup/ "Assembly Best Practices Page"){:target="_blank"}. Também podem ser usados modelos simplificados de módulos Swerve para reduzir o lag.
+      Recomenda-se usar modelos eletrônicos **simplificados** para melhorar o desempenho do assembly. Você pode ler mais sobre modelos simplificados na [Página de Boas Práticas de Assembly](/best-practices/assembly-setup/ "Assembly Best Practices Page"){:target="_blank"}. Também podem ser usados modelos simplificados de módulos Swerve para reduzir o lag.
 
 ### Luz de Sinal do Robô (RSL)
 
