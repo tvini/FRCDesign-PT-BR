@@ -1,36 +1,36 @@
-# Introduction to CAD
-## What is CAD?
+# Introdução a CAD
+## O que é CAD?
 
-CAD is an acronym for "computer-aided design." It's a software tool used by engineers, manufacturers, architects, and many more designers in industry to bring their ideas to life. 
+CAD é uma sigla para "computer-aided design". É um software usado por engenheiros, fabricantes, arquitetos e muitos outros designers na indústria para trazer suas ideias para a vida.
 
-CAD is used to create a 3D model from various kinds of steps and tools to help prototype, manufacture, and market a product. Files can be sent to a machine to either print or cut material. Drawings can also be made and printed out to assist with manual machining and assembly. We use the CAD software Onshape for this guide and website. 
+CAD é usado para criar um modelo 3D a partir de vários passos e ferramentas para ajudar a prototipar, fabricar e comercializar um produto. Arquivos podem ser enviados a máquinas para imprimir ou cortar materiais. Desenhos também podem ser feitos e impressos para ajudar com fabricação manual e montagem. Nós usamos o software de CAD Onshape para esse guia e website.
 
-??? Note "Software Choice"
-    This learning course uses Onshape because of its community-made resources, collaboration capabilities, and workflow. However, much of the design process, mechanism fundamentals, and design handbook will apply no matter what software you use. If you choose to use a different software while going through the guide, be aware that the CAD workflow may be different and that you will have significantly less support. 
+??? Note "Escolha de software"
+    Esse guia usa Onshape por causa dos seus recursos feitos pela comunidade, capacidade de colaboração e workflow. No entanto, muito do processo de design, fundamentos de mecanismo, e o Desgin Handbok são aplicáveis para qualquer software que você use. Se você escolher usar outro software enquanto segue esse guia, esteja ciente que o workflow do CAD pode ser diferente e que você terá um suporte significativamente menor.
 
 <figure>
     <center><img src="/img/learning-course/course-setup/introcad/formula.webp" style="width:100%; border:5px solid #ADADAD; border-radius: 2%"></center>
-    <figcaption>Formula 1 race cars are an example of something that is modeled in CAD.</figcaption>
+    <figcaption>Carros de Formula 1 são exemplos de algo que é modelado em CAD.</figcaption>
 </figure>
 
-## Why Use CAD for FRC?
+## Porque usar CAD para a FRC?
 
-CAD is the intermediary between an idea and a built product. There are multiple factors that lead this to be game-changing:
+CAD é o intermédio entre uma ideia e um produto montado. Tem muitos fatores que levam ele a ser uma virada no jogo para sua equipe:
 
-1. **Design Iteration**: Teams can quickly test and modify designs before manufacturing
-2. **Team Collaboration**: Multiple team members can view and understand designs clearly
-3. **Communication**: Everyone can see the end result and agree on a design and direction
-4. **Manufacturing Planning**: CAD serves as a digital blueprint and bill of materials and helps with manufacturing
-5. **Teaching Tool**: Helps new members understand robot mechanisms and assembly
-6. **Weight Management**: Allows teams to track robot weight throughout the design process
-7. **Efficiency**: A good robot can be designed and manufactured faster, leaving room for software testing and drive practice
+1. **Iteração de design**: Times podem rapidamente testar e modificar designs antes da fabricação;
+2. **Colaboração**: Os membros do time podem ver e entender designs mais claramente;
+3. **Comunicação**: Todos podem ver o resultado final e concordar com a direção do design;
+4. **Planejamento de fabricação**: O CAD serve como planta, lista de materiais e ajuda na fabricação;
+5. **Ferramenta de ensino**: Ajuda novos membros a entender os mecanismos do robô e a montagem;
+6. **Gerenciamento de peso**: Possibilita os times a acompanharem o peso do robô pelo processo de design;
+7. **Eficiência**: Um bom robô pode ser projetado e manufaturado mais rápido, deixando mais tempo para testes de programação e treinamento de pilotos.
 
 <center><img src="/img/learning-course/course-setup/introcad/bread.webp" style="width:80%"></center>
 
-**CAD skills are used in the real world all the time**, when designing and testing anything from simple product design to large feats of engineering like planes or cars. Learning CAD with any CAD software can equip you with useful skills you can put on your resume, and it will allow you to learn other CAD software a little easier.
+**Habilidades em CAD são usadas no mundo real o tempo todo**, quando projetando e testando qualquer coisa, de produtos simples a grandes feitos da engenharia como aviões os carros. Aprendendo CAD com qualquer ferramenta te equipa com ferramentas muito uteis que você pode colocar no seu currículo, e ele vai permitir a você aprender outros softwares de CAD de maneira mais rápida.
 
 
 !!! Note
-    A quick intro to CAD and Onshape is provided in the [Introduction to Parametric Feature-Based CAD](https://learn.onshape.com/courses/introduction-to-parametric-feature-based-cad "Introduction to CAD Onshape Course"){:target="_blank"} official learning course, but it doesn't provide much relevant information for FRC.
+    Uma introdução a CAD e Onshape é apresentada no curso oficial [Introdução ao CAD baseado em recursos Parametricos](https://learn.onshape.com/courses/introduction-to-parametric-feature-based-cad "Introduction to CAD Onshape Course"){:target="_blank"}, mas ele não apresenta muitas informações uteis para a FRC.
 
 <br>
