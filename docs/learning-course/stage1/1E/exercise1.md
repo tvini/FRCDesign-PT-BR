@@ -1,12 +1,12 @@
-# 1E: Subsystem Workflow - Detailing the Drivebase
+# 1E: Fluxo de Trabalho do Subsistema - Detalhando o Drivetrain
 
-## Exercise: Battery Holder
+## Exercício: Suporte da Bateria
 
-In the reference design, the battery is placed horizontally on the bellypan. It is secured with a 2" wide strap that wraps around the battery and bellypan to secure it. 
+No design de referência, a bateria é posicionada horizontalmente sobre a bellypan. Ela é fixada com uma cinta de 2" de largura que passa ao redor da bateria e da bellypan para mantê-la presa. 
 
-### Instructions
+### Instruções
 
-**Add a battery holder to your drivetrain.** You can take inspiration from the following instructions slides. 
+**Adicione um suporte de bateria ao seu drivetrain.** Você pode se inspirar nos slides de instrução a seguir. 
 
 <!-- <center>**Sample Battery Holder Modeling Slides**</center> -->
 <!-- Slideshow container -->
@@ -15,49 +15,49 @@ In the reference design, the battery is placed horizontally on the bellypan. It 
   <div id="slide1" class="mySlides fade">
       <figure>
           <img src="/img/learning-course/stage2-drivebase/batt/batt1s0.webp" style="width:100%">
-          <figcaption>0. Finished battery holder w/ mounting holes, strap cutout in bellypan, and strap.</figcaption>
+          <figcaption>0. Suporte de bateria finalizado com furos de fixação, recorte para a cinta na bellypan e a própria cinta.</figcaption>
       </figure>
   </div>
 
   <div class="mySlides fade">
       <figure>
           <img src="/img/learning-course/stage2-drivebase/batt/batt1s1.webp" style="width:100%">
-          <figcaption>1. Layout of battery and battery mount plate. To fit the battery with 1/16” radius fillets on the inner corners, the cutout should be around 6.705” x 7.225”.</figcaption>
+          <figcaption>1. Layout da bateria e da chapa de montagem. Para acomodar a bateria com raios de 1/16” nos cantos internos, o recorte deve ter aproximadamente 6,705” x 7,225”.</figcaption>
       </figure>
   </div>
 
   <div class="mySlides fade">
       <figure>
           <img src="/img/learning-course/stage2-drivebase/batt/batt1s2.webp" style="width:100%">
-          <figcaption>2. 1/8" thick aluminum is a good option for this plate. Also add a 3/8" diameter spacers to connect to the bellypan.</figcaption>
+          <figcaption>2. Alumínio de 1/8" de espessura é uma boa opção para essa chapa. Também adicione espaçadores de 3/8" de diâmetro para conectar à bellypan.</figcaption>
       </figure>
   </div>
 
   <div class="mySlides fade">
       <figure>
           <img src="/img/learning-course/stage2-drivebase/batt/batt1s3.webp" style="width:100%">
-          <figcaption>3. Add the mounting holes and cut out for the battery strap on the bellypan. </figcaption>
+          <figcaption>3. Adicione os furos de montagem e o recorte para a cinta da bateria na bellypan. </figcaption>
       </figure>
   </div>
 
   <div class="mySlides fade">
       <figure>
           <img src="/img/learning-course/stage2-drivebase/batt/batt1s4.webp" style="width:100%">
-          <figcaption>4. Optionally model the battery strap.</figcaption>
+          <figcaption>4. Opcionalmente, modele a cinta da bateria.</figcaption>
       </figure>
   </div>
 
   <div class="mySlides fade">
       <figure>
           <img src="/img/learning-course/stage2-drivebase/batt/batt1s5.webp" style="width:100%">
-          <figcaption>5. Optionally pocket the battery holder. 0.2" wide ribs are recommended. </figcaption>
+          <figcaption>5. Opcionalmente, faça pockets (alívios) no suporte da bateria. Recomenda-se ribs (nervuras) de 0,2" de largura. </figcaption>
       </figure>
   </div>
 
   <div class="mySlides fade">
       <figure>
           <img src="/img/learning-course/stage2-drivebase/batt/batt1s0.webp" style="width:100%">
-          <figcaption>6. Insert the battery holder, spacers, and battery into the assembly. Don't forget to organize your feature tree, name your parts, assign part materials, and organize your assembly file tree.</figcaption>
+          <figcaption>6. Insira o suporte de bateria, os espaçadores e a própria bateria no conjunto. Não se esqueça de organizar sua árvore de features, nomear as peças, atribuir materiais e organizar a árvore do arquivo de montagem.</figcaption>
       </figure>
   </div>
 
