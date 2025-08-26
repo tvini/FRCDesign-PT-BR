@@ -1,13 +1,13 @@
-# 1C: Practice Mechanisms
+# 1C: Mecanismos para Praticar
 
-## Exercise 1: Flat Intake
+## Exercício 1: Intake Plano
 
-In this exercise, you will be modeling a sort of flat game piece manipulator. This mechanism features live-axle compliant wheels, a belt reduction, and tube plugs.
+Neste exercício, você irá modelar um tipo de manipulador de game pieces planas. Este mecanismo possui um eixo vivo com rodas compliant, redução por correia e acopladores de tubo.
 
-### Tube Plugs
-Tube plugs are a great way to build simple and robust structures.
-Many vendors including [WCP](https://wcproducts.com/products/tube-plugs "WCP Tube Plug Product Page"){:target="_blank"}, [REV](https://www.revrobotics.com/MAXTube-Endcaps/ "REV Tube Plugs Product Page"){:target="_blank"}, [Andymark](https://www.andymark.com/products/tube-plugs "Andymark Tube Plug Product Page"){:target="_blank"}, and [Last Anvil](https://lastanvil.com/products/1-x-1-x-0-0625-end-cap "Last Anvil Tube Plug Product Page"){:target="_blank"} offer in various tubing sizes.
-They can be used to connect plates to the open face of tubes or to connect tubes to each other without the use of a gusset.
+### Acopladores de Tubo (Tube Plugs)
+Os acopladores de tubo são uma ótima maneira de construir estruturas simples e robustas.  
+Muitos fornecedores, incluindo [WCP](https://wcproducts.com/products/tube-plugs "WCP Tube Plug Product Page"){:target="_blank"}, [REV](https://www.revrobotics.com/MAXTube-Endcaps/ "REV Tube Plugs Product Page"){:target="_blank"}, [Andymark](https://www.andymark.com/products/tube-plugs "Andymark Tube Plug Product Page"){:target="_blank"}, e [Last Anvil](https://lastanvil.com/products/1-x-1-x-0-0625-end-cap "Last Anvil Tube Plug Product Page"){:target="_blank"} oferecem tubos de vários tamanhos.  
+Eles podem ser usados para conectar chapas aos tubos ou para conectar tubos entre si sem a necessidade de um gusset.
 
 ???+ Example "Tube Plugs"
 
@@ -20,20 +20,20 @@ They can be used to connect plates to the open face of tubes or to connect tubes
     </div>
 
     <figure>
-      <figcaption>Tube plugs can be used to create gusset-less tube to tube (left) and tube to plate (right) connections. (Photo Credits: FRC 4414, FRC 9442)</figcaption>
+      <figcaption>Os acopladores de tubo podem ser usados para criar conexões sem gussets, como tubo a tubo (à esquerda) e tubo a chapa (à direita). (Créditos da foto: FRC 4414, FRC 9442)</figcaption>
     </figure>
 
-This exercise also introduces you to the use of the the [`Assembly Mirror Featurescript`](https://cad.onshape.com/documents/0f7d68295ff4dab57adcf92c/v/88fbfa19a2e2555d18599db4/e/bcf3052f00f1f9d3d95a89c7?jumpToIndex=1392&showReturnToWorkspaceLink=true "Assembly Mirror FS Onshape Document"){:target="_blank"}. Make sure to add this to your Featurescripts if you have not already. 
+Este exercício também apresenta a você o uso do [`Assembly Mirror Featurescript`](https://cad.onshape.com/documents/0f7d68295ff4dab57adcf92c/v/88fbfa19a2e2555d18599db4/e/bcf3052f00f1f9d3d95a89c7?jumpToIndex=1392&showReturnToWorkspaceLink=true "Assembly Mirror FS Onshape Document"){:target="_blank"}. Certifique-se de adicionar isso aos seus Featurescripts, caso você ainda não tenha feito.
 
-- This featurescript generates allows you to mirror the position of a duplicate part in the assembly. 
-- This is often useful so you can avoid creating a duplicate part in the part studio (to preserve the Bill of Materials) and keep the assembly parametric.
-- The featurescript takes a part and a mirror plane and generates a pair of mate connectors to simulate an mirror in the assembly.
-- In the assembly, you simply have to copy the part and mate it to the mate connector on the other side. Show mate connnectors by pressing the `k` key.
+- Essa featurescript permite espelhar a posição de uma peça duplicada no assembly. 
+- Isso é frequentemente útil para evitar criar uma peça duplicada no Part Studio (para preservar a Lista de Materiais) e manter o assembly paramétrico.
+- O featurescript pega uma peça e um plano para espelhar e gera um par de mate connectors para simular um espelhamento no assembly.
+- No assembly, basta copiar a peça e conectá-la ao mate connector do outro lado. Para mostrar os mate connectors, pressione a tecla `k`.
 
 
-### Part Studio Instructions
+### Instruções do Part Studio
 
-**Navigate to the "Exercise #1 Part Studio" tab** in your copied document and **follow the instructions in the slides** to complete the part studio for this exercise.
+**Vá até a aba "Exercise #1 Part Studio"** no seu documento copiado e **siga as instruções dos slides** para completar o Part Studio deste exercício.
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -42,21 +42,21 @@ This exercise also introduces you to the use of the the [`Assembly Mirror Featur
   <div id="slide1" class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/s0.webp" style="width:100%">
-      <figcaption>0. Final Part Studio.</figcaption>
+      <figcaption>0. Part Studio Finalizado.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/s1.webp" style="width:100%">
-      <figcaption>1. Create the layout sketch on the Right plane. Begin by sketching the tube profiles. </figcaption>
+      <figcaption>1. Crie o sketch do layout no plano Right. Comece desenhando os contornos dos tubos. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/s2.webp" style="width:100%">
-      <figcaption>2. Using the Origin Cube functions you learned previously, sketch the pulleys and belt. This is a 5mm pitch 12T to 30T transmission with a 70T belt. </figcaption>
+      <figcaption>2. Usando as funções do Origin Cube que você aprendeu anteriormente, esboce as polias e a correia. Esta é uma transmissão de pitch de 5 mm, com polias de 12T e 30T e uma correia de 70T. </figcaption>
     </figure>
   </div>
 
