@@ -5,8 +5,8 @@
 **Faça uma cópia do Documento de Exercícios da Fase 1C** através do botão abaixo. Cada exercício possui uma pasta, um guia de "referência" (uma pré-visualização de como o modelo final deve ficar) e uma ou duas abas para você realizar o exercício. As soluções também estão disponíveis no Documento de Soluções dos Exercícios 1C para conferir seu trabalho posteriormente.. Você **NÃO** precisa fazer uma cópia do documento de soluções.
 
 <center markdown>
-[1C Exercises Document (COPY THIS)](https://cad.onshape.com/documents/a9be0985d5e798d784f8b4cb/w/5c862e02b9b471157ba3ca40/e/c5babadecc47dfbe0d8ab454 "1A Exercises Onshape Document"){:target="_blank"  .md-button .md-button--primary}
-[1C Exercise Solutions Document](https://cad.onshape.com/documents/99b4fd36c41bdb5b3e6d5ceb/w/f8e04439667e38aedb8f8196/e/52d6f1268d1392beb2834209 "1C Exercise Solutions Onshape Document"){:target="_blank" .md-button .md-button--primary}
+[Documento de Exercícios da Fase 1C (COPIE ISSO)](https://cad.onshape.com/documents/a9be0985d5e798d784f8b4cb/w/5c862e02b9b471157ba3ca40/e/c5babadecc47dfbe0d8ab454 "Documento de Exercícios da Fase 1C"){:target="_blank"  .md-button .md-button--primary}
+[Documento de Soluções dos Exercícios 1C](https://cad.onshape.com/documents/99b4fd36c41bdb5b3e6d5ceb/w/f8e04439667e38aedb8f8196/e/52d6f1268d1392beb2834209 "Documento de Soluções dos Exercícios 1C"){:target="_blank" .md-button .md-button--primary}
 </center>
 
 <div class="grid cards" markdown>
