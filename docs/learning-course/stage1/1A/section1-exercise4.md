@@ -1,56 +1,55 @@
-# 1A: Onshape Fundamentals - Section 1
-## Exercise 4: Sketching the Drivetrain Frame
+# 1A: Fundamentos do Onshape - Seção 1
+## Exercício 4: Sketch da Frame do Drivetrain
 
-Now that you’ve sketched individual parts, it's time to create a full drivetrain frame.
+Agora que você já fez sketches de peças individuais, é hora de criar a frame completo do drivetrain.
 
 <figure>
   <img src="/img/learning-course/stage1a/exercise4-dt-frame.webp" style="width:100%">
-  <figcaption>Final Frame</figcaption>
+  <figcaption>Frame final</figcaption>
 </figure>
 
-In the document you copied previously, navigate to the part studio for Exercise 4.
+No documento que você copiou anteriormente, navegue até o part studio do Exercício 4.
 
-Watch the video below and follow along to create your drivetrain sketch while learning and practicing several part creation techniques.
+Assista ao vídeo abaixo e acompanhe para criar seu sketch do drivetrain enquanto aprende e pratica diversas técnicas de criação de peças.
 <br>
 
 <figure>
   <iframe width="768" height="432" src="https://www.youtube.com/embed/lDW9H3a70aM" frameborder="0" allowfullscreen></iframe>
 </figure>
 
-Your goal is to sketch and extrude the rectangles shown below, then convert them into tubes them using `Tube Converter`.
+Seu objetivo é desenhar e extrudir os retângulos mostrados abaixo, e então convertê-los em tubos usando o `Tube Converter`.
 
 !!! Tip
-    Make sure to **mirror or pattern your sketches** using construction lines — don't manually draw both sides.
+  Certifique-se de **espelhar ou replicar seus sketches** usando linhas de construção — não desenhe manualmente ambos os lados.
 
 <figure>
   <img src="/img/learning-course/stage1a/exercise4-drivetrain-sketch.webp" style="width:100%">
-  <figcaption>Drivetrain Sketch</figcaption>
+  <figcaption>Sketch do Drivetrain</figcaption>
 </figure>
 
-!!! warning "Important Notes for the Sketches"
+!!! warning "Notas Importantes para os Sketches"
 
-    - Make sure to mirror across both X and Y axes.
-    - Avoid overdimensioning your sketches — use symmetry whenever possible.
-    - Make sure the cross beams are also mirrored properly.
-    - Use the origin as the center reference point for everything.
+    - Certifique-se de espelhar tanto no eixo X quanto no eixo Y.  
+    - Evite excesso de dimensões nos sketches — use simetria sempre que possível.  
+    - Garanta que as travessas (cross beams) também sejam espelhadas corretamente.  
+    - Use a origem como ponto de referência central para tudo.
 
-If your sketch is fully constrained (everything turns black), you’re doing it right! You can **now use `extrude` and `tube converter` to turn the sketch into your drivetrain box tubes.**
+Se seu sketch estiver totalmente restrito (tudo fica preto), você está fazendo certo! Você pode **agora usar `extrude` e `tube converter` para transformar o sketch nos tubos do drivetrain.**
 
+### Finalizando
 
-### Finishing Up
-
-1. **Add cross rails** as you did in the last exercise **to complete the drivetrain tubes.**
-2. **Double-check** that no parts are fused together incorrectly.
-3. Use the dot and top plane (origin and ground) to verify alignment.
-4. Make sure tubes line up properly with the module placements.
+1. **Adicione as travessas** como você fez no exercício anterior **para completar os tubos do drivetrain.**  
+2. **Verifique** se nenhuma peça está fundida incorretamente.  
+3. Use o ponto e o plano superior (origem e chão) para verificar o alinhamento.  
+4. Certifique-se de que os tubos estejam alinhados corretamente com os módulos.
 
 <figure>
   <img src="/img/learning-course/stage1a/exercise4-dt-frame.webp" style="width:90%">
-  <figcaption>Final Frame</figcaption>
+  <figcaption>Frame Final</figcaption>
 </figure>
 
 ---
 
-Once you're done with the above tasks and checks, move on to the next exercise.
+Depois de concluir as tarefas e verificações acima, avance para o próximo exercício.
 
 <br>
