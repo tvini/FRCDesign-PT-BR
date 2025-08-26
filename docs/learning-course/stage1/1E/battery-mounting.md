@@ -1,20 +1,20 @@
-# 1E: Subsystem Workflow - Detailing the Drivebase
+# 1E: Fluxo de Trabalho do Subsistema - Detalhando o Drivetrain
 
-## Battery Mounting
-Ensuring that your robot’s battery does not fall out of your robot is critical for successful robot operation. While it may seem obvious, even veteran teams [sometimes](https://youtu.be/bhjb3Vw8YHg?si=Bxm7oD5VkmYW7oj0&t=105 "3647 Battery Falling Out"){:target="_blank"} get [this](https://youtu.be/Dr_rnN2bjno?si=roWawTsyWt5W3RdA&t=86 "3647 Battery Falling Out...Again"){:target="_blank"} wrong. 
-Successful battery mounting can be broken down into two components: good battery placement and a robust battery holder.
+## Montagem da Bateria
+Garantir que a bateria do seu robô não caia durante a operação é fundamental para o bom funcionamento. Embora isso pareça óbvio, até mesmo equipes veteranas [às vezes](https://youtu.be/bhjb3Vw8YHg?si=Bxm7oD5VkmYW7oj0&t=105 "3647 Bateria caindo"){:target="_blank"} cometem [esse](https://youtu.be/Dr_rnN2bjno?si=roWawTsyWt5W3RdA&t=86 "3647 Bateria caindo...de novo"){:target="_blank"} erro. 
+O sucesso na fixação da bateria pode ser dividido em dois pontos principais: um bom posicionamento e um suporte robusto.
 
-### Battery Placement
-Batteries are heavy: the FRC robot battery weighs a whopping 13 lbs. Since the battery is so heavy, you need to place it as low as possible to keep your robot’s center of gravity low to prevent tipping over. Most teams will typically use the bellypan to support their battery as this is the lowest location on the robot. 
+### Posicionamento da Bateria
+As baterias são pesadas: a bateria de um robô FRC pesa cerca de 13 lbs (6 kg). ela deve ser posicionada o mais baixo possível, ajudando a manter o centro de gravidade do robô baixo e evitando tombamentos. A maioria das equipes utiliza o bellypan para apoiar a bateria, já que essa é a posição mais baixa no robô. 
 
-### Battery Holder
+### Suporte da Bateria
 
-A strong strap is needed to secure the battery to its mount, preventing it from dislodging during hard collisions. A good option is to use a 1” or 2” wide buckle strap, which can be purchased and cut to size from most stores. FRC vendors like WCP also sell [battery mounting accessories](https://wcproducts.com/products/batteries-accessories "WCP Battery Accessories Product Page"){:target="_blank"} including battery holders and straps.
+É necessário um suporte firme para prender a bateria em seu lugar e evitar que ela se solte em colisões fortes. Uma boa opção é utilizar uma cinta de fivela de 1" a 2" de largura, que pode ser comprada e cortada no tamanho ideal em diversas lojas. Fornecedores da FRC, como a WCP, também vendem [acessórios para montagem de bateria](https://wcproducts.com/products/batteries-accessories "WCP Battery Accessories Product Page"){:target="_blank"} incluindo suportes e cintas.
 
-!!! Example
+!!! Exemplo
     <figure>
         <img src="/img/learning-course/stage2-drivebase/batt/battStrap.webp" style="width:70%">
-        <figcaption>Securely strapped battery in a robot. (Photo Credit: FRC 1538)</figcaption>
+        <figcaption>Bateria bem presa em um robô. (Crédito da foto: FRC 1538)</figcaption>
     </figure>
 
 <br>
