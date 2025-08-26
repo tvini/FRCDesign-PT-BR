@@ -1,4 +1,4 @@
-# 1D: Metodologia de Design - Simple Swerve Drivebase
+# 1D: Metodologia de Design - Simples Swerve Drivebase 
 
 ## Esboços do Layout do Drivetrain
 Para começar, você criará um esboço de layout do drivetrain. Esse esboço irá definir o tamanho e a posição dos tubos de tração. O layout será desenhado a partir da vista lateral e da vista superior do drivetrain. Para o seu swerve drivebase, você o fará com dimensões de 26" x 26".
