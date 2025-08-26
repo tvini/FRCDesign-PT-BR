@@ -1,11 +1,11 @@
-# New to Onshape
+# Novo no Onshape
 
 !!! Tip
-    Remember to take a look at the [website feature guide](../../../website-feature-guide.md "Website Feature Guide Page"){:target="_blank"} to gain an understanding of the different features used throughout the learning course!
+    Lembre de dar uma olhada no [guia de elementos do site](../../../website-feature-guide.md "Website Feature Guide Page"){:target="_blank"} para ter um maior entendimento dos diferentes tipos de formatação utilizados no passar do guia!
 
-## Registering an Account
+## Criando uma conta
 
-Onshape offers a free education license for students to use their software. It is highly recommended to use the education plan, as it allows for the creation of private documents, as well as other useful features.
+O Onshape oferece uma licença gratis para estudantes que queiram utilizar o software. É altamente recomendado o uso do plano educacional, já que ele permite a criaçãi de documentos privados, alem de outras funcionalidades muito uteis.
 
 To start registering, go to the [Onshape for Education](https://onshape.com/education-plan "Onshape Education Plan"){:target="_blank"} page and select "Create EDU ACCOUNT" or click [this link](https://www.onshape.com/en/education/sign-up "Onshape Sign Up Page"){:target="_blank"}. Follow the slides below to finish registering.
 
