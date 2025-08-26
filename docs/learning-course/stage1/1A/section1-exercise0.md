@@ -1,32 +1,32 @@
-# 1A: Onshape Fundamentals - Section 1
+# 1A: Fundamentos do Onshape - Seção 1
 
-## Exercise 0: Setup and Navigating Onshape
+## Exercício 0: Configuração e Navegação no Onshape
 
-!!! Warning
-    Make sure you made a copy of the 1A Exercises Document before starting this exercise. You can find the link to the document in the [1A Setup](/learning-course/stage1/1A/section1-setup/){:target="_blank"} section.
+!!! warning
+    Certifique-se de fazer uma cópia do Documento de Exercícios 1A antes de iniciar este exercício. Você pode encontrar o link para o documento na seção [Configuração 1A](/learning-course/stage1/1A/section1-setup/){:target="_blank"}.
 
-Using the document you copied on the previous page, follow along with the video. Mess around with the controls till you feel comfortable with it before moving on.
+Usando o documento que você copiou na página anterior, acompanhe o vídeo. Explore os controles até se sentir confortável com eles antes de prosseguir.
 
 
 <figure>
     <iframe src="https://www.youtube.com/embed/45Vkal4VDkE" width="560" height="315" frameborder="0" allowfullscreen></iframe>
 </figure>
 
-!!! tip "Basic Controls"
+!!! tip "Controles Básicos"
 
-    - The right mouse button rotates the model view.
-    - The middle mouse button pans the view.
-    - The mouse scroll wheel zooms the view.
-    - Holding `Ctrl + Right Click` allows you to pan
-    - Holding `Ctrl + Right click` allows you to Rotate flat
+    - O botão direito do mouse gira a visualização do modelo.
+    - O botão do meio do mouse desloca a visualização.
+    - A roda de rolagem do mouse aproxima ou afasta a visualização (zoom).
+    - Segurar Ctrl + Clique Direito permite deslocar a visualização (pan).
+    - Segurar Ctrl + Clique Direito permite girar o modelo em plano (Rotate Flat).
 
-!!! info "Keep in mind"
+!!! info "Tenha em mente"
 
-    You'll probably not remember all of the controls right away, try each one at a time, and mess around with these controls to achieve what you need.
+    Você provavelmente não lembrará de todos os controles imediatamente; tente cada um de cada vez e mexa nesses controles para conseguir o que precisa.
 
-The folders in the bottom store the exercises. **Open the 'part studio' tab for Section 1, Exercise 1 and move on to the next page.**
+As pastas na parte inferior armazenam os exercícios. **Abra a aba 'part studio' da Seção 1, Exercício 1 e avance para a próxima página.**
 
-!!! Info "Tab Types"
-    Part studios, assemblies, and drawings are all different tabs within a document. You design custom parts referencing each other within part studios, then put it all together with buyable components and fasteners in the assemblies.
+!!! info "Tipos de abas"
+    Part studios, assemblies e drawings são todas abas diferentes dentro de um documento. Você projeta peças personalizadas referenciando umas às outras dentro dos part studios e, em seguida, monta tudo junto com componentes compráveis e fixadores nas assemblies.
 
 <br>
