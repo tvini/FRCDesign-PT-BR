@@ -1,74 +1,74 @@
-# 1A: Onshape Fundamentals - Section 1
+# 1A: Fundamentos do Onshape - Seção 1
 
-## Exercise 1: Making Your First Tube
+## Exercício 1: Criando Seu Primeiro Tubo
 
-In this exercise you'll be:
+Neste exercício você irá:
 
-1. Following along with the video to learn how we can make box tubes in onshape
-2. Playing with the tools you learned to explore how the concepts work
-3. Understanding how these parts interact in 3D Space
+1. Acompanhar o vídeo para aprender como criar tubos retangulares (box tubes) no Onshape.  
+2. Brincar com as ferramentas aprendidas para explorar como os conceitos funcionam.  
+3. Entender como essas peças interagem no espaço 3D.
 
 
-### Video Tutorial
+### Tutorial em Vídeo
 
-Inside of the document you copied and navigated through previously, follow along with this video to create your box tubes and finish the exercise. The `extrude` tool will be introduced through this.
+Dentro do documento que você copiou e navegou anteriormente, acompanhe este vídeo para criar seus tubos quadrados e finalizar o exercício. A ferramenta `extrude` será apresentada durante o vídeo.
 
 <center><iframe width="768" height="432" src="https://www.youtube.com/embed/FdD1BTQndEo" frameborder="0" allowfullscreen></iframe></center>
 
 
-!!! info "As you work through the exercise, notice how:"
+!!! info "Enquanto realiza o exercício, observe como:"
 
-    - Changing the extruded length affects the box tube.
-    - The dimensions of the sketch translate directly into the dimensions of the tube.
+    - Alterar o comprimento da extrusão afeta o tubo quadrado.  
+    - As dimensões do esboço se traduzem diretamente nas dimensões do tubo.
 
 ---
 
-### Reference Images
+### Imagens de Referência
 
 <div style="display: flex; gap: 20px; align-items: flex-start;">
   <figure style="flex: 1;">
     <img src="/img/learning-course/stage1a/extrude-setup.webp" style="width:100%">
-    <figcaption>Extrude your rectangles to create box tubes.</figcaption>
+    <figcaption>Extruda seus retângulos para criar tubos retangulares.</figcaption>
   </figure>
 
   <figure style="flex: 1;">
     <img src="/img/learning-course/stage1a/tube-result.webp" style="width:100%">
-    <figcaption>Completed box tube geometry.</figcaption>
+    <figcaption>Geometria do tubo retangular finalizada.</figcaption>
   </figure>
 </div>
 
-### Extrude Tool Info
+### Informações sobre a Ferramenta Extrude
 
-!!! info "Boolean Options"
+!!! info "Opções Booleanas"
     
-    Every extrude has options for `new`, `add`, `remove`, and `intersect` that define how your extrude interacts with other parts in the part studio. I**f you extrude a tube next to another tube**, you might notice that **they merge together**. Make sure to select the `new` option in your extrude menu, as **sometimes Onshape will default to `add`**.
+     Cada extrusão possui opções de `new`, `add`, `remove` e `intersect` que definem como sua extrusão interage com outras peças no Part Studio. **Se você extrudar um tubo próximo a outro tubo**, pode notar que **eles se fundem**. Certifique-se de selecionar a opção `new` no menu de extrusão, pois **às vezes o Onshape seleciona `add` por padrão**.
 
-!!! info "Endpoint Options"
+!!! info "Opções de Extremidade"
  
-    You can define the end of the extrude depending on an arbitrary length or by using other parts as reference. `Up to face` is pretty commonly used alongside `Blind`.
+    Você pode definir o fim da extrusão dependendo de um comprimento arbitrário ou usando outras peças como referência. `Up to face` é comumente usado junto com `Blind`.
 
-### Tube Converter Settings
+### Configurações do Tube Converter
 
-When using the Tube Converter (as shown in the video), make sure your settings match:
+Ao usar o Tube Converter (como mostrado no vídeo), certifique-se de que suas configurações correspondam:
 
 <figure>
   <img src="/img/learning-course/stage1a/tube-converter-settings.webp" style="width:90%">
-  <figcaption>Tube Converter settings example</figcaption>
+  <figcaption>Exemplo de configurações do Tube Converter</figcaption>
 </figure>
 
-If the Tube Converter isn't behaving as expected:
+Se o Tube Converter não estiver funcionando como esperado:
 
-- Only select the rectangles that are not touching, as shown in the video.
-- You can remove a selection by clicking the `x` next to the part in the Tube Converter menu.
+- Selecione apenas os retângulos que não estão tocando, como mostrado no vídeo.  
+- Você pode remover uma seleção clicando no `x` ao lado da peça no menu do Tube Converter.
 
-If you forget the name of a tool, you can press `Alt+C` to search for it.
+Se você esquecer o nome de uma ferramenta, pressione `Alt+C` para pesquisá-la.
 
 ---
 
-## Done following along? 
+## Já acompanhou o vídeo?
 
-Mess around with the tubes a bit more, try extruding different lengths, using different extrude offsets and settings, and play to see how they relate to your final box tube.
+Brinque um pouco mais com os tubos: experimente extrudar comprimentos diferentes, usar offsets e configurações variadas de extrusão, e teste como eles se relacionam com seu tubo retangulares final.
 
-After 5 minutes or so, move on to the next exercise.
+Após cerca de 5 minutos, avance para o próximo exercício.
 
 <br>
