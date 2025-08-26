@@ -17,8 +17,8 @@ Usando o documento que você copiou na página anterior, acompanhe o vídeo. Exp
     - O botão direito do mouse gira a visualização do modelo.
     - O botão do meio do mouse desloca a visualização.
     - A roda de rolagem do mouse aproxima ou afasta a visualização (zoom).
-    - Segurar Ctrl + Clique Direito permite deslocar a visualização (pan).
-    - Segurar Ctrl + Clique Direito permite girar o modelo em plano (Rotate Flat).
+    - Segurar `Ctrl + Clique Direito` permite deslocar a visualização (pan).
+    - Segurar `Ctrl + Clique Direito` permite girar o modelo em plano (Rotate Flat).
 
 !!! info "Tenha em mente"
 
