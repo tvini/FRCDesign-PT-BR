@@ -1,12 +1,14 @@
-# 1D: Design Methodology - Simple Swerve Drivebase
+# 1D: Metodologia de Design - Simples Swerve Drivebase 
 
-## Deriving Layout Sketches and Part Modeling
+## Derivando Layout Sketches e Modelagem de Peças
 
-Now that you have created the layout sketch, you can begin modeling the individual parts. The critical dimensions of the parts, such as the length of the tubes, will be driven by the layout sketch. This way, the tubes will automatically update with any changes in the size of the drivebase in the layout sketch.
+Agora que você criou o layout sketch, você pode começar a modelar as peças individuais.
+As dimensões críticas das peças, como o comprimento dos tubos, serão definidas pelo layout sketch.
+Dessa forma, os tubos serão atualizados automaticamente sempre que houver alterações no tamanho do drivebase no layout sketch.
 
-### Instructions
+### Instruções
 
-Start by **creating a new folder tab in your Document called `Drivetrain`**. Then, **create a new part studio called `Drivetrain`** within the `Drivetrain` folder. **Follow the instructions in the slides** to complete the part studio. Remember that the Origin Cube should be the first feature in your part studio.
+Comece **criando uma nova aba de pasta no seu Documento chamada `Drivetrain`**. Em seguida, **crie um novo part studio chamado `Drivetrain`** dentro da pasta `Drivetrain`. **Siga as instruções nos slides** para completar o part studio. Lembre-se de que o Origin Cube deve ser a primeira feature no seu part studio.
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -15,28 +17,28 @@ Start by **creating a new folder tab in your Document called `Drivetrain`**. The
   <div id="slide1" class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1d/SwerveBase/dtParts0.webp" style="width:100%">
-      <figcaption>0. The part studio.</figcaption>
+      <figcaption>0. O part studio.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1d/SwerveBase/dtParts1.webp" style="width:100%">
-      <figcaption>1. Start by inserting the origin cube. Then, use the <code>Derived</code> tool to insert the layout sketches you previously drew from the Main Layout Sketch part studio. This feature will automatically update if changes are made to the layout sketch.</figcaption>
+      <figcaption>1. Comece inserindo o Origin Cube. Em seguida, use a ferramenta <code>Derived</code> para inserir os layout sketches que você desenhou anteriormente no Main Layout Sketch part studio. Essa feature será atualizada automaticamente caso sejam feitas alterações no layout sketch.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1d/SwerveBase/dtParts2.webp" style="width:100%">
-      <figcaption>2. Use the <code>Extrude Individual</code> and <code>Tube Converter</code> Featurescripts to model the tubes. The 2"x1" tubes should be 1/8" wall for strength, while the 2"x2" tube can be 1/16" wall.</figcaption>
+      <figcaption>2. Use os Featurescripts <code>Extrude Individual</code> e <code>Tube Converter</code> para modelar os tubos. Os tubos de 2"x1" devem ter parede de 1/8" para maior resistência, enquanto o tubo de 2"x2" pode ter parede de 1/16".</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1d/SwerveBase/dtParts3.webp" style="width:100%">
-      <figcaption>3. Start with one corner of the bellypan. The corner is cut out to create room for the swerve module. </figcaption>
+      <figcaption>3. Comece com um canto da bellypan. O canto é recortado para criar espaço para o swerve module. </figcaption>
     </figure>
   </div>
 
@@ -46,7 +48,7 @@ Start by **creating a new folder tab in your Document called `Drivetrain`**. The
         <source src="/img/learning-course/stage1d/SwerveBase/dtParts4.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-      <figcaption>4. Use the <code>Fillet</code> sketch tool to add a 1" radius sketch fillet on the two internal corners of the cutout. </figcaption>
+      <figcaption>4. Use a ferramenta de esboço <code>Fillet</code> para adicionar um fillet de 1" de raio nos dois cantos internos do recorte. </figcaption>
     </figure>
   </div>
 
@@ -56,21 +58,21 @@ Start by **creating a new folder tab in your Document called `Drivetrain`**. The
         <source src="/img/learning-course/stage1d/SwerveBase/dtParts5.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-      <figcaption>5. Next, use the <code>Circular Pattern </code> sketch tool to pattern the other three corners. Extrude the bellypan to be 1/8" thick.</figcaption>
+      <figcaption>5. Em seguida, use a ferramenta de esboço <code>Circular Pattern</code> para replicar os outros três cantos. Extruda a bellypan com 1/8" de espessura.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1d/SwerveBase/dtParts6.webp" style="width:100%">
-      <figcaption>6. Use the <code> Fillet All Edges</code> Featurescript to add a 0.25" radius fillet to the remaining edges on the bellypan by selecting the bottom face of the bellypan.</figcaption>
+      <figcaption>6. Use o Featurescript <code>Fillet All Edges</code> para adicionar um fillet de 0,25" de raio às arestas restantes da bellypan, selecionando a face inferior da bellypan.</figcaption>
     </figure>
   </div>
 
   <!-- <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1d/SwerveBase/dtParts7.webp" style="width:100%">
-      <figcaption>7. Add the seed instances of the holes for the bellypan.</figcaption>
+      <figcaption>7. Adicione as instâncias iniciais dos furos da bellypan..</figcaption>
     </figure>
   </div>
 
@@ -80,7 +82,7 @@ Start by **creating a new folder tab in your Document called `Drivetrain`**. The
         <source src="/img/learning-course/stage1d/SwerveBase/dtParts8.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-      <figcaption>8. Next, use the <code>Linear Pattern</code> sketch tool to pattern the holes along the edge.</figcaption>
+      <figcaption>8. Em seguida, use a ferramenta <code>Linear Pattern</code> para replicar os furos ao longo da borda.</figcaption>
     </figure>
   </div>
 
@@ -90,7 +92,7 @@ Start by **creating a new folder tab in your Document called `Drivetrain`**. The
         <source src="/img/learning-course/stage1d/SwerveBase/dtParts9.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-      <figcaption>9. Use the <code>Circular Pattern</code> sketch tool to pattern the holes about the origin onto all four edges.</figcaption>
+      <figcaption>9. Use a ferramenta <code>Circular Pattern</code> para replicar os furos em torno da origem, aplicando-os às quatro bordas.</figcaption>
     </figure>
   </div>
 
@@ -100,14 +102,14 @@ Start by **creating a new folder tab in your Document called `Drivetrain`**. The
         <source src="/img/learning-course/stage1d/SwerveBase/dtParts10.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-      <figcaption>10. Use the <code>Linear Pattern</code> sketch tool to pattern the holes for the 2"x2" tube.</figcaption>
+      <figcaption>10. Use a ferramenta <code>Linear Pattern</code> para replicar os furos do tubo 2"x2".</figcaption>
     </figure>
   </div> -->
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1d/SwerveBase/dtParts11.webp" style="width:100%">
-      <figcaption>7. Add the mounting holes for the bellypan. Use a mix of <code>Linear Pattern</code> and <code>Circular Pattern</code> to pattern the 0.196" rivet holes. You should only need to model 2 seed instances, one for the edges holes and one for the 2x2 holes.</figcaption>
+      <figcaption>7. Adicione os furos de montagem da bellypan. Use uma combinação de <code>Linear Pattern</code> e <code>Circular Pattern</code> para replicar os furos de rebite de 0,196". Você só precisará modelar 2 instâncias iniciais: uma para os furos das bordas e outra para os furos do tubo 2"x2".</figcaption>
     </figure>
   </div>
 
@@ -117,14 +119,14 @@ Start by **creating a new folder tab in your Document called `Drivetrain`**. The
         <source src="/img/learning-course/stage1d/SwerveBase/dtParts12.webm" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-      <figcaption>8. Extrude the holes into the bellypan. If the sketch is correctly drawn, you should not need to select each individual hole.</figcaption>
+      <figcaption>8. Extruda os furos na bellypan. Se o sketch estiver corretamente desenhado, você não precisará selecionar cada furo individualmente.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1d/SwerveBase/dtParts0.webp" style="width:100%">
-      <figcaption>9. Finally, name your sketches and organize them into a folder in the feature tree. Additionally, set the material of the bellypan to Aluminum 6061 and name your parts.</figcaption>
+      <figcaption>9. Por fim, nomeie seus esboços e organize-os em uma pasta na feature tree. Além disso, defina o material da bellypan como Aluminum 6061 e dê nomes às suas peças.</figcaption>
     </figure>
   </div>
 
@@ -137,13 +139,15 @@ Start by **creating a new folder tab in your Document called `Drivetrain`**. The
   </div>
 </div>
 
-### Derived Feature
+### Feature Derived
 
-In this section, you were introduced to the `Derived` feature. This feature is extremely powerful and can be used to import parts from one part studio into another to enable references for modeling. However, you must be careful to not overuse this function as it can significantly slow down your part studios.
+Nesta seção, você foi apresentado à feature `Derived`. Essa feature é extremamente poderosa e pode ser usada para importar peças de um part studio para outro, permitindo referências para modelagem. No entanto, você deve ter cuidado para não usar excessivamente essa função, pois ela pode diminuir significativamente a performance dos seus part studios.
 
 ### Feature Tree Organization
 
-At this point, you should be feeling more and more comfortable with Onshape modeling and using Featurescripts. Always make sure to clean up your feature tree while working to keep it organized and easy to use. You can more learn about feature tree organization on the [Feature Tree Best Practices](/best-practices/feature-tree-setup/ "Feature Tree Best Practices Page"){:target="_blank"} page.
+Neste ponto, você deve estar se sentindo cada vez mais confortável com a modelagem no Onshape e com o uso de Featurescripts.
+Sempre certifique-se de organizar sua feature tree enquanto trabalha, para mantê-la limpa e fácil de usar.
+Você pode aprender mais sobre organização da feature tree em [Feature Tree Best Practices](/best-practices/feature-tree-setup/ "Feature Tree Best Practices Page"){:target="_blank"}.
 
 <br>
 
