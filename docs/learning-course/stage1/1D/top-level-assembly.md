@@ -1,16 +1,16 @@
-# 1D: Design Methodology - Simple Swerve Drivebase
+# 1D: Metodologia de Design - Simples Swerve Drivebase
 
-## Top Level Robot Assembly
+## Montagem de um Robô de Alto Nível
 
-Now that you have a drivebase, you can create a _top level robot assembly_. The top level robot assembly is the highest in the assembly hierarchy. Organizing the assemblies in this way keeps thing organized from both a CAD assembly and real life assembly standpoint.
+Agora que você tem um uma drivebase, você pode criar um robô de alto nível (top level robot assembly). A montagem de robô de alto nível é a mais alta na hierarquia de assemblies. Organizar as montagens dessa forma mantém tudo organizado, tanto do ponto de vista do CAD quanto da montagem na vida real.
 
-You will create a top level robot assembly to go with your drivebase. The mechanism you'll be adding is the scoring mechanism from [1678's 2023 robot](https://www.thebluealliance.com/team/1678/2023 "1678 2023 Blue Alliance Page"). The scoring mechanism CAD can be accessed from here:
+Você irá criar um assembly de um robô de alto nível para acompanhar o seu drivetrain. O mecanismo que você irá adicionar é o mecanismo de pontuação do [robô 1678 de 2023]. (https://www.thebluealliance.com/team/1678/2023 "1678 2023 Blue Alliance Page"). O CAD do mecanismo de pontuação pode ser acessado aqui:
 
 <center markdown>[1678 2023 Scoring Mechanism Document](https://cad.onshape.com/documents/28a750426de8e2bc17d5b900/w/8e79c6217ae2ce07ff57d900/e/a4d266d03289620078d13a80 "Team 1678 2023 Scoring Mechanism Onshape Document"){:target="_blank" .md-button .md-button--primary }</center>
 
-### Instructions
+### Instruções
 
-Start by, **creating a new assembly tab above the `Main Layout Sketch` part studio** and name it **`Top Level Robot Assembly`**. **Follow the instructions in the slides** to complete the top level robot assembly.
+Comece **criando uma nova aba de assembly acima do part studio `Main Layout Sketch`** e nomeie-a **`Top Level Robot Assembly`**. **Siga as instruções nos slides** para completar a montagem do robô de alto nível.
 
 <!-- <center>**Top Level Robot Assembly**</center> -->
 <!-- Slideshow container -->
@@ -20,7 +20,7 @@ Start by, **creating a new assembly tab above the `Main Layout Sketch` part stud
   <div id="slide1" class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1d/TopLevel/topL0.webp" style="width:100%">
-      <figcaption>0. Finished top level robot assembly.</figcaption>
+      <figcaption>0. Robô de alto nível completo.</figcaption>
     </figure>
   </div>
 
@@ -30,7 +30,7 @@ Start by, **creating a new assembly tab above the `Main Layout Sketch` part stud
         <source src="/img/learning-course/stage1d/TopLevel/topL1.webm" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-      <figcaption>1. Insert the drivetrain assembly and fasten the origin cube to the assembly origin. You may need to unhide the origin cube to mate it.</figcaption>
+      <figcaption>1. Insira a montagem do drivetrain e fixe o origin cube na origem do assembly. Pode ser necessário desocultar o origin cube para fazer o mate.</figcaption>
     </figure>
   </div>
 
@@ -40,14 +40,14 @@ Start by, **creating a new assembly tab above the `Main Layout Sketch` part stud
         <source src="/img/learning-course/stage1d/TopLevel/topL2.webm" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-      <figcaption>2. Insert the 1678 2023 scoring assembly by pasting the scoring mechanism link into the <code>Insert</code> menu textbox. Then, fasten its origin cube to the assembly origin. You may need to hide the drivetrain's origin cube to access the origin of the assembly for mating.</figcaption>
+      <figcaption>2.Insira o mecanismo de pontuação da 1678 de 2023 colando o link do mecanismo de pontuação na caixa de texto do menu <code>Insert</code>. Em seguida, fixe o origin cube dessa montagem na origem da assembly. Pode ser necessário ocultar o origin cube do drivetrain para acessar a origem da montagem e realizar o mate.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1d/TopLevel/topL0.webp" style="width:100%">
-      <figcaption>3. Finished top level assembly. </figcaption>
+      <figcaption>3. Montagem de alto nível completa </figcaption>
     </figure>
   </div>
 
@@ -62,12 +62,12 @@ Start by, **creating a new assembly tab above the `Main Layout Sketch` part stud
   </div>
 </div>
 
-!!! success "Verification"
-Your tab manager should now look like this:
+!!! success "Verificação"
+Seu gerenciador de abas agora deve se parecer com isto:
 <figure>
 <img src="/img/learning-course/stage1d/SwerveBase/dtTabManager2.webp" style="width:100%">
 </figure>
 
-That's all there is to the top level robot assembly! The use of the origin cube makes it very easy to mate together assemblies. In later stages you will explore how to create flexible assemblies (arms, elevators, etc) with the origin cube. If you are interested, you can get a sneak peek [here](/best-practices/assembly-setup/#utilizing-origin-cube-for-flexible-assemblies "Origin Cube Information Page"){:target="\_blank"}.
+É isso! A montagem de um robô de alto nível está completa. O uso do origin cube facilita muito o mate entre assemblies. Em etapas futuras, você explorará como criar assemblies flexíveis (braços, elevadores, etc.) utilizando o origin cube. Se tiver interesse, você pode conferir um preview [aqui].(/best-practices/assembly-setup/#utilizing-origin-cube-for-flexible-assemblies "Origin Cube Information Page"){:target="\_blank"}.
 
 <br>
