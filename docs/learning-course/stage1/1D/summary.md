@@ -1,18 +1,19 @@
-# 1D: Design Methodology - Simple Swerve Drivebase
+# 1D: Metodologia de Design - Simples Swerve Drivebase
 
-## Summary
+## Resumo
 
-Congratulations on completing Stage 1D! Keep up the good work!
+Parabéns por completar o Stage 1D! Continue com o bom trabalho!
 
-Here is a quick summary of what you have achieved in 1D:
+Aqui está um resumo rápido do que você alcançou no Stage 1D:
 
-* Learned about top-down robot design methodology and layout sketches
-* Learned how to use the derive feature to drive part studios using layout sketches
-* Learned how to use the origin cube to mate together top level assemblies
-* Learned how to model a simple swerve drivetrain
+*Aprendeu sobre a metodologia de projeto top-down para robôs e sobre layout sketches
+*Aprendeu a usar o recurso Derive para conduzir part studios a partir de layout 
+sketches
+*Aprendeu a usar o origin cube para unir montagens de nível superior
+*Aprendeu a modelar um swerve drivetrain simples
 
-In Stage 1E, you will continue to detail the swerve drivebase you just created and practice the workflow for adding components to a subsystem.
+No Stage 1E, você continuará a detalhar a swerve drivebase que acabou de criar e praticará o fluxo de trabalho para adicionar componentes a um subsistema.
 
-Make sure to fill out our simple [**feedback form**](https://forms.gle/qykF1UoxiymAEGWc8) for 1D so we can collect data and get a better idea of how to improve the website!
+Certifique-se de preencher nosso simples [**formulário de feedback**](https://forms.gle/qykF1UoxiymAEGWc8) do Stage 1D, para que possamos coletar dados e ter uma melhor ideia de como melhorar o site!
 
 <br>
