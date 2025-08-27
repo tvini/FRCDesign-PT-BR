@@ -147,7 +147,7 @@ Nesta seção, você foi apresentado à feature `Derived`. Essa feature é extre
 
 Neste ponto, você deve estar se sentindo cada vez mais confortável com a modelagem no Onshape e com o uso de Featurescripts.
 Sempre certifique-se de organizar sua feature tree enquanto trabalha, para mantê-la limpa e fácil de usar.
-Você pode aprender mais sobre organização da feature tree em [Feature Tree Best Practices](/best-practices/feature-tree-setup/ "Feature Tree Best Practices Page"){:target="_blank"}.
+Você pode aprender mais sobre organização da feature tree em [Feature Tree Best Practices](/best-practices/feature-tree-setup/ "Feature Tree Best Practices Page"){:target="_blank"} .
 
 <br>
 
