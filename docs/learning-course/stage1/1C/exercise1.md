@@ -49,7 +49,7 @@ Este exercício também apresenta a você o uso do [`Assembly Mirror Featurescri
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/s1.webp" style="width:100%">
-      <figcaption>1. Crie o sketch do layout no plano Right. Comece desenhando os contornos dos tubos. </figcaption>
+      <figcaption>1. Crie o layout sketch no plano Right. Comece desenhando os contornos dos tubos. </figcaption>
     </figure>
   </div>
 
@@ -63,7 +63,7 @@ Este exercício também apresenta a você o uso do [`Assembly Mirror Featurescri
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/s3.webp" style="width:100%">
-      <figcaption>3. Finish the layout sketch by sketching a 60 mm circle to represent the motor and a 2" circle for the intake wheel.</figcaption>
+      <figcaption>3. Finalize o layout sketch desenhando um círculo de 60 mm para representar o motor e um círculo de 2" para a roda do intake.</figcaption>
     </figure>
   </div>
 
@@ -73,28 +73,28 @@ Este exercício também apresenta a você o uso do [`Assembly Mirror Featurescri
         <source src="/img/learning-course/stage1c/flat-intake/s4.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>4. Create the tube sketch plane by using an offset mate connector reference.</figcaption>
+      <figcaption>4. Crie o plano do sketch do tubo utilizando como referência um mate connector com offset.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/s5.webp" style="width:100%">
-      <figcaption>5. Sketch the tubes by tracing over the layout sketch. There should be no dimensions in this sketch.</figcaption>
+      <figcaption>5. Desenhe os tubos traçando sobre o layout sketch. Não deve haver cotas neste sketch.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/s6.webp" style="width:100%">
-      <figcaption>6. Extrude the lower and use tube converter to turn it into a thin-wall 1x1 with a 0.5" hole spacing pattern. We will create the upper tube in a later step.  </figcaption>
+      <figcaption>6. Faça a extrusão do tubo inferior e use o tube converter para transformá-lo em um 1x1 de parede fina com furação espaçada a cada 0,5". O tubo superior será criado em um passo posterior.  </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/s7.webp" style="width:100%">
-      <figcaption>7. Create the plate sketch on the outside face of the 1x1 tube. Begin by sketching the bearing hole and motor bore hole.</figcaption>
+      <figcaption>7. Crie o sketch da chapa na face externa do tubo 1x1. Comece desenhando o furo do rolamento e o furo do motor.</figcaption>
     </figure>
   </div>
 
@@ -103,7 +103,7 @@ Este exercício também apresenta a você o uso do [`Assembly Mirror Featurescri
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/s8.webp" style="width:100%">
-      <figcaption>8. Sketch the 2" bolt circle for mounting motor. You can utilize the Origin Cube variable for a #10-32 clearance hole by typing <code>#10_32</code> into the dimension and selecting the <code>#Clearance_Fit_10_32</code> variable. Use a <code>Circular pattern</code> to pattern the hole sketch. Although we pattern the hole 6 times, we set three of them to construction geometry as we only need 3. Set the left most hole to be coincident with the centerline between the pulleys. </figcaption>
+      <figcaption>8. Desenhe o círculo de parafusos de 2" para a montagem do motor. Você pode utilizar a variável do Origin Cube para criar um furo de folga #10-32 digitando <code>#10_32</code> na dimensão e selecionando a <code>#Clearance_Fit_10_32</code> variável. Use um <code>Circular pattern</code> para replicar o esboço do furo. Embora façamos a repetição do furo 6 vezes, definimos três deles como geometria de construção, pois precisamos apenas de 3. Defina o furo mais à esquerda para coincidir com a linha central entre as polias. </figcaption>
     </figure>
   </div>
 
