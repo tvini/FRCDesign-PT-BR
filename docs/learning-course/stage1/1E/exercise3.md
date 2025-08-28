@@ -1,13 +1,13 @@
-# 1E: Subsystem Workflow - Detailing the Drivebase
+# 1E: Fluxo de Trabalho do Subsistema - Detalhando o Drivetrain
 
 
-## Exercise: Bellypan Pocketing
+## Exercício: Alívio de Peso da Bellypan
 
-Some teams may choose to pocket their bellypan to reduce weight and make wiring easier. A pocketed bellypan can save around 3-4 lbs. However, this will add significant machining time if you are manufacturing the bellypan yourself or increase cost if you are purchasing the bellypan from a fabrication service (eg: [Fabworks](https://fabworks.com/ "Fabworks Sheet Metal Services"){:target="_blank"}). You should carefully consider the tradeoffs with your team.
+Algumas equipes podem optar por aliviar a bellypan (chapa de base) para reduzir peso e facilitar a fiação. Uma bellypan aliviada pode economizar cerca de 1,3 a 1,8 kg. No entanto, isso pode adicionar um tempo significativo de usinagem se você mesmo fabricar a bellypan, ou aumentar o custo caso opte por comprá-la de um serviço de fabricação (eg: [Fabworks](https://fabworks.com/ "Fabworks Sheet Metal Services"){:target="_blank"}). Sua equipe deve considerar cuidadosamente os prós e contras dessa decisão.
 
-### Instructions
+### Instruções
 
-**If you choose to pocket your bellypan for your drivetrain**, you can **follow the instructions in the slides** which utilize the `Vent` [Featurescripts](../../../resources/featurescripts.md "Featurescripts Page"){:target="_blank"}. You could also use the `Lighten`, or `Part Lighten` [Featurescripts](../../../resources/featurescripts.md "Featurescripts Page"){:target="_blank"} to pocket the bellypan. While the workflow may vary slightly between each Featurescript, the general idea is the same. A diamond pattern is recommended for strength and ease of modeling.
+**Se você optar por aliviar a bellypan do seu drivetrain**, pode **seguir as instruções nos slides**, que utilizam o `Vent` [Featurescripts](../../../resources/featurescripts.md "Featurescripts Page"){:target="_blank"}. Você também pode usar os scripts `Lighten`, ou o `Part Lighten` [Featurescripts](../../../resources/featurescripts.md "Featurescripts Page"){:target="_blank"} para aliviar a bellypan. Embora o fluxo de trabalho possa variar levemente entre cada Featurescript, a ideia geral é a mesma. Um padrão em formato de losango é recomendado pela resistência e pela facilidade de modelagem..
 
 <!-- <center>**Sample Bellypan Pocketing Slides**</center> -->
 <!-- Slideshow container -->
@@ -16,37 +16,37 @@ Some teams may choose to pocket their bellypan to reduce weight and make wiring 
     <div id="slide1" class="mySlides fade">
         <figure>
             <img src="/img/learning-course/stage2-drivebase/pocket/pocket1s0.webp" style="width:100%">
-            <figcaption>0. Pocketed bellypan. </figcaption>
+            <figcaption>0. Bellypan aliviada. </figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
             <img src="/img/learning-course/stage2-drivebase/pocket/pocket1s1.webp" style="width:100%">
-            <figcaption>1. Draw two perpendicular lines that are offset 45 degrees from vertical. </figcaption>
+            <figcaption>1. Desenhe duas linhas perpendiculares com deslocamento de 45° da vertical. </figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
             <img src="/img/learning-course/stage2-drivebase/pocket/pocket1s2.webp" style="width:100%">
-            <figcaption>2. Linear pattern the lines until they completely cover the bellypan. These will be the ribs for the bellypan.</figcaption>
+            <figcaption>2. Repita as linhas em padrão linear até cobrirem toda a bellypan. Elas serão as nervuras de reforço.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
             <img src="/img/learning-course/stage2-drivebase/pocket/pocket1s3.webp" style="width:100%">
-            <figcaption>3. Offset the outline of the bellypan 0.5”.</figcaption>
+            <figcaption>3. Faça um offset do contorno da bellypan em 0,5”.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
             <img src="/img/learning-course/stage2-drivebase/pocket/pocket1s4.webp" style="width:100%">
-            <figcaption>4.  Connect any islands that might result from mounting holes being too far from a rib. One way to fix this is to add a slot connecting the island to a rib.</figcaption>
+            <figcaption>4. Conecte quaisquer "ilhas" que possam surgir devido a furos de montagem muito distantes de uma nervura. Uma forma de corrigir é adicionar um rasgo conectando a ilha à nervura.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
             <img src="/img/learning-course/stage2-drivebase/pocket/pocket1s0.webp" style="width:100%">
-            <figcaption>5. Use a pocketing Featurescript to pocket the bellypan. Recommended settings are 0.15” wide ribs and 3/16” tool radius.</figcaption>
+            <figcaption>5. Use um Featurescript de alívio para usinar a bellypan. Configurações recomendadas: nervuras de 0,15” de largura e raio de ferramenta de 3/16”.</figcaption>
         </figure>
     </div>
     <!-- Next and previous buttons -->
