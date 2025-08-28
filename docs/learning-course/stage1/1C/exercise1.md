@@ -103,105 +103,105 @@ Este exercício também apresenta a você o uso do [`Assembly Mirror Featurescri
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/s8.webp" style="width:100%">
-      <figcaption>8. Desenhe o círculo de parafusos de 2" para a montagem do motor. Você pode utilizar a variável do Origin Cube para criar um furo de folga #10-32 digitando <code>#10_32</code> na dimensão e selecionando a <code>#Clearance_Fit_10_32</code> variável. Use um <code>Circular pattern</code> para replicar o esboço do furo. Embora façamos a repetição do furo 6 vezes, definimos três deles como geometria de construção, pois precisamos apenas de 3. Defina o furo mais à esquerda para coincidir com a linha central entre as polias. </figcaption>
+      <figcaption>8. Desenhe o círculo de parafusos de 2" para a montagem do motor. Você pode utilizar a variável do Origin Cube para criar um furo de folga #10-32 digitando <code>#10_32</code> na dimensão e selecionando a <code>#Clearance_Fit_10_32</code> variável. Use um <code>Circular pattern</code> para replicar o esboço do furo. Embora façamos a repetição do furo 6 vezes, definimos três deles como construction geometry, pois precisamos apenas de 3. Defina o furo mais à esquerda para coincidir com a linha central entre as polias. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/s9.webp" style="width:100%">
-      <figcaption>9. Sketch the mounting holes by using a linear pattern. The tube holes are 0.196" in diameter (A #10-32 "close fit") so we will use the same size for the plate.</figcaption>
+      <figcaption>9. Desenhe os furos de fixação utilizando um linear pattern. Os furos do tubo têm 0,196" de diâmetro (um ajuste justo de #10-32), então vamos usar o mesmo tamanho para a chapa.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/s10.webp" style="width:100%">
-      <figcaption>10. Finish the plate sketch by drawing the plate outline around the sketch features.</figcaption>
+      <figcaption>10. Finalize o sketch da chapa desenhando o contorno da chapa ao redor das sketch features.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/s11.webp" style="width:100%">
-      <figcaption>11. Extrude the plate to be 1/4" thick.</figcaption>
+      <figcaption>11. Extruza a chapa com espessura de 1/4".</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/s12.webp" style="width:100%">
-      <figcaption>12. Create the pocketing sketch on the outside face of the plate. Sketch ribs to connect the mounting points.</figcaption>
+      <figcaption>12. Crie o sketch de magrelação (chamado de alívio de peso profissionalmente, e nos EUA, o termo pocketing é usado) na face externa da chapa. Desenhe nervuras (ribs) para conectar os pontos de fixação.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/s13.webp" style="width:100%">
-      <figcaption>13. Use the <code>Part Lighten</code> Featurescript to pocket the plate. We use 3/16" rib and wall thickness, and 0.26" tool diameter.</figcaption>
+      <figcaption>13. Use o <code>Part Lighten</code> Featurescript para realizar a magrelação (alívio de peso) na chapa. Usamos espessura de 3/16" para rib e wall thickness, e tool diameter de 0.26"</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/s14.webp" style="width:70%">
-      <figcaption>14. You may have noticed in the previous step that the pocketing created some unsightly bumps along the outside contour as a result of the mounting holes. We will make these edges smooth with a simple trick in the next slide. </figcaption>
+      <figcaption>14. Você deve ter notado no passo anterior que o pocketing criou alguns relevos indesejados ao longo do contorno externo devido aos furos de fixação. Vamos suavizar essas bordas com um truque simples no próximo slide. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/s15.webp" style="width:100%">
-      <figcaption>15. Open the pocketing sketch and sketch two lines spaced exactly half the pocketing wall thickness away from the outer edge of the mounting hole (NOT the center of the circle). In our case, this would be half of 3/16". This "tricks" the Part Lighten Featurescript by creating an extra rib where the bumps would have been.</figcaption>
+      <figcaption>15. Abra o sketch de magrelação e desenhe duas linhas espaçadas com o valor exato da metade da wall thickness da magrelação em relação à borda externa do furo de fixação (NÃO do centro do círculo). No nosso caso, isso seria a metade de 3/16". Esse método “engana” o Featurescript Part Lighten criando uma rib extra onde os relevos teriam aparecido.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/s16.webp" style="width:100%">
-      <figcaption>16. Edit the <code>Part Lighten</code> feature to include the two new ribs. The pocketed part should no longer have the bumps. </figcaption>
+      <figcaption>16. Edite a feature <code>Part Lighten</code> para incluir as duas novas ribs. A peça com pocketing não deve mais apresentar os relevos. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/s17.webp" style="width:100%">
-      <figcaption>17. To create a reference for extruding the upper tube, we use the <code>Mirror</code> feature to mirror the plate across the Right plane. Since we do not want to actually use this component in the assembly, we can change the color of the part and add <code>zREF</code> to the part name so that it will appear at the very bottom of the part list when inserting parts in the assembly.</figcaption>
+      <figcaption>17. Para criar uma referência para a extrusão do tubo superior, usamos a feature <code>Mirror</code> para espelhar a chapa através do plano Right. Como não queremos realmente usar este componente na assembly, podemos alterar a cor da peça e adicionar <code>zREF</code> ao nome da peça, para que ela apareça no final da lista de peças ao inserir componentes na assembly.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/s18.webp" style="width:100%">
-      <figcaption>18. Using the tube sketch we created earlier in the part studio, we can now extrude the upper tube profile up to the mirrored plate's inside face. This ensures that the upper tube is parametric to changes in intake width.</figcaption>
+      <figcaption>18. Usando o sketch do tubo que criamos anteriormente no Part Studio, agora podemos extrudar o perfil do tubo superior até a face interna da chapa espelhada. Isso garante que o tubo superior seja paramétrico às alterações na largura do intake.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/s19.webp" style="width:100%">
-      <figcaption>19. Convert the solid into a 2x1 thin-wall tube with 0.5" hole pattern spacing. </figcaption>
+      <figcaption>19. Converta o sólido em um tubo 2x1 de parede fina com 0,5" de espaçamento entre os furos (hole spacing). </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/s20.webp" style="width:100%">
-      <figcaption>20. Sketch and extrude the 0.125" thick polycarbonate plate on the top face of the bottom tube. It will have a mounting hole in each corner and be spaced away from the edges of the 1x1 tube by 0.125".</figcaption>
+      <figcaption>20. Sketch e extrude a chapa de policarbonato de 0,125" de espessura na face superior do tubo inferior. Ela terá um furo de fixação em cada canto e ficará afastada 0,125" das bordas do tubo 1x1.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/s21.webp" style="width:100%">
-      <figcaption>21. Model the roller shaft with the <code>Shaft</code> Featurescript. You can estimate the length first and then adjust it once you create the assembly.</figcaption>
+      <figcaption>21. Modele o eixo do rolo com o Featurescript <code>Shaft</code>. Você pode estimar o comprimento inicialmente e ajustá-lo depois de criar o assembly.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/s22.webp" style="width:100%">
-      <figcaption>22. Model the belt using the <code>Belt & Chain Gen</code> Featurescript. Use a mate connector offset from the plate's bearing hole as the reference plane and offet by 3/8". Select the layout sketch pulley PDs to use as the guides.</figcaption>
+      <figcaption>22. Modele a correia usando o Featurescript <code>Belt & Chain Gen</code>. Use um mate connector deslocado do furo do rolamento da chapa como plano de referência e com offset de 3/8". Selecione os PDs das polias no layout sketch para servir como guias.</figcaption>
     </figure>
   </div>
 
@@ -211,14 +211,14 @@ Este exercício também apresenta a você o uso do [`Assembly Mirror Featurescri
         <source src="/img/learning-course/stage1c/flat-intake/s23.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>23. Use the Assembly Mirror Featurescript (you can add this using the link above the slides). The featurescript will generate a mate connector at the origin of the selected part, and another at the center of the virtually mirrored part. The usage of these two mate connectors will become clear when we create the assembly.</figcaption>
+      <figcaption>23. Use o Featurescript Assembly Mirror (você pode adicioná-lo usando o link acima dos slides). O featurescript irá gerar um mate connector na origem da peça selecionada e outro no centro da peça virtualmente espelhada. A utilização desses dois mate connectors ficará clara quando criarmos a assembly.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/s0.webp" style="width:100%">
-      <figcaption>24. Finish the part studio by naming your features and organizing them into folders. Assign the part materials accordingly.</figcaption>
+      <figcaption>24. Finalize o Part Studio nomeando suas features e organizando-as em pastas. Atribua os materiais das peças conforme necessário.</figcaption>
     </figure>
   </div>
 
@@ -231,16 +231,16 @@ Este exercício também apresenta a você o uso do [`Assembly Mirror Featurescri
   </div>
 </div>
 
-### Assembly Instructions
+### Instruções do Assembly
 
-**Next, navigate to the "Exercise #1 Assembly" tab** in your copied document and **follow the instructions in the slides** to complete this exercise. 
+**Em seguida, navegue até a aba "Exercise #1 Assembly"** no seu documento copiado e **siga as instruções dos slides** para completar este exercício.
 
 <div class="slideshow-container">
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/a0.webp" style="width:100%">
-      <figcaption>0. Final assembly.</figcaption>
+      <figcaption>0. Assembly finalizado.</figcaption>
     </figure>
   </div>
 
@@ -250,7 +250,7 @@ Este exercício também apresenta a você o uso do [`Assembly Mirror Featurescri
         <source src="/img/learning-course/stage1c/flat-intake/a1.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>1. Insert all of the part studio components, except for the zREF part, and group the plates, tubes, and shaft with the origin cube. Fasten the cube to the origin.</figcaption>
+      <figcaption>1. Insira todos os componentes do part studio, exceto a peça zREF, e agrupe as chapas, tubos e eixo com o Origin Cube. Fasten (fixe) o cubo na origem.</figcaption>
     </figure>
   </div>
 
@@ -260,7 +260,7 @@ Este exercício também apresenta a você o uso do [`Assembly Mirror Featurescri
         <source src="/img/learning-course/stage1c/flat-intake/a2.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>2. Copy the side plate and use the mate connectors generated by the <code>Assembly Mirror</code> Featurescript to fasten the plate into place. The location of the "mirrored" plate is fully parametric as the mate connectors generated by the Featurescript will automatically update when changes to the plate occur. </figcaption>
+      <figcaption>2. Copie a chapa lateral e use os mate connectors gerados pelo Featurescript <code>Assembly Mirror</code> para fasten (fixar) a chapa no lugar. A posição da chapa "espelhada" é totalmente paramétrica, pois os mate connectors gerados pelo Featurescript serão atualizados automaticamente quando houver alterações na chapa. </figcaption>
     </figure>
   </div>
 
@@ -270,14 +270,14 @@ Este exercício também apresenta a você o uso do [`Assembly Mirror Featurescri
         <source src="/img/learning-course/stage1c/flat-intake/a3.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>3. Insert the upper tube plugs and make a copy of the lower tube. Fasten all the components to their correct locations.</figcaption>
+      <figcaption>3. Insira os acopladores de tubo (tube plugs) superior e faça uma cópia do tubo inferior. Fasten todos os componentes em suas posições corretas.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/a4.webp" style="width:100%">
-      <figcaption>4. Insert the motor and roller pulleys and fasten them into place. </figcaption>
+      <figcaption>4. Insira o motor e as polias do roller (rolo) e fasten na posição. </figcaption>
     </figure>
   </div>
 
@@ -287,7 +287,7 @@ Este exercício também apresenta a você o uso do [`Assembly Mirror Featurescri
         <source src="/img/learning-course/stage1c/flat-intake/a5.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>5. Fasten the belt to the roller pulley. Double check that the motor pulley is properly lined up with the belt.</figcaption>
+      <figcaption>5. Fasten a correia na polia do rolo. Verifique se a polia do motor está corretamente alinhada com a correia.</figcaption>
     </figure>
   </div>
 
@@ -297,7 +297,7 @@ Este exercício também apresenta a você o uso do [`Assembly Mirror Featurescri
         <source src="/img/learning-course/stage1c/flat-intake/a6.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>6. Insert and fasten the Configurable Spacer Stack and flex wheel. The spacer stack is a configurable assembly that will automatically calculate the optimal stack of spacers to fill a gap. While this functionality is not used for this exercise, it will be very useful in later exercises. When fastening the Spacer Stack assembly, make sure to select the pre-generated mate connectors on each end and NOT the spacer body. </figcaption>
+      <figcaption>6. Insert e fasten o Configurable Spacer Stack e a flex wheel. O spacer stack é um assembly configurável que calcula automaticamente a melhor combinação de espaçadores para preencher uma folga. Embora essa funcionalidade não seja utilizada neste exercício, será muito útil em exercícios posteriores. Depois de fixar o assembly do Spacer Stack, certifique-se de selecionar os mate connectors pré-gerados em cada extremidade e NÃO o corpo do espaçador. </figcaption>
     </figure>
   </div>
 
@@ -307,7 +307,7 @@ Este exercício também apresenta a você o uso do [`Assembly Mirror Featurescri
         <source src="/img/learning-course/stage1c/flat-intake/a7.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>7. Use the <code>Linear Pattern</code> feature to pattern the spacer and wheel.</figcaption>
+      <figcaption>7. Use a feature <code>Linear Pattern</code> para replicar o espaçador e a roda. </figcaption>
     </figure>
   </div>
 
@@ -317,49 +317,49 @@ Este exercício também apresenta a você o uso do [`Assembly Mirror Featurescri
         <source src="/img/learning-course/stage1c/flat-intake/a8.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>8. Copy the Spacer Stack and modify it to be 0.5" long, then fasten it into place to finish the roller.</figcaption>
+      <figcaption>8. Copie o Spacer Stack, modifique-o para ter 0,5" de comprimento e, em seguida, fasten na posição para finalizar o roller.</figcaption>
     </figure>
   </div>
   
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/a9.webp" style="width:100%">
-      <figcaption>9. Insert, fasten, and replicate 3/16" rivets from MKCad to attach the plate to the lower tube.</figcaption>
+      <figcaption>9. Insert, fasten e replicate os rebites (rivets) de 3/16" do MKCad para fixar a chapa ao tubo inferior.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/a10.webp" style="width:100%">
-      <figcaption>10. Insert, fasten, and replicate 0.5" long #10-32 bolts from the Standard Content Library for attaching the the tube plug on the upper tube. </figcaption>
+      <figcaption>10. Insert, fasten e replicate os parafusos #10-32 de 0,5" da Standard Content Library para fixar o tube plug superior. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/a11.webp" style="width:100%">
-      <figcaption>10. Insert, fasten, and replicate 1/2" long 10-32 boltwashers from MKCad for shaft retention.</figcaption>
+      <figcaption>11. Insert, fasten e replicate os parafusos de 1/2" com 10-32 boltwashers do MKCad para retenção do eixo (shaft).</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/a12.webp" style="width:100%">
-      <figcaption>11. Insert, fasten, and replicate 0.5" long #10-32 bolts from the Standard Content Library for attaching the motor.</figcaption>
+      <figcaption>12. Insert, fasten e replicate os parafusos #10-32 de 0,5" da Standard Content Library para fixar o motor.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/a13.webp" style="width:100%">
-      <figcaption>12. Insert, fasten, and attach 1.5" long #10-32 bolts from the Standard Content Library for attaching the polycarb panel. Also add #10-32 thin jam nuts from MKCad Library.</figcaption>
+      <figcaption>13. Insert, fasten e attach (prender) os parafusos #10-32 de 1,5" da Standard Content Library para fixar a chapa de policarbonato. Adicione também porcas (nuts) finas #10-32 da MKCad Library.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flat-intake/a0.webp" style="width:100%">
-      <figcaption>13. Finish your assembly by organizing the parts into folders and naming your replicates.</figcaption>
+      <figcaption>14. Finalize seu assembly organizando as peças em pastas e nomeando seus replicates.</figcaption>
     </figure>
   </div>
   
@@ -373,20 +373,20 @@ Este exercício também apresenta a você o uso do [`Assembly Mirror Featurescri
   </div>
 </div>
 
-!!! Success "Verification"
-    Make sure to have you and/or a more experienced member/mentor of your team [**review your CAD!**](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="_blank"} Your assembly should have 32 instances.
+!!! Success "Verificação"
+    Certifique-se de que você e/ou um membro/mentor mais experiente da sua equipe [**review your CAD!**](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="_blank"} Seu assembly deve ter 32 instâncias.
 
-### Parametric Modeling
+### Modelagem Paramétrica
 
-Some of the steps we took to complete this exercise could have been simplified.
-For instance, we didn’t necessarily *need* to use the Assembly Mirror feature for the plate.
-We didn’t *need* to use an “Up to face” extrude for the upper tube. 
+Alguns dos passos que seguimos para completar este exercício poderiam ter sido simplificados.  
+Por exemplo, não era necessariamente *preciso* usar a feature Assembly Mirror para a chapa.  
+Também não era *preciso* usar uma extrusão “Up to face” para o tubo superior.
 
-However, we practice these techniques because, while they may marginally increase modeling time upfront, they can save ***significant*** amounts of time when going back and editing.
-CAD is an iterative process — your models and designs won’t be perfect the first time around, so making your model easier to modify and more robust to changes (e.g., changing the width of this intake) will save you time and effort in the long run.
-As you use best practices, they’ll become second nature.
+No entanto, praticamos essas técnicas porque, embora possam aumentar marginalmente o tempo de modelagem inicialmente, elas podem economizar ***quantidades significativas*** de tempo ao voltar e editar.  
+O CAD é um processo iterativo — seus modelos e projetos não serão perfeitos na primeira tentativa, portanto, tornar seu modelo mais fácil de modificar e mais robusto a mudanças (por exemplo, alterar a largura deste intake) economizará tempo e esforço a longo prazo.  
+À medida que você usar as melhores práticas, elas se tornarão naturais.
 
-!!! question "Tweaking Your Model"
-    Try playing around to get a feel for what things are and aren't parametric in exercise 1. You can try changing things like the width, length, tube positions, or gear ratio. Which dimensions are easy to change and which are difficult? Which dimension changes cause rebuild or assembly error?
+!!! question "Ajustando Seu Modelo"
+    Experimente modificar elementos para entender o que é e o que não é paramétrico no exercício 1. Você pode tentar alterar a largura, comprimento, posições dos tubos ou a relação de engrenagem. Quais dimensões são fáceis de alterar e quais são mais difíceis? Quais alterações de dimensão causam erros de rebuild ou no assembly?
 
 <br>
