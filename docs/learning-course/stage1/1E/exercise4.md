@@ -1,16 +1,16 @@
 
 
-# 1E: Subsystem Workflow - Detailing the Drivebase
+# 1E: Fluxo de Trabalho do Subsistema - Detalhando o Drivetrain
 
-## Exercise: Bumpers
-Bumper construction is described in each year’s FRC game manual. Typically, it is required to be two 2.5” diameter pool noodles backed by a 5” tall 3/4" thick plywood sheet. Refer to the latest game manual for the most up to date bumper rules. Bumper cutout and ground clearance rules will vary from year to year.
+## Exercício: Para-choques (Bumpers)
+A construção dos bumpers é descrita no manual do jogo de cada ano da FRC. Normalmente, é exigido o uso de dois noodles de piscina de 2,5” de diâmetro apoiados em uma chapa de madeira compensada de 5” de altura e 3/4" de espessura. Consulte sempre o manual mais recente do jogo para conhecer as regras atualizadas sobre bumpers. As regras de recorte e altura em relação ao solo podem variar de ano para ano.
 
-### Bumper Model
-It is recommended to place the bumpers in a new part studio and assembly to keep your feature and assembly trees organized. The minimum level of detail should be a block model of the bumper. Some teams may opt to model the bumper wood, bumper wood holes, angle brackets for the bumper wood, and other details to assist with manufacturing. You should communicate with the rest of your team members to determine the level of detail that is required. 
+### Modelagem de Bumper
+É recomendado posicionar os bumpers em um novo part studio e assembly para manter a árvore de recursos e de montagem organizadas. O nível mínimo de detalhamento deve ser um modelo em bloco do bumper. Algumas equipes podem optar por modelar a madeira, os furos na madeira, suportes em ângulo para a madeira dos bumpers e outros detalhes que auxiliam no processo de fabricação. Você deve se comunicar com os demais membros da equipe para definir o nível de detalhamento necessário.
 
-### Instructions
+### Instruções
 
-**Add bumpers to your drivetrain.** You can take inspiration from the following instructions slides.
+**Adicione os bumpers ao seu drivetrain.** Você pode se inspirar nos slides a seguir.  
 
 <!-- <center>**Sample Bumper Modeling Slides**</center> -->
 <!-- Slideshow container -->
@@ -19,49 +19,49 @@ It is recommended to place the bumpers in a new part studio and assembly to keep
     <div id="slide1" class="mySlides fade">
         <figure>
             <img src="/img/learning-course/stage2-drivebase/bumpers/bumper1s0.webp" style="width:100%">
-            <figcaption>0. Finished bumpers assembly inserted into drivetrain assembly. </figcaption>
+            <figcaption>0. Conjunto de bumpers finalizado e inserido na montagem do drivetrain. </figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
             <img src="/img/learning-course/stage2-drivebase/bumpers/bumper1s1.webp" style="width:100%">
-            <figcaption>1. Create a new sketch in the Main Layout Sketch part studio with the bumper profile. A 3/4" ground clearance and 1/4" gap between the bumper and frame is recommended.</figcaption>
+            <figcaption>1. Crie um novo esboço no Main Layout Sketch com o perfil do bumper. É recomendado manter 3/4" de altura do solo e 1/4" de espaço entre o bumper e a estrutura.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
             <img src="/img/learning-course/stage2-drivebase/bumpers/bumper1s2.webp" style="width:100%">
-            <figcaption>2. Create a new part studio in the drivetrain folder for the bumpers. Insert the Origin Cube and derive the drivetrain and bumper sketches from the Main Layout Sketch.</figcaption>
+            <figcaption>2. Crie um novo part studio na pasta do drivetrain para os bumpers. Insira o Origin Cube e derive os esboços do drivetrain e do bumper a partir do Main Layout Sketch.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
             <img src="/img/learning-course/stage2-drivebase/bumpers/bumper1s3.webp" style="width:100%">
-            <figcaption>3. Sweep the bumper profile along the edges of the drivetrain top layout sketch to create the block model of the bumpers.</figcaption>
+            <figcaption>3. Faça o sweep do perfil do bumper ao longo das arestas do esboço superior do drivetrain para criar o modelo em bloco dos bumpers.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
             <img src="/img/learning-course/stage2-drivebase/bumpers/bumper1s4.webp" style="width:100%">
-            <figcaption>4. Optionally add a fillet on the corners. Size it according to how your team wraps the bumper pool noodles.</figcaption>
+            <figcaption>4. Opcionalmente, adicione um filete nos cantos. Ajuste o tamanho de acordo com a forma que sua equipe enrola os macarrões de piscina no bumper.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
             <img src="/img/learning-course/stage2-drivebase/bumpers/bumper1s5.webp" style="width:100%">
-            <figcaption>5. Optionally model the wood for the bumpers. This can be useful for manufacturing purposes.</figcaption>
+            <figcaption>5. Opcionalmente, modele a madeira dos bumpers. Isso pode ser útil para fins de fabricação.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
             <img src="/img/learning-course/stage2-drivebase/bumpers/bumper1s6.webp" style="width:100%">
-            <figcaption>6. Create a bumper assembly in the drivetrain folder and insert all the components. Don’t forget to group all the components and mate the origin cube mate connector to the origin.</figcaption>
+            <figcaption>6. Crie uma montagem de bumpers na pasta do drivetrain e insira todos os componentes. Não esqueça de agrupar os componentes e alinhar o conector do Origin Cube com a origem.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
             <img src="/img/learning-course/stage2-drivebase/bumpers/bumper1s0.webp" style="width:100%">
-            <figcaption>7. Insert the bumper assembly into the drivetrain assembly.</figcaption>
+            <figcaption>7. Insira a montagem dos bumpers dentro da montagem do drivetrain.</figcaption>
         </figure>
     </div>
     <!-- Next and previous buttons -->
@@ -73,7 +73,7 @@ It is recommended to place the bumpers in a new part studio and assembly to keep
     </div>
 </div>
 
-Keeping the bumper part studio and assembly separate from the drivetrain keeps the drivetrain feature tree cleaner and allows for easier hiding/showing of the bumpers in the top level assembly since you can show and hide the entire bumper assembly at once.
+Manter o part studio e o assembly dos bumpers separados do drivetrain mantém a árvore de recursos do drivetrain mais limpa e permite ocultar/exibir os bumpers com mais facilidade no nível superior da montagem, já que você pode mostrar ou esconder todo o conjunto de bumpers de uma vez.
 
 
 
