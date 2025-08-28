@@ -1,21 +1,21 @@
-# 1E: Subsystem Workflow - Detailing the Drivebase
+1E: Fluxo de Trabalho do Subsistema - Detalhamento do Drivetrain
 
-## Exercise: Bumper Mounting
+## Exercício: Montagem dos Bumpers
 
-Similar to battery mounting, good bumper mounting is often overlooked. While a robust bumper mounting system won’t win you any matches, a poor bumper mounting system can certainly lose you a match. Poor bumper mounting can lead to [bumper damage](https://youtu.be/9mawtTD6v7M?si=RyM0fE6GrR4QlMEU&t=78 "3647 Bumpers Breaking"){:target="_blank"}, long bumper swap time, or even lead to your [bumpers falling off](https://youtu.be/pBUKxWKGV-Q?si=hmJtt9N6C7vGLFpL&t=42 "Bumpers Falling Off"){:target="_blank"}.
+Assim como a montagem da bateria, a montagem adequada dos bumpers muitas vezes é negligenciada. Embora um sistema robusto de fixação de bumpers não vá garantir vitórias, um sistema mal projetado certamente pode causar derrotas. Uma má fixação pode levar a [danos nos bumpers](https://youtu.be/9mawtTD6v7M?si=RyM0fE6GrR4QlMEU&t=78 "3647 Bumpers Breaking"){:target="_blank"}, demora na troca dos bumpers ou até mesmo fazer com que os [bumpers se soltem](https://youtu.be/pBUKxWKGV-Q?si=hmJtt9N6C7vGLFpL&t=42 "Bumpers Falling Off"){:target="_blank"}.
 
-In the reference design, the threaded stud bumper mounting system is implemented. 
+No design de referência, é utilizado o sistema de fixação com pino roscado.  
 
-!!! Example "Threaded Stud Bumper Mounting System"
+!!! Example "Sistema de Montagem de Bumpers com Pino Roscado"
     <figure>
         <img src="\img\learning-course\stage2-drivebase\bumpers\studMount.png" style="width:50%">
-        <figcaption>Section view of the threaded stud bumper mount system. The threaded stud is attached to the bumper wood and the nut holds the bumpers tight against the frame.</figcaption>
+        <figcaption>Vista em corte do sistema de fixação de bumpers com pino roscado. O pino é preso à madeira do bumper e a porca mantém o bumper firme contra a estrutura.</figcaption>
     </figure>
 
 
-### Instructions
+### Instruções
 
-**Add your desired bumper mounts to your drivetrain.** You can take inspiration from the following instructions slides.
+**Adicione os suportes de bumper desejados ao seu drivetrain.** Você pode se inspirar nos slides de instrução abaixo.
 <!-- 
 You can learn more about bumpers and different bumper mounting options in the [Design Handbook](/design-handbook/) pages.  -->
 
@@ -26,37 +26,37 @@ You can learn more about bumpers and different bumper mounting options in the [D
     <div id="slide1" class="mySlides fade">
         <figure>
             <img src="/img/learning-course/stage2-drivebase/bumpers/bumper2s0.webp" style="width:100%">
-            <figcaption>0. Finished bumper mounts. </figcaption>
+            <figcaption>0. Suportes de bumper finalizados. </figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
             <img src="/img/learning-course/stage2-drivebase/bumpers/bumper2s1.webp" style="width:100%">
-            <figcaption>1. Model the bumper mount. This part should be 3/16” thick aluminum. The threaded stud falls into the slot.</figcaption>
+            <figcaption>1. Modele o suporte do bumper. Essa peça deve ser de alumínio com 3/16” de espessura. O pino roscado se encaixa no slot.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
             <img src="/img/learning-course/stage2-drivebase/bumpers/bumper2s2.webp" style="width:100%">
-            <figcaption>2. Add the pocket for the nut that screws onto the threaded stud. This nut keeps the bumpers tight with the frame. The pocket secures the nut and prevents the bumper from lifting up.</figcaption>
+            <figcaption>2. Adicione o rebaixo para a porca que será rosqueada no pino. Essa porca mantém os bumpers firmes na estrutura. O rebaixo prende a porca e impede que o bumper levante.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
             <img src="/img/learning-course/stage2-drivebase/bumpers/bumper2s3.webp" style="width:100%">
-            <figcaption>3. Optionally pocket the mount. 0.15" wide ribs and 1/8" tool radius are recommended. </figcaption>
+            <figcaption>3. Opcionalmente faça o alívio no suporte. São recomendadas nervuras de 0,15" de largura e raio de ferramenta de 1/8".</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
             <img src="/img/learning-course/stage2-drivebase/bumpers/bumper2s4.webp" style="width:100%">
-            <figcaption>4. Insert the mount and add it to the <code>Group</code>. Copy three more mounts and mate them onto the drivetrain assembly. If your team runs multi piece bumpers (eg: two C shaped bumpers) you may need to add more mounts to secure the bumpers.</figcaption>
+            <figcaptionInsira o suporte e adicione-o ao <code>Group</code>. Copie mais três suportes e encaixe-os no conjunto do drivetrain. Se sua equipe utilizar bumpers em múltiplas peças (ex: dois em formato de C), pode ser necessário adicionar mais suportes para fixá-los.</figcaption>
         </figure>
     </div>
     <div class="mySlides fade">
         <figure>
             <img src="/img/learning-course/stage2-drivebase/bumpers/bumper2s0.webp" style="width:100%">
-            <figcaption>5. Finished bumper mounts in drivetrain assembly.</figcaption>
+            <figcaption>5. Suportes de bumper finalizados no conjunto do drivetrain.</figcaption>
         </figure>
     </div>
     <!-- Next and previous buttons -->
