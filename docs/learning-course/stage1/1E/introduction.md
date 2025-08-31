@@ -13,7 +13,7 @@ O fluxo de trabalho típico ao modelar um subsistema envolve as seguintes etapas
 2. Derivar o layout sketch para o part studio
 3. Criar a estrutura básica do seu mecanismo com base no layout sketch(chapas, tubos, etc.)
 4. Inserir a estrutura básica no assembly, agrupar, fixar na origem e finalizar a criação da estrutura
-5. Inserir o assembly no assembly do robô  
+5. Inserir o assembly do subsistema no assembly do robô  
 6. Voltar e adicionar diferentes componentes para finalizar os detalhes do subsistema. 
 
 <br>
