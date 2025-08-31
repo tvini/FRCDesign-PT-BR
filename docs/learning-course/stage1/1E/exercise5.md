@@ -1,4 +1,4 @@
-1E: Fluxo de Trabalho do Subsistema - Detalhamento do Drivetrain
+# 1E: Fluxo de Trabalho do Subsistema - Detalhando o Drivetrain
 
 ## Exercício: Montagem dos Bumpers
 
