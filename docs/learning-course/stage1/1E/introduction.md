@@ -1,4 +1,4 @@
-# # 1E: Fluxo de Trabalho do Subsistema - Detalhando o Drivetrain
+# 1E: Fluxo de Trabalho do Subsistema - Detalhando o Drivetrain
 
 ## Introdução
 
