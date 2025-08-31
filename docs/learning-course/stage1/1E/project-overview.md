@@ -31,7 +31,7 @@ Enquanto a implementação exata de cada detalhe pode variar de acordo com o res
 
 Você pode acessar o modelo CAD de referência com o botão abaixo. Ele é baseado na Drivebase da Etapa 1D.
 
-<center markdown>[Referência do Drivetrain Detalhado 1E](https://cad.onshape.com/documents/86303b75f6f9790b01106a3b/w/6d34296fadf33319c731fa02/e/245e154bf8681866056b6985){:target="_blank" .md-button .md-button--primary } </center>
+<center markdown>[Referência do Drivetrain Detalhado 1E](https://cad.onshape.com/documents/86303b75f6f9790b01106a3b/w/6d34296fadf33319c731fa02/e/245e154bf8681866056b6985){:target="_blank" .md-button .md-button--primary} </center>
 
 !!! Tip
 Como você já deve ter uma boa noção de modelagem de peças, sinta-se livre para usar as preferências da sua própria equipe ao adicionar detalhes à sua Drivebase. Este passo pode ser bem aberto.
