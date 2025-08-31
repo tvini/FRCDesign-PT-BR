@@ -1,39 +1,39 @@
-# 1E: Subsystem Workflow - Detailing the Drivebase
+# 1E: Fluxo de Trabalho do Subsistema - Detalhando o Drivetrain
 
-## Project Overview
+## Visão Geral do Projeto
 
-So far, you’ve done the main layout sketches and modeled the frame and bare bellypan.
+Até agora, você fez os principais layout sketches e modelou a estrutura e a bellypan básica.
 
 <figure>
 <img src="\img\learning-course\stage1d\SwerveBase\DriveAssy.webp" style="width:60%"></center>
-<figcaption>Stage 1D Swerve Drivebase</figcaption>
+<figcaption> Drivebase com Swerve do Estágio 1D </figcaption>
 </figure>
 
-**To finish the drivebase, you will use the content on the following pages to add these details:**
+**Para finalizar a Drivebase, você usará o conteúdo das próximas páginas para adicionar estes detalhes:**
 
-1. **Battery Mounting:** Every robot needs a battery, and while the location may vary based on the other mechanisms present in your robot, it should always be placed as low as possible to make the robot more stable.
+1. **Montagem da Bateria:** Todo robô precisa de uma bateria e, embora a posição possa variar de acordo com os outros mecanismos presentes, ela deve sempre ser colocada o mais baixo possível para aumentar a estabilidade do robô.
 
-2. **Electronics Mounting:** Adequate space must be allocated on the robot for ease of wiring. Typically, the robot’s electronics are mounted on the bellypan.
+2. **Montagem da Eletrônica:** É necessário reservar espaço adequado no robô para facilitar a fiação. Normalmente, os componentes eletrônicos são montados na bellypan.
 
-3. **Bellypan Pocketing:** This step is optional. Some teams will prefer to add cutouts in their bellypan to remove weight and make wiring easier. However, pocketing the bellypan may significantly increase machining time.
+3.  **Pocketing da Bellypan:** Este passo é opcional. Algumas equipes preferem adicionar recortes na bellypan para reduzir peso e facilitar a passagem de cabos. Porém, fazer o pocketing pode aumentar bastante o tempo de usinagem.
 
-4. **Bumpers and Bumper Mounting:** While bumper rules can vary from year to year, they are almost always required to protect your robot and other robots from collisions. Making your bumpers easy to attach and remove is also a very nice quality of life improvement for when you’re at competition.
+4. **Bumpers e Montagem dos Bumpers:** Embora as regras de parachoques possam mudar de ano para ano, eles quase sempre são obrigatórios para proteger o seu robô e os demais contra colisões. Tornar os parachoques fáceis de remover e recolocar também melhora bastante a praticidade durante a competição.  
 
 !!! Note
-Even though the first three details won't directly reference the layout sketch, they will reference parts that reference the layout sketch (the frame) and will update accordingly if changes are made.
+Mesmo que os três primeiros detalhes não façam referência direta ao layout sketch, eles dependem de peças que fazem (como a estrutura) e serão atualizados automaticamente caso alterações sejam feitas.  
 
-While the exact implementation for each of these details will vary based on the rest of your robot and from team to team, an example reference for Stage 1E is provided.
+Enquanto a implementação exata de cada detalhe pode variar de acordo com o resto do seu robô e de equipe para equipe, uma referência de exemplo para a Etapa 1E é fornecida.
 
 <figure>
     <img src="/img/learning-course/stage2-drivebase/2a-FDdt.webp" style="width:80%">
-    <figcaption>Example of a fully detailed Stage 1E drivetrain.</figcaption>
+    <figcaption>Exemplo de um drivetrain totalmente detalhado da Etapa 1E.</figcaption>
 </figure>
 
-You can access the reference CAD model with the button below. It is based off of the Stage 1D drivebase.
+Você pode acessar o modelo CAD de referência com o botão abaixo. Ele é baseado na Drivebase da Etapa 1D.
 
-<center markdown>[1E Full Detail Drivetrain Reference](https://cad.onshape.com/documents/86303b75f6f9790b01106a3b/w/6d34296fadf33319c731fa02/e/245e154bf8681866056b6985){:target="_blank" .md-button .md-button--primary } </center>
+<center markdown>[Referência do Drivetrain Detalhado 1E](https://cad.onshape.com/documents/86303b75f6f9790b01106a3b/w/6d34296fadf33319c731fa02/e/245e154bf8681866056b6985){:target="_blank" .md-button .md-button--primary } </center>
 
 !!! Tip
-As you should have a good grasp of part modeling by now, feel free to use your own team's preferences to add details to your drivebase. This can be very open ended.
+Como você já deve ter uma boa noção de modelagem de peças, sinta-se livre para usar as preferências da sua própria equipe ao adicionar detalhes à sua Drivebase. Este passo pode ser bem aberto.
 
 <br>
