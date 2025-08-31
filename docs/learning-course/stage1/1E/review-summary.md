@@ -1,27 +1,26 @@
-# Review & Summary
+# Revisão & Resumo
 
-## Review
+## Revisão
 
-Make sure to review all the CAD you've done using [the review instruction page](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="_blank"}. If you copied the reference through the instruction slides, you can check against the solution document; otherwise, just exclude that step from the review.
+Certifique-se de revisar todo o CAD que você fez usando [a página de instruções de revisão](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="_blank"}.Se você copiou a referência pelos slides de instrução, pode conferir com o documento de solução; caso contrário, basta excluir essa etapa da revisão.
 
-## Summary
+## Resumo
 
-Congratulations on completing Stage 1E! With the Stage 1E tasks completed, your drivebase is now fully functional and could even be used as a blueprint to manufacture and assemble one.
+Parabéns por concluir o Estágio 1E! Com as tarefas do Estágio 1E finalizadas, seu Driveetrain agora está totalmente funcional e poderia até mesmo ser usada como um modelo para fabricar e montar um de verdade. 
+Aqui está um rápido resumo do que você conquistou no 1E:
 
-Here is a quick summary of what you have achieved in 1E:
+* raticou adicionar peças dentro do contexto de um robô, garantindo o uso de uma origem inteligente  
+* Aprendeu o fluxo de trabalho típico para detalhar um subsistema complexo  
+* Aprendeu sobre a montagem da bateria e a importância de um suporte firme para ela
+* Conheceu os principais eletrônicos da FRC e como/onde montá-los
+* Aprendeu a usar o Featurescript `Electronic Mounting`
+* Opcionalmente, aprendeu como alívio estrutural (pocketing) pode ser aplicado na bellypan
+* prendeu sobre os bumpers, como modelá-los e a importância de um sistema de fixação seguro
 
-* Practiced adding parts within the context of a robot, making sure to use an intelligent origin
-* Learned the typical workflow for detailing a complex subsystem
-* Learned about battery mounting and the importance of a secure battery holder
-* Learned about core FRC electronics and how and where to mount them
-* Learned how to use the `Electronic Mounting` Featurescript
-* Optionally learned how to pocket a bellypan
-* Learned about bumpers, how to model them, and the importance of having a secure mounting system
+No Estágio 2, você começará a modelar mecanismos do robô usando todas as habilidades que aprendeu e praticou nos Estágios 0 e 1. Isso vai ensinar design de mecanismos, o propósito e uso correto de algumas peças COTS, além de diversos conceitos importantes de engenharia.
 
-In Stage 2, you will begin to model robot mechanisms using all the skills you have learned and practiced in Stage 0 and Stage 1. This will teach mechanism design, the purpose and correct usage of some COTS parts, and many important engineering concepts.
+Não se esqueça de preencher nosso simples [**formulário de feedback**](https://forms.gle/qykF1UoxiymAEGWc8) do 1E para que possamos coletar dados e entender melhor como melhorar o site!
 
-Make sure to fill out our simple [**feedback form**](https://forms.gle/qykF1UoxiymAEGWc8) for 1E so we can collect data and get a better idea of how to improve the website!
-
-Fill out [**this feedback form**](https://forms.gle/2qrg6EBsge6V1WYf8) as well to give feedback **for all of Stage 1**!
+Preencha também [**esse formulário de feedback**](https://forms.gle/2qrg6EBsge6V1WYf8) para dar sua opinião **sobre todo o Estágio 1**!
 
 <br>
