@@ -116,7 +116,7 @@ Observe que o tube plug 1x1" requer 4 furos espaçados 3/8" entre si em um padr�
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/vertical-rollers/a1.webp" style="width:100%">
-      <figcaption>1. Add the part studio parts to the assembly. Like before, group mate the rigid components with the Origin Cube and mate the Origin Cube to the assembly origin.</figcaption>
+      <figcaption>1. Adicione as peças do Part Studio ao assembly. Assim como antes, faça o group mate dos componentes rígidos com o Origin Cube e depois faça o mate do Origin Cube com a origem do assembly.</figcaption>
     </figure>
   </div>
 
@@ -126,24 +126,22 @@ Observe que o tube plug 1x1" requer 4 furos espaçados 3/8" entre si em um padr�
         <source src="/img/learning-course/stage1c/vertical-rollers/a2.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>2. Copy the 1x1 tube and fasten the Assembly Mirror mate connectors together.</figcaption>
+      <figcaption>2. Copie o tubo 1x1 e fixe (fasten) os mate connectors do Assembly Mirror entre si.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/vertical-rollers/a3.webp" style="width:100%">
-      <figcaption>3. Insert four 1x1 tube plugs and fasten them into place on the 1x1 tubes.
-                    Then, copy and fasten the rest of the frame pieces on the right hand side.</figcaption>
+      <figcaption>3. Insira quatro tube plugs 1x1 e fixe-os (fasten) nos tubos 1x1.  
+Em seguida, copie e fixe as demais peças da estrutura no lado direito.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/vertical-rollers/a4.webp" style="width:100%">
-      <figcaption>4. Insert the Configurable Roller assembly from the link at the top of this page.
-                  Set the overall roller length to 5" and use 24T pulleys on each end. Duplicate and fasten the roller assembly into place.
-                  Then, insert and fasten the motor and motor pulleys. Also fasten the left hand side belts into place. </figcaption>
+      <figcaption>4. Insira o assembly Configurable Roller a partir do link no topo desta página.  Defina o comprimento total do roller para 5" e utilize polias 24T em cada extremidade. Duplique e fixe o assembly do roller no lugar. Em seguida, insira e fixe o motor e as polias do motor. Também fixe as correias do lado esquerdo no lugar. </figcaption>
     </figure>
   </div>
 
@@ -153,22 +151,21 @@ Observe que o tube plug 1x1" requer 4 furos espaçados 3/8" entre si em um padr�
         <source src="/img/learning-course/stage1c/vertical-rollers/a5.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>5. Copy and fasten the right hand side belts. 
-                  Note that you will need to flip the fasten mate in order for the belt to line up correctly.</figcaption>
+      <figcaption>5. Copie e fasten as correias do lado direito. Observe que será necessário inverter o fasten mate para que a correia se alinhe corretamente.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/vertical-rollers/a6.webp" style="width:100%">
-      <figcaption>6. Insert, fasten, and replicate all of the required fasteners. </figcaption>
+      <figcaption>6. Insira, fasten e replicate todos os fixadores necessários. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/vertical-rollers/a0.webp" style="width:100%">
-      <figcaption>7. To finish the assembly, organize your components into folders and name your replicates.</figcaption>
+      <figcaption>7. Para finalizar o assembly, organize seus componentes em pastas e nomeie seus replicates.</figcaption>
     </figure>
   </div>
 
@@ -181,8 +178,7 @@ Observe que o tube plug 1x1" requer 4 furos espaçados 3/8" entre si em um padr�
   </div>
 </div>
 
-!!! Success "Verification"
-    Make sure to have you and/or a more experienced member/mentor of your team [**review your CAD!**](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="_blank"} Your assembly should have 37 instances.
-
+!!! Success "Verificação"
+    Certifique-se de que você e/ou um membro/mentor mais experiente da sua equipe revise o assembly para garantir que tudo esteja correto [**revise seu CAD!**](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="_blank"} O seu assembly deve ter 37 instâncias.
 
 <br>
