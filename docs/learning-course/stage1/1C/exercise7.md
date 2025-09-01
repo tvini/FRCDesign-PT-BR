@@ -1,23 +1,23 @@
-# 1C: Practice Mechanisms
+# 1C: Mecanismos para Praticar
 
-## Exercise 7: Vertical Rollers
+## Exercício 7: Rollers Verticais 
 
-In this exercise, you will be modeling some vertical rollers. This mechanism features the [Configurable Rollers](https://cad.onshape.com/documents/b75886a5660c38eee7d50e47/w/58faeca16d5b2008a9485b5c/e/6274f59b451ed6222cd7523d "Configurable Rollers Onshape Document"){:target="_blank"} assembly and a 3D printed motor spacer. Be sure to pay attention to the layout sketch and assembly mating when modeling. 
+Neste exercício, você irá modelar alguns rolos verticais. Este mecanismo apresenta o [Configurable Rollers](https://cad.onshape.com/documents/b75886a5660c38eee7d50e47/w/58faeca16d5b2008a9485b5c/e/6274f59b451ed6222cd7523d "Configurable Rollers Onshape Document"){:target="_blank"} assembly e um spacer de motor impresso em 3D. Certifique-se de prestar atenção ao layout sketch e ao mating do assembly durante a modelagem. 
 
-### 3D Printing to Reduce Part Count
-3D printing can be used to create spacer blocks. 
-Rather than using multiple spacers to connect two components, we can opt to use a 3D printed block that combines all of the spacers into a single part, which can help reduce part count and make assembly easier.
-If you have a 3D printer, this can be a good option.
+### Impressão 3D para Reduzir a Quantidade de Peças
+A impressão 3D pode ser usada para criar blocos de spacer.  
+Em vez de usar múltiplos spacers para conectar dois componentes, podemos optar por usar um bloco impresso em 3D que combine todos os spacers em uma única peça, o que ajuda a reduzir a quantidade de peças e facilita a montagem.  
+Se você tiver uma impressora 3D, essa pode ser uma boa opção.
 
-???+ example "3D Printed Spacer Block"
+???+ example "Bloco de Spacer Impresso em 3D"
     <figure>
       <img src="/img/learning-course/stage1c/vertical-rollers/3dp-spacer.webp" width="65%">
-      <figcaption>Multiple spacers can be combined into single 3D printed block to reduce part count. </figcaption>
+      <figcaption>Vários spacers podem ser combinados em um único bloco impresso em 3D para reduzir a quantidade de peças. </figcaption>
     </figure>
 
-### Part Studio Instructions
+### Instruções do Part Studio
 
-**Navigate to the "Exercise #7 Part Studio" tab** in your copied document and **refer to the solution document** to complete the part studio for this exercise. The **following instruction slides** only provide a general outline and some key details.
+**Navegue até a aba "Exercício #7: Part Studio"** no seu documento copiado e **consulte o documento de soluções** para completar o Part Studio deste exercício. Os **slides de instruções a seguir** fornecem apenas um resumo geral e alguns detalhes importantes.
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -25,15 +25,15 @@ If you have a 3D printer, this can be a good option.
   <div id="slide1" class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/vertical-rollers/s0.webp" style="width:100%">
-      <figcaption>0. Final Part Studio.</figcaption>
+      <figcaption>0. Part Studio finalizado.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/vertical-rollers/s1.webp" style="width:100%">
-      <figcaption>1. Begin by creating the layout sketch on an offset mate connector 3" above the origin. 
-                  We subtract 0.015" from each of the belt c-c's to reduce friction since we are linking multiple belts in series.</figcaption>
+      <figcaption>1. Comece criando o layout sketch em um mate connector deslocado 3" acima da origem.  
+Subtraímos 0,015" de cada c-c da correia para reduzir o atrito, já que estamos conectando múltiplas belts em série.</figcaption>
     </figure>
   </div>
 
@@ -43,37 +43,37 @@ If you have a 3D printer, this can be a good option.
         <source src="/img/learning-course/stage1c/vertical-rollers/s2.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>2. Use the <code>Mirror</code> sketch tool to create a right hand reference for the rollers and tube location. Use the distance between the roller pairs to drive the roller locations. </figcaption>
+      <figcaption>2. Use o <code>Mirror</code> ferramenta do sketch para criar uma referência direita para os rollers e a posição dos tubos. Utilize a distância entre os pares de roller para definir a localização dos rollers. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/vertical-rollers/s3.webp" style="width:100%">
-      <figcaption>3. Extrude the bottom plate. Then, create the top plate offset 5" from the bottom plate. 
-                    Pay close attention to the plate sketches in the solution document. 
-                    Note that the 1x1" tube plug requires a 4 holes spaced 3/8" apart from each other in a square pattern. </figcaption>
+      <figcaption>3. Extrude a placa inferior. Em seguida, crie a placa superior com offset de 5" em relação à placa inferior.  
+Preste muita atenção aos sketches das chapas no documento de soluções.  
+Observe que o tube plug 1x1" requer 4 furos espaçados 3/8" entre si em um padrão quadrado. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/vertical-rollers/s4.webp" style="width:100%">
-      <figcaption>4. Sketch, extrude, then tube convert the thin-wall 1x1 tube.</figcaption>
+      <figcaption>4. Sketch, extrude e, em seguida, use tube convert para transformar em tubo de parede fina 1x1.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/vertical-rollers/s5.webp" style="width:100%">
-      <figcaption>5. Model the the 3D printed motor spacer block and extrude it to be 1" long.</figcaption>
+      <figcaption>5. Modele o bloco de spacer de motor impresso em 3D e extrude-o para ter 1" de comprimento.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/vertical-rollers/s6.webp" style="width:100%">
-      <figcaption>6. Model the belts. The calculated pitch length is slightly under a multiple of 5 mm since we subtracted 0.015" from each c-c.</figcaption>
+      <figcaption>6. Modele as correias. O comprimento de passo calculado é ligeiramente menor que um múltiplo de 5 mm, pois subtraímos 0,015" de cada c-c.</figcaption>
     </figure>
   </div>
 
@@ -87,7 +87,7 @@ If you have a 3D printer, this can be a good option.
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/vertical-rollers/s0.webp" style="width:100%">
-      <figcaption>8. Finish the part studio by naming your features and organizing them into folders. Assign the part materials accordingly.</figcaption>
+      <figcaption>8. Finalize o Part Studio nomeando suas features e organizando-as em pastas. Atribua os materiais das peças conforme necessário.</figcaption>
     </figure>
   </div>
 
@@ -100,16 +100,16 @@ If you have a 3D printer, this can be a good option.
   </div>
 </div>
 
-### Assembly Instructions
+### Instruções do Assembly 
 
-**Next, navigate to the "Exercise #7 Assembly" tab** in your copied document and **refer to the solution document** to complete the assembly for this exercise. The **following instruction slides** only provide a general outline and some key details.
+**Em seguida, navegue até a aba "Exercise #7 Assembly"** no seu documento copiado e **consulte o documento de soluções** para completar o assembly deste exercício. Os **slides de instruções a seguir** fornecem apenas um resumo geral e alguns detalhes importantes.
 
 <div class="slideshow-container">
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/vertical-rollers/a0.webp" style="width:100%">
-      <figcaption>0. Final assembly.</figcaption>
+      <figcaption>0. Assembly finalizado.</figcaption>
     </figure>
   </div>
 
