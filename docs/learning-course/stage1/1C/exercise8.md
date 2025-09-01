@@ -1,22 +1,23 @@
-# 1C: Practice Mechanisms
+# 1C: Mecanismos para Praticar
 
-## Exercise 8: Indexer Centering
+## Exercício 8: Centralização do Indexer 
 
-In this exercise, you will be modeling a centering indexer for 9.5" diameter balls, similar to [1678's 2022 indexer](https://www.youtube.com/watch?v=RiUaItTKomUhttps://www.youtube.com/watch?v=RiUaItTKomU "1678 2022 Robot Reveal Video"){:target="_blank"}. This mechanism features belts, chain, gear, and tube crush blocks. Be sure to pay attention to the plate sketches when modeling. 
+Neste exercício, você irá modelar um indexer de centralização para bolas de 9,5" de diâmetro, semelhante ao [1678's 2022 indexer](https://www.youtube.com/watch?v=RiUaItTKomUhttps://www.youtube.com/watch?v=RiUaItTKomU "1678 2022 Robot Reveal Video"){:target="_blank"}. Este mecanismo apresenta belts, correntes, engrenagens e tube crush blocks. Certifique-se de prestar atenção aos sketches das chapas durante a modelagem.
 
-### Crush Blocks
-3D-printed crush blocks can be used to reinforce thin-walled tubing in assemblies where bolts pass through without a plate. 
-Since the strength of bolts comes from their clamping force, without anything to support the thin walls, the tube can collapse before achieving proper clamping force. 
-Crush blocks distribute the load, allowing for full clamping force while maintaining the tube’s structural integrity.
+### Crush Blocks (Bloco de Impacto)
+Crush blocks impressos em 3D podem ser usados para reforçar tubos de parede fina em assemblies onde os parafusos passam sem uma chapa.  
+Como a força dos parafusos vem da força de aperto, sem nada para sustentar as paredes finas, o tubo pode colapsar antes de alcançar a força de aperto adequada.  
+Os crush blocks distribuem a carga, permitindo o uso total da força de aperto enquanto mantêm a integridade estrutural do tubo.
 
-Alternatively, a "crush plate" can also be utilized to distribute the fastener force to achieve a similar effect as a crush block.
+Alternativamente, uma "crush plate" (chapa de impacto) também pode ser utilizada para distribuir a força do fixador, alcançando um efeito semelhante ao de um crush block.
 
-In this exercise, you will use a [configurable 3D printed crush block](https://cad.onshape.com/documents/e9e11d824a8fd8257028a1dc/v/0c7982f1d3823153c353cbdb/e/b6f099050d1db039691ace49 "Configurable Crush Block Onshape Document"){:target="_blank"}.
+Neste exercício, você irá usar um [crush block configurável impresso em 3D](https://cad.onshape.com/documents/e9e11d824a8fd8257028a1dc/v/0c7982f1d3823153c353cbdb/e/b6f099050d1db039691ace49 "Configurable Crush Block Onshape Document"){:target="_blank"}.
 
-???+ example "Crush Blocks and Crush Plates"
+???+ example "Crush Blocks e Crush Plates"
     <figure>
       <img src="/img/learning-course/stage1c/index-centering/crush-blocks.webp" width="65%">
-      <figcaption>A 3D printed crush block (left) and crush plate (right). Crush plates tend to work well for the middle of the tubes where it may be difficult to insert a crush block.</figcaption>
+      <figcaption>Um crush block impresso em 3D (à esquerda) e uma crush plate (à direita).  
+As crush plates tendem a funcionar bem no meio dos tubos, onde pode ser difícil inserir um crush block.</figcaption>
     </figure>
 
 ### Part Studio Instructions
