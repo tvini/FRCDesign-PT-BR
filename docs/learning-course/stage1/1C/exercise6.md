@@ -1,31 +1,31 @@
-# 1C: Practice Mechanisms
+# 1C: Mecanismos para Praticar
 
-## Exercise 6: Direction Swap
+## Exercício 6: Troca de Direção
 
-In this exercise, you will be modeling a power transmission with a direction swap gear. 
-This mechanism features features a 1:1 gear transmission that inverts the direction of the motor, which can be useful when you want two different shafts to be powered by the same motor but spin in opposite directions.
-Be sure to pay attention to the layout and plate sketches when modeling. 
+Neste exercício, você irá modelar uma transmissão de potência com uma engrenagem de troca de direção.
+Esse mecanismo apresenta uma transmissão 1:1 que inverte o sentido de rotação do motor, o que pode ser útil quando se deseja que dois eixos diferentes sejam acionados pelo mesmo motor, mas girem em direções opostas.
+Certifique-se de prestar atenção ao layout e aos sketches das chapas durante a modelagem.
 
-### 3D Printed, COTS, and Custom Aluminum Spacers
-So far, you've used both custom spacers generated with the `Spacer` Featurescript as well as COTS 3/8" OD spacers from the MKCad library (the [WCP Aluminum Spacers](https://wcproducts.com/products/aluminum-spacers "WCP Aluminum Spacers Product Page"){:target="_blank"}).
-There are pros and cons to using COTS or custom spacers that you should discuss with your team.
+### Espaçadores Impressos em 3D, COTS e de Alumínio Sob Medida
+Até agora, você utilizou tanto spacers personalizados gerados com o `Spacer` Featurescript quanto spacers COTS de 3/8" OD da biblioteca MKCad (o [WCP Spacers de alumínio](https://wcproducts.com/products/aluminum-spacers "WCP Aluminum Spacers Product Page"){:target="_blank"}).
+Existem prós e contras em usar spacers COTS ou personalizados, que você deve discutir com sua equipe.
 
-3D printed spacers are a fantastic option for teams with 3D prints, they are cheap and easy to fabricate. 
-If you want to use aluminum spacers but do not have access to machinery to cut them (e.g. a lathe), COTS aluminum spacers can be a good option as they can also be pre-stocked.
-However, they can be pricy and only come in certain lengths, though you can easily get around this by designing for standard spacer lengths.
+Spacers impressos em 3D são uma opção fantástica para equipes com acesso a impressoras 3D, sendo baratos e fáceis de fabricar.
+Se você quiser usar spacers de alumínio, mas não tiver acesso a máquinas para cortá-los (por exemplo, um torno), spacers de alumínio COTS podem ser uma boa opção, pois também podem ser estocados previamente.
+No entanto, eles podem ser caros e estão disponíveis apenas em certos comprimentos, embora você possa contornar isso facilmente projetando para comprimentos de spacer padrão.
 
-???+ Example "Spacer Stock"
+???+ Example "Estoque de Spacers"
     <figure>
       <img src="/img/learning-course/stage1c/dir-swap/spacers.webp" width="100%">
-      <figcaption>Spacers can be 3D printed (left), purchased as COTS pre-cut spacers (center), or fabricated in-house from spacer stock (right). (Image Source: WCP)</figcaption>
+      <figcaption>Spacers podem ser impressos em 3D (à esquerda), comprados como spacers COTS pré-cortados (centro) ou fabricados internamente a partir de spacer stock (à direita). (Fonte da imagem: WCP)</figcaption>
     </figure>
 
-When modeling, it is recommended to use the `Spacer` Featurescript for spacers that you will fabricate in house (e.g. 3D printing or using [round tube stock](https://wcproducts.com/products/shaft-stock "WCP Tube Stock Product Page"){:target="_blank"}) and use the configurable MKCad spacer part for COTS spacers.
-This helps make it clear which parts are custom and which are COTS.
+Ao modelar, recomenda-se usar o `Spacer` Featurescript para spacers que você irá fabricar internamente (por exemplo, impressão 3D ou usando [round tube stock](https://wcproducts.com/products/shaft-stock "WCP Tube Stock Product Page"){:target="_blank"}) e usar a peça configurável de spacer do MKCad para spacers COTS.
+Isso ajuda a deixar claro quais peças são personalizadas e quais são COTS.
 
-### Part Studio Instructions
+### Instruções do Part Studio
 
-**Navigate to the "Exercise #6 Part Studio" tab** in your copied document and **refer to the solution document** to complete the part studio for this exercise. The **following instruction slides** only provide a general outline and some key details.
+**Navegue até a aba "Exercício #6: Part Studio"** no seu documento copiado e **consulte o documento de soluções** para completar o Part Studio deste exercício. Os **slides de instruções a seguir** fornecem apenas um resumo geral e alguns detalhes importantes.
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -34,23 +34,23 @@ This helps make it clear which parts are custom and which are COTS.
   <div id="slide1" class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/dir-swap/s0.webp" style="width:100%">
-      <figcaption>0. Final Part Studio.</figcaption>
+      <figcaption>0. Part Studio finalizado.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/dir-swap/s1.webp" style="width:100%">
-      <figcaption>1. Begin by creating the layout sketch on the right plane. </figcaption>
+      <figcaption>1. Comece criando o layout sketch no plano Right. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/dir-swap/s2.webp" style="width:100%">
-      <figcaption>2. Using a mate connector offset 0.5" from the Right plane as the sketch plane, sketch the plate. 
-                  Pay close attention to the clearances used to define the edges of the plate.
-                  The location of the two spacers to the left of the motor are driven by the tangency between the 3/8" OD spacer and the 2.5" motor clearance circle.</figcaption>
+      <figcaption>2. Usando um mate connector deslocado 0,5" do plano Right como plano de sketch, desenhe a chapa.  
+Preste muita atenção às folgas utilizadas para definir as bordas da chapa.  
+A posição dos dois spacers à esquerda do motor é determinada pela tangência entre o spacer de 3/8" OD e o círculo de folga do motor de 2,5".</figcaption>
     </figure>
   </div>
 
@@ -60,42 +60,43 @@ This helps make it clear which parts are custom and which are COTS.
         <source src="/img/learning-course/stage1c/dir-swap/s3.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>3. Use a <code>Driven Dimension</code> to show the distance between the left gear and the spacer and verify that there is enough clearance. A driven dimension, as opposed to a driving dimension, just reports the distance between the selected elements and is faded gray to indicate that it does not define the sketch geometry.</figcaption>
+      <figcaption>3. Use o <code>Driven Dimension</code> para mostrar a distância entre a engrenagem esquerda e o spacer e verificar se há folga suficiente.  
+Uma dimensão driven, ao contrário de uma dimensão driving, apenas informa a distância entre os elementos selecionados e aparece esmaecida em cinza para indicar que não define a geometria do sketch.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/dir-swap/s4.webp" style="width:100%">
-      <figcaption>4. Mirror the plate across the Right plane and add the motor cutout.</figcaption>
+      <figcaption>4. Espelhe a chapa através do plano Right e adicione o recorte do motor.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/dir-swap/s5.webp" style="width:100%">
-      <figcaption>5. If you choose to not use COTS spacers, you can use the <code>Spacer</code> Featurescript to create the plate spacer.</figcaption>
+      <figcaption>5. Se você optar por não usar spacers COTS, pode usar o Featurescript <code>Spacer</code> para criar o spacer da chapa. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/dir-swap/s6.webp" style="width:100%">
-      <figcaption>6. Model all of the shafts and belts. You should be feeling very comfortable using the <code>Shaft</code> and <code>Belt & Chain Gen</code> Featurescripts at this point.</figcaption>
+      <figcaption>6. Modele todos os eixos e correias. Neste ponto, você já deve estar bastante confortável usando os Featurescripts <code>Shaft</code> e <code>Belt & Chain Gen</code>.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/dir-swap/s7.webp" style="width:100%">
-      <figcaption>7. Pocket the two plates. Since the plates are identical apart from the motor cutout, you can use same sketch to pocket both plates. Only create one sketch with the ribs.</figcaption>
+      <figcaption>7. Faça a magrelaão nas duas chapas. Como as chapas são idênticas, exceto pelo recorte do motor, você pode usar o mesmo sketch para magrelar ambas. Crie apenas um sketch com as ribs.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/dir-swap/s0.webp" style="width:100%">
-      <figcaption>8. Finish the part studio by naming your features and organizing them into folders. Assign the part materials accordingly.</figcaption>
+      <figcaption>8. Finalize o Part Studio nomeando suas features e organizando-as em pastas. Atribua os materiais das peças conforme necessário.</figcaption>
     </figure>
   </div>
 
@@ -108,67 +109,67 @@ This helps make it clear which parts are custom and which are COTS.
   </div>
 </div>
 
-### Assembly Instructions
+### Instruções do Assembly
 
-**Next, navigate to the "Exercise #6 Assembly" tab** in your copied document and **refer to the solution document** to complete the assembly for this exercise. The **following instruction slides** only provide a general outline and some key details.
+**Em seguida, navegue até a aba "Exercício #6: Assembly"** no seu documento copiado e **consulte o documento de soluções** para completar a assembly deste exercício. Os **slides de instruções a seguir** fornecem apenas um resumo geral e alguns detalhes importantes.
 
 <div class="slideshow-container">
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/dir-swap/a0.webp" style="width:100%">
-      <figcaption>0. Final assembly.</figcaption>
+      <figcaption>0. Assembly finalizado.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/dir-swap/a1.webp" style="width:100%">
-      <figcaption>1. Add the part studio parts to the assembly. Like before, group mate the rigid components with the Origin Cube and mate the Origin Cube to the assembly origin.</figcaption>
+      <figcaption>1. Adicione as peças do Part Studio ao assembly. Como antes, agrupe e fasten os componentes rígidos com o Origin Cube e fasten o Origin Cube à origem do assembly.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/dir-swap/a2.webp" style="width:100%">
-      <figcaption>2. Fasten the spacer to the plate and replicate it.</figcaption>
+      <figcaption>2. Fasten o spacer à chapa e replicate ele.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/dir-swap/a3.webp" style="width:100%">
-      <figcaption>3. Insert, fasten, and replicate the bearings. Also insert the 2" flex wheel and Kraken motor from MKCad.</figcaption>
+      <figcaption>3. Insert, fasten e replicate os rolamentos. Também insert a flex wheel de 2" e o motor Kraken do MKCad.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/dir-swap/a4.webp" style="width:100%">
-      <figcaption>4. Insert and fasten the pulleys pulleys and spacers. Use the Configurable Spacer Stack from MKCad for all the spacers. 
-                  For the pulleys, you can utilize 3D printed HTD pulleys from the MKCad library with 1/2" hex inserts.
-                  Also fasten the belts into place. </figcaption>
+      <figcaption>4. Insert e fasten as polias e os spacers. Use o Configurable Spacer Stack do MKCad para todos os spacers.  
+Para as polias, você pode utilizar polias HTD impressas em 3D da biblioteca do MKCad com inserts hexagonais de 1/2".  
+Também fasten as correias na posição. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/dir-swap/a5.webp" style="width:100%">
-      <figcaption>5. Insert, fasten, and replicate all of the required fasteners.</figcaption>
+      <figcaption>5. Insert, fasten e replicate todos os fasteners necessários.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/dir-swap/a6.webp" style="width:100%">
-      <figcaption>6. When replicating the plate bolts, flip the mounting side for this bolt so that the nut does not hit the belt. </figcaption>
+      <figcaption>6. Ao replicate os parafusos da chapa, inverta o lado de montagem deste parafuso para que a porca não bata na correia. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/dir-swap/a0.webp" style="width:100%">
-      <figcaption>7. To finish the assembly, organize your components into folders and name your replicates.</figcaption>
+      <figcaption>7. Para finalizar o assembly, organize seus componentes em pastas e nomeie seus replicates.</figcaption>
     </figure>
   </div>
 
@@ -181,24 +182,23 @@ This helps make it clear which parts are custom and which are COTS.
   </div>
 </div>
 
-!!! Success "Verification"
-    Make sure to have you and/or a more experienced member/mentor of your team [**review your CAD!**](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="_blank"} Your assembly should have 38 instances.
+!!! Success "Verificação"
+    Certifique-se de que você e/ou um membro/mentor mais experiente da sua equipe [**revise seu CAD!**](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="_blank"} Seu assembly deve ter 38 instâncias.
 
 
-### Driving and Driven Dimensions
+### Dimensões Driving e Driven
 
-In sketches, driving dimensions define and control the geometry, appearing black and editable. 
-Driven dimensions,on the other hand, are light gray and reflect existing geometry without altering it, useful for maintaining design intent like keeping a specific clearance or thickness. 
+Nos sketches, dimensões driving definem e controlam a geometria, aparecendo em preto e sendo editáveis. Dimensões driven, por outro lado, são cinza claro e refletem a geometria existente sem alterá-la, sendo úteis para manter a intenção do projeto, como preservar uma folga ou espessura específica. 
 
-To toggle between them, right-click the dimension and select "Driving/Driven" from the context menu—useful when a new dimension would over-constrain the sketch or when you need to inspect geometry without changing it.
+Para alternar entre elas, clique com o botão direito na dimensão e selecione "Driving/Driven" no menu de contexto — útil quando uma nova dimensão iria sobrecarregar o sketch ou quando você precisa inspecionar a geometria sem alterá-la.
 
-!!! tip "Switching Between Driving and Driven Dimensions"
+!!! tip "Alternando Entre Dimensões Driving e Driven"
     <figure>
       <video width="100%" controls>
         <source src="/img/learning-course/stage1c/dir-swap/driven-dims.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>Switch a dimension from driving to driven and vice versa by right-clicking the dimension. Notice that the driven dimension will update based on other features.</figcaption>
+      <figcaption>Alterne uma dimensão de driving para driven e vice-versa clicando com o botão direito na dimensão. Observe que a dimensão driven será atualizada com base em outras features.</figcaption>
     </figure>
 
 <br>
