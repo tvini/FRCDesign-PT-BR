@@ -1,5 +1,6 @@
-# 1C: Practice Mechanisms
+# 1C: Mecanismos para Praticar
 
+Começando com o exercício 5
 Starting with exercise 5, only an outline of the design process and key details will be provided to you. This is to prepare you for stage 2, where the exercises are less guided.
 
 Focus on capturing design intent and maintaining best practices in your part studios and assemblies. Follow the workflow of the solution document.
