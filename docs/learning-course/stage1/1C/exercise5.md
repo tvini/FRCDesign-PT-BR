@@ -1,18 +1,16 @@
 # 1C: Mecanismos para Praticar
 
-Começando com o exercício 5
-Starting with exercise 5, only an outline of the design process and key details will be provided to you. This is to prepare you for stage 2, where the exercises are less guided.
+Começando com o exercício 5, somente um esumo geral e algumas partes fundamentais do processo de design serão dados para você. Isso será uma preparação para o estágio 2, onde os exercícios são mais abertos.
 
-Focus on capturing design intent and maintaining best practices in your part studios and assemblies. Follow the workflow of the solution document.
+Foque em capturar a intenção do design e mantenha as melhores práticas dentro nos seus part studios e assemblies. Siga o fluxo de trabalho do documento de solução.
 
-## Exercise 5: Flipped Gearbox
+## Exercise 5: Caixa de redução girada
 
-In this exercise, you will be modeling a two motor, two-stage flipped gearbox. These types of gearboxes are referred to as "flipped" because the output shaft points in the opposite direction as the input motors. 
-This style of gearbox can be desired in some situations to meet packaging constraints.
+Neste exercício, você irá modelar uma caixa de redução de dois estágios e dois motores girados. Esse tipo de caixa de redução é chamada de flipped (girada) porque o eixo de saída está na direção contraria a orientação dos motores. Esse estilo de redução é usada em alguns casos quando se precisa encaixar a redução num espaço em que outros tipos de caixa de redução não se encaixariam.
 
-### Part Studio Instructions
+### Instruções do part studio
 
-**Navigate to the "Exercise #5 Part Studio" tab** in your copied document and **refer to the solution document** to complete the part studio for this exercise. The **following instruction slides** only provide a general outline and some key details.
+**Navege até a aba "Part studio Exercício #5"** no seu documento copiado e **consulte o documento de soluções** para completar o Part Studio deste exercício. Os **slides de instruções a seguir** fornecem apenas um resumo geral e alguns detalhes importantes.
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -21,42 +19,42 @@ This style of gearbox can be desired in some situations to meet packaging constr
   <div id="slide1" class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flipped-gb/s0.webp" style="width:100%">
-      <figcaption>0. Final Part Studio.</figcaption>
+      <figcaption>0. Part Studio finalizado.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flipped-gb/s1.webp" style="width:100%">
-      <figcaption>1. Start by modeling the tube that the gearbox mounts on.</figcaption>
+      <figcaption>1. Comece modelando o tubo que a caixa de redução será fixada.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flipped-gb/s2.webp" style="width:100%">
-      <figcaption>2. Create the layout sketch on the tube face. Remember to only include essential information in the layout sketch. In this case, only the gear PD's and motor OD's are required. </figcaption>
+      <figcaption>2. Desenhe o sketch base na face do tubo. Lembre-se de colocar apenas informações essenciais no sketch base. Nesse caso, apenas contorno externo das engrenagens e dos motores são necessários. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flipped-gb/s3.webp" style="width:100%">
-      <figcaption>3. Sketch the outer plate. We only require two bolts to hold the motor on and choose the two holes that form a line perpendicular to the c-c line between the motor pinion and the gear. This ensures that the motor bolts will be accessible at all times.</figcaption>
+      <figcaption>3. Desenhe a chapa externa. Nós precisamos apenas de 2 parafusos para segurar os motores e escolhemos os dois buracos perpendiculares a linha entre os eixos do motor e do eixo no primeiro estágio. Isso garante que os parafusos estejam acessíveis a todo momento.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flipped-gb/s4.webp" style="width:100%">
-      <figcaption>4. When sketching the inner plate, verify that there is clearance between the motor and the inner plates. Pay close attention to the tangency of all the edges so that the plate contour is smooth.</figcaption>
+      <figcaption>4. Quando desenhar a chapa interna, garanta que os motores não interfiram com ela. Preste atenção à tangencia entre todas as bordas para que a chapa fique lisa.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flipped-gb/s0.webp" style="width:100%">
-      <figcaption>5. Model the shafts and pocket the gearbox plates. For the shafts, you can first estimate how long they need to be and then set them to the correct length after you complete the assembly.</figcaption>
+      <figcaption>5. Modele o eixo e a magrelação das chapas. Para os eixos, vocês podem primeiro estimar o quão grande eles precisam ser e depois ajustar para o comprimento correto após o fim do assembly.</figcaption>
     </figure>
   </div>
   
@@ -69,51 +67,50 @@ This style of gearbox can be desired in some situations to meet packaging constr
   </div>
 </div>
 
-### Assembly Instructions
-
-**Next, navigate to the "Exercise #5 Assembly" tab** in your copied document and **refer to the solution document** to complete the assembly for this exercise. The **following instruction slides** only provide a general outline and some key details.
+### Instruções do assembly
+**Em serguida, navegue até a aba "Assembly do exercício #5" tab** no seu documento copiado e **consulte o documento de soluções** para completar o assembly deste exercício. Os **slides de instruções a seguir** fornecem apenas um resumo geral e alguns detalhes importantes.
 
 <div class="slideshow-container">
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flipped-gb/a0.webp" style="width:100%">
-      <figcaption>0. Final assembly.</figcaption>
+      <figcaption>0. Assembly final.</figcaption>
     </figure>
   </div>
 
   <div id="slide1" class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flipped-gb/a1.webp" style="width:100%">
-      <figcaption>1. Add the frame, gearbox plates, gearbox spacer, and shafts to the assembly. Like before, group mate the rigid components with the Origin Cube and mate the Origin Cube to the assembly origin.</figcaption>
+      <figcaption>1. Adicione o tubo, as chapas da caixa de redução, os espaçadores da redução e os eixos para o assembly. Como antes, use o "group mate" os componentes rígidos com o cubo de origem e fixe o cubo de origem na origem do assembly.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flipped-gb/a2.webp" style="width:100%">
-      <figcaption>2. Insert and fasten the motors and bearings.</figcaption>
+      <figcaption>2. Insira e ligue os motores e rolamentos.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flipped-gb/a3.webp" style="width:100%">
-      <figcaption>3. Insert and fasten the power transmission components, which includes the gears, pinions, spacers, and sprocket. </figcaption>
+      <figcaption>3. Insira e ligue os componentes que transmitem força, que podem incluir as engrenagens, os pinhões, os espaçadores e as rodas dentadas. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flipped-gb/a4.webp" style="width:100%">
-      <figcaption>4. Finally, insert and replicate all the required fasteners.</figcaption>
+      <figcaption>4. Por último, insira e replique todos os materiais utilizados para fixar, como parafusos, porcas e rebites.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flipped-gb/a5.webp" style="width:60%">
-      <figcaption>5. We use a single 1/2" spacer rather than two 1/4" spacers on each side of the gear to reduce part count. In real life, it's much easier to assemble if there's only one spacer, and centering the gear between the bearings has no tangible benefit. </figcaption>
+      <figcaption>5. Nós usamos um espaçador de meia polegada ao invés de dois de um quarto de polegada em cada lado para reduzir a quantidade de partes. Na vida real, é bem mais fácil de montar se só tiver um espaçador, além de que centralizar a engrenagem entre os rolamentos não possui um benefício tangível. </figcaption>
     </figure>
   </div>
 
@@ -123,14 +120,14 @@ This style of gearbox can be desired in some situations to meet packaging constr
         <source src="/img/learning-course/stage1c/flipped-gb/a6.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>6. Check that the motors do not interfere with the inner plate with the <code>Check Interference</code> tool.</figcaption>
+      <figcaption>6. Cheque que os motores não tem interferencia com a chapa interna com a ferramenta <code>Check Interference</code>. </figcaption>
     </figure>
   </div>
 
   <div id="slide1" class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/flipped-gb/a0.webp" style="width:100%">
-      <figcaption>7. To finish the assembly, organize your components into folders and name your replicates.</figcaption>
+      <figcaption>7. Para terminar o assembly, organize suas peças em pastas e renomeie suas funções replicar.</figcaption>
     </figure>
   </div>
 
@@ -143,18 +140,18 @@ This style of gearbox can be desired in some situations to meet packaging constr
   </div>
 </div>
 
-!!! Success "Verification"
-    Make sure to have you and/or a more experienced member/mentor of your team [**review your CAD!**](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="_blank"} Your assembly should have 30 instances.
+!!! Success "Verificação"
+    Cerfique-se de você ou um mentor/membro mais experiente do seu time [**revise seu CAD!**](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="_blank"} seu assembly deve ter perto de 30 instancias.
 
-### Interference Detection
+### Detecção de interferência
 
-Catch errors in the CAD rather than in real life! Always double and triple check your CAD models for mistakes like interferences. An extra 10 minutes verifying the correctness of your CAD can save you hours of rework if an erroneous part slips through and is fabricated.
+Prefira encontrar erros no seu CAD do que na realidade! Sempre cheque seu CAD por erros como interferências duas ou até mesmo três vezes. 10 minutos a mais verificando o CAD pode salvar hours de retrabalho se uma peça errada passar e for fabricada.
 
-!!! warning "Interference Detection"
-    If an interference is detected with the Check Interference tool, it will highlight the intersected volumes in red.
+!!! warning "Detecção de interferência"
+    Se uma interferência for detectada com a ferramenta de teste, o espaço em interferência ficará a mostra em vermelho.
     <figure>
       <img src="/img/learning-course/stage1c/flipped-gb/interference.webp" style="width:80%">
-      <figcaption>Interference between a motor and plate detected by the Check Interference tool.</figcaption>
+      <figcaption>Interferência entre motor e chapa detectada peça ferramenta de teste de interferência.</figcaption>
     </figure>
 
 <br>
