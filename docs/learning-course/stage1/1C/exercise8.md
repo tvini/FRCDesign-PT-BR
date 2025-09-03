@@ -20,9 +20,10 @@ Neste exercício, você irá usar um [crush block configurável impresso em 3D](
 As crush plates tendem a funcionar bem no meio dos tubos, onde pode ser difícil inserir um crush block.</figcaption>
     </figure>
 
-### Part Studio Instructions
+### Instruções do Part Studio
 
-**Navigate to the "Exercise #8 Part Studio" tab** in your copied document and **refer to the solution document** to complete the part studio for this exercise. The **following instruction slides** only provide a general outline and some key details.
+**Navegue até a aba "Exercício #8 Part Studio"** no seu documento copiado e **consulte o documento de soluções** para completar o part studio deste exercício.  
+Os **slides de instruções a seguir** fornecem apenas um esboço geral e alguns detalhes-chave.
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -31,40 +32,36 @@ As crush plates tendem a funcionar bem no meio dos tubos, onde pode ser difícil
   <div id="slide1" class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/index-centering/s0.webp" style="width:100%">
-      <figcaption>0. Final Part Studio.</figcaption>
+      <figcaption>0. Part Studio finalizado.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/index-centering/s1.webp" style="width:100%">
-      <figcaption>1. Begin by creating the layout sketch on the top plane.
-                  Just like with the previous exercise, we define the distance between the rollers by mirroring the indexer wheel.
-                  We add 0.016" to the chain c-c to account for stretch in the chain.  </figcaption>
+      <figcaption>1. Comece criando o layout sketch no plano superior.  
+Assim como no exercício anterior, definimos a distância entre os rollers espelhando a roda do indexador. Adicionamos 0,016" ao centro a centro da corrente para compensar a folga (stretch) da corrente.  </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/index-centering/s2.webp" style="width:100%">
-      <figcaption>2. Model the thin-wall 2x1 tubes with Extrude Individual and Tube Converter.</figcaption>
+      <figcaption>2. Modele os tubos 2x1 de parede fina usando Extrude Individual e Tube Converter.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/index-centering/s3.webp" style="width:100%">
-      <figcaption>3. Model the top plates and bottom plates. 
-                  The top plates can be modeled in the same sketch since they are on the same plane.
-                  Pay close attention to the plate constraints in the solution document.</figcaption>
+      <figcaption>3. Modele as chapas superiores e inferiores. As chapas superiores podem ser modeladas no mesmo sketch, já que estão no mesmo plano. Preste muita atenção às restrições das chapas no documento de soluções.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/index-centering/s4.webp" style="width:100%">
-      <figcaption>4. Pocket the plates using the <code>Part Lighten</code> featurescript. 
-                  Recall that you can select an entire sketch to automatically select all the ribs.</figcaption>
+      <figcaption>4. Faça a magrelação das chapas usando o featurescript  <code>Part Lighten</code> Lembre-se de que você pode selecionar um sketch inteiro para selecionar automaticamente todas as ribs. </figcaption>
     </figure>
   </div>
 
@@ -74,21 +71,21 @@ As crush plates tendem a funcionar bem no meio dos tubos, onde pode ser difícil
         <source src="/img/learning-course/stage1c/index-centering/s5.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>5. Model the #25 chain using the <code>Belt & Chain Gen</code> Featurescript.</figcaption>
+      <figcaption>5. Modele a corrente #25 usando o featurescript <code>Belt & Chain Gen</code> </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/index-centering/s6.webp" style="width:100%">
-      <figcaption>6. Model the 5mm HTD belt.</figcaption>
+      <figcaption>6. Modele a correia 5mm HTD.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/index-centering/s7.webp" style="width:100%">
-      <figcaption>7. Model the shafts.</figcaption>
+      <figcaption>7. Modele os eixos. </figcaption>
     </figure>
   </div>
 
