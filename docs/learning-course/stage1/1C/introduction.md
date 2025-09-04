@@ -1,31 +1,33 @@
-# 1C: Practice Mechanisms
-## Introduction
+<img width="871" height="80" alt="image" src="https://github.com/user-attachments/assets/5a809363-f6cb-4e26-9273-eae55a86bf44" /># 1C: Mecanismos para Praticar
+## Introdução
 
-Welcome to stage 1C! In this stage, you will be modeling a number of different mechanisms to practice your CAD skills and execution of small details. You will be introduced to new COTS parts and Onshape tips and tricks along the way to help your workflow.
+Bem-vindo à etapa 1C! Nesta etapa, você irá modelar diversos mecanismos diferentes para praticar suas habilidades em CAD e a execução de pequenos detalhes.  
+Você será apresentado a novas peças COTS e a dicas e truques do Onshape ao longo do caminho para ajudar no seu fluxo de trabalho.
 
-Because these mechanisms are designed specifically to help practice skills and introduce concepts, they are modeled out-of-context of a full robot. 
-While these mechanisms do include some good design techniques, they are not necessarily complete systems. The models are strictly for CAD practice and not recommended for use on real robots.
+Como esses mecanismos foram projetados especificamente para ajudar na prática de habilidades e na introdução de conceitos, eles são modelados fora do contexto de um robô completo.  
+Embora esses mecanismos incluam algumas boas técnicas de design, eles não são necessariamente sistemas completos.  
+Os modelos são estritamente para prática de CAD e não são recomendados para uso em robôs reais.
 
 ### Layout Sketches
 
-Make sure to use a layout sketch for each mechanism, like the ones introduced in the Stage 1B exercises. Layout sketches are helpful at any scale, letting you define key dimensions in a single sketch, which makes it easy to adjust when needed.
+Certifique-se de usar um layout sketch para cada mecanismo, como os introduzidos nos exercícios da Etapa 1B.  Os layout sketches são úteis em qualquer escala, permitindo definir dimensões-chave em um único sketch, o que facilita ajustes quando necessário.
 
-!!! Tip
-    Add the components that drive the design to the layout sketch (i.e. power transmission, game piece path, rollers, etc.) while keeping specific part details in their own sketches and features (i.e. a separate sketch for the bearing holes and plate outline, to be extruded).
+!!! Dica
+    Adicione os componentes que direcionam o design ao layout sketch (por exemplo, transmissão de potência, caminho da peça de jogo, rollers etc.), mantendo os detalhes específicos das peças em seus próprios sketches e features (por exemplo, um sketch separado para os furos dos rolamentos e o contorno da chapa, a ser extrudado).
 
 <div class="slideshow-container">
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
       <figure>
           <img src="/img/learning-course/stage1c/exercise_1_layout.webp" style="width:80%">
-      <figcaptions>Exercise 1 side view. Notice how the layout sketch drives the geometry of the mechanism.</figcaption>
+      <figcaptions>Exercício 1 - vista lateral. Observe como o layout sketch direciona a geometria do mecanismo.</figcaption>
       </figure>
   </div>
 
   <div class="mySlides fade">
       <figure>
           <img src="/img/learning-course/stage1c/exercise_1_layout_final.webp" style="width:80%">
-          <figcaptions>Exercise 1 layout sketch. Notice that only key geometry details are included in the layout sketch.</figcaption>
+          <figcaptions>Layout sketch do Exercício 1. Observe que apenas os detalhes geométricos principais estão incluídos no layout sketch.</figcaption>
       </figure>
   </div>
 
@@ -38,12 +40,12 @@ Make sure to use a layout sketch for each mechanism, like the ones introduced in
   </div>
 </div>
 
-!!! Note
-    The concept of layout sketches will be expanded upon later when you start to use them in the context of a robot.
+!!! Nota
+    O conceito de layout sketches será expandido mais adiante, quando você começar a usá-los no contexto de um robô.
 
-### Maintaining Consistent Origins
+### Mantendo Origens Consistentes
 
-As mentioned in previous sections of Stage 1, you should maintain a consistent origin between your part studio and assembly. You will use the [`Origin Cube` Featurescript](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/2b321cb91b74224b9c14b433 "Origin Cube Featurescript Onshape Document"){:target="_blank"} to achieve this. **Make sure that the origin cube is always the first feature in any part studio.** The below slides provide a demonstration of how to use the origin cube.
+Como mencionado nas seções anteriores da Etapa 1, você deve manter uma origem consistente entre seu Part Studio e o assembly. Você irá usar o [`Origin Cube` Featurescript](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/2b321cb91b74224b9c14b433 "Origin Cube Featurescript Onshape Document"){:target="_blank"} para alcançar isso. **Certifique-se de que o Origin Cube seja sempre a primeira feature em qualquer Part Studio.** Os slides abaixo fornecem uma demonstração de como usar o Origin Cube.
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -52,14 +54,14 @@ As mentioned in previous sections of Stage 1, you should maintain a consistent o
   <div id="slide1" class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/origin-cube-tutorial/origin-cube-tutorial-1.webp" style="width:90%">
-      <figcaption>Place the Origin Cube featurescript as the first feature in the part studio.</figcaption>
+      <figcaption> Coloque o featurescript Origin Cube como a primeira feature no Part Studio.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/origin-cube-tutorial/origin-cube-tutorial-2.webp" style="width:90%">
-      <figcaption>Model your mechanism.</figcaption>
+      <figcaption>Modele seu mecanismo.</figcaption>
     </figure>
   </div>
 
@@ -69,7 +71,8 @@ As mentioned in previous sections of Stage 1, you should maintain a consistent o
         <source src="/img/learning-course/stage1c/flat-intake/a1.webm" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-      <figcaption>Insert the part studio into the assembly with the green checkmark. Group all static parts together with the Origin Cube part, then fasten the mate connector on the Origin Cube to the origin of the assembly.</figcaption>
+      <figcaption>Insert o Part Studio no assembly usando o check verde.  
+Agrupe todas as peças estáticas com a peça Origin Cube e, em seguida, fasten o mate connector do Origin Cube à origem do assembly.</figcaption>
     </figure>
   </div>
 
@@ -82,7 +85,8 @@ As mentioned in previous sections of Stage 1, you should maintain a consistent o
   </div>
 </div>
 
-Following these steps will allow the origin of the assembly to be tied to a part that will never change or disappear. The position of the other parts relative to the origin cube will consistent with the part studio, even when things are changed in the part studio. This will be particularly useful for flexible assemblies, such as an arm or elevator, in stage 2 and beyond.
+Seguir esses passos permitirá que a origem do assembly esteja vinculada a uma peça que nunca mudará ou desaparecerá. A posição das outras peças em relação ao Origin Cube será consistente com o Part Studio, mesmo quando houver alterações no Part Studio.  
+Isso será particularmente útil para assemblies flexíveis, como um braço ou elevador, no Stage 2 e seguintes.
 
 <br>
 
