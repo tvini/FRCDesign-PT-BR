@@ -92,7 +92,7 @@ Assim como no exercício anterior, definimos a distância entre os rollers espel
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/index-centering/s0.webp" style="width:100%">
-      <figcaption>8. Finish the part studio by naming your features and organizing them into folders. Assign the part materials accordingly.</figcaption>
+      <figcaption>8. Finalize o Part Studio nomeando suas features e organizando-as em pastas. Atribua os materiais das peças conforme necessário. </figcaption>
     </figure>
   </div>
 
@@ -106,33 +106,34 @@ Assim como no exercício anterior, definimos a distância entre os rollers espel
   </div>
 </div>
 
-### Assembly Instructions
+### Instruções do Assembly 
 
-**Next, navigate to the "Exercise #8 Assembly" tab** in your copied document and **refer to the solution document** to complete the assembly for this exercise. The **following instruction slides** only provide a general outline and some key details.
+**Em seguida, navegue até a aba "Exercício #8 Part Studio"** no seu documento copiado e **consulte o documento de soluções** para completar o assembly deste exercício.  
+Os **slides de instruções a seguir** fornecem apenas um esboço geral e alguns detalhes-chave.
 
 <div class="slideshow-container">
   <!-- Full-width images with number and caption text -->
   <div id="slide1" class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/index-centering/a0.webp" style="width:100%">
-      <figcaption>0. Final assembly.</figcaption>
+      <figcaption>0. Assembly finalizado.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/index-centering/a1.webp" style="width:100%">
-      <figcaption>1. Add the part studio parts to the assembly. Like before, group mate the rigid components with the Origin Cube and mate the Origin Cube to the assembly origin. </figcaption>
+      <figcaption>1. Adicione as peças do Part Studio ao assembly. Como antes, faça o group mate dos componentes rígidos com o Origin Cube e faça o mate do Origin Cube com a origem do assembly.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/index-centering/a2.webp" style="width:100%">
-      <figcaption>2. Insert, fasten, and replicate the 2" long, 3/8" OD plate spacers. 
-                Insert, fasten, and replicate the 1.5" long, 3/8" OD motor spacers.
-                Copy and fasten the bottom gear plate to the 2" spacer.
-                Insert, fasten, and replicate the 1/2" rounded hex shaft bearings.</figcaption>
+      <figcaption>2. Insira, fasten e replicate os plate spacers de 2" de comprimento e 3/8" de diâmetro externo (OD).  
+Insira, fasten e replique os motor spacers de 1,5" de comprimento e 3/8" de diâmetro externo (OD).  
+Copie e fasten a chapa inferior da engrenagem ao spacer de 2".  
+Insira, fasten e replicate os rolamentos de eixo hexagonal arredondado de 1/2".</figcaption>
     </figure>
   </div>
 
@@ -142,14 +143,15 @@ Assim como no exercício anterior, definimos a distância entre os rollers espel
         <source src="/img/learning-course/stage1c/index-centering/a3.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>3. Insert, fasten, and replicate the 3D printed crush blocks from the document linked at the top of this page.</figcaption>
+      <figcaption>3. Insert, fasten e replicate os crush blocks impressos em 3D a partir do documento vinculado no topo desta página.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/index-centering/a4.webp" style="width:100%">
-      <figcaption>4. Insert and fasten the motor, motor pulley, 48T 3D printed HTD pulley with 1/2" hex insert, 30T gears, and configurable spacer stacks fro MKCad. Fasten the belt to the pulley. Also fasten the shafts.</figcaption>
+      <figcaption>4. Insert e fasten o motor, a polia do motor, a polia HTD 48T impressa em 3D com insert hexagonal de 1/2", as engrenagens 30T e os configurable spacer stacks do MKCad.  
+Fasten (fixe) a correia na polia. Também fasten os eixos.</figcaption>
     </figure>
   </div>
 
@@ -159,7 +161,7 @@ Assim como no exercício anterior, definimos a distância entre os rollers espel
         <source src="/img/learning-course/stage1c/index-centering/a5.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>5. Insert and fasten the chain sprockets. Then, fasten the chain to the sprocket.</figcaption>
+      <figcaption>5. Insert e fasten as polias da corrente. Em seguida, fasten a corrente nas polias.</figcaption>
     </figure>
   </div>
 
@@ -169,28 +171,28 @@ Assim como no exercício anterior, definimos a distância entre os rollers espel
         <source src="/img/learning-course/stage1c/index-centering/a6.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
-      <figcaption>6. Insert and fasten the 6" Omni-wheels from <a href="https://cad.onshape.com/documents/a65c1d6e95e4616e720a3f09/v/a6fbccfafd4bcd323ed0cb23/e/26e504413265b4491ec033b8?showReturnToWorkspaceLink=true" target="_blank">this document</a> and MAXHubs from MKCad.</figcaption>
+      <figcaption>6. Insert e fasten as Omni-wheels de 6" a partir de <a href="https://cad.onshape.com/documents/a65c1d6e95e4616e720a3f09/v/a6fbccfafd4bcd323ed0cb23/e/26e504413265b4491ec033b8?showReturnToWorkspaceLink=true" target="_blank">this document</a> e MAXHubs do MKCad.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/index-centering/a7.webp" style="width:100%">
-      <figcaption>7. Insert, configure, and fasten the Configurable Spacer Stack to fill the gap on the wheel shaft.</figcaption>
+      <figcaption>7. Insert, configure e fasten o Configurable Spacer Stack para preencher a folga no eixo da roda.</figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/index-centering/a8.webp" style="width:100%">
-      <figcaption>8. Insert, fasten, and replicate all of the required fasteners. </figcaption>
+      <figcaption>8. Insert, fasten e replicate todos os fixadores necessários. </figcaption>
     </figure>
   </div>
 
   <div class="mySlides fade">
     <figure>
       <img src="/img/learning-course/stage1c/index-centering/a0.webp" style="width:100%">
-      <figcaption>9. To finish the assembly, organize your components into folders and name your replicates.</figcaption>
+      <figcaption>9. Para finalizar o assembly, organize seus componentes em pastas e nomeie seus replicates.</figcaption>
     </figure>
   </div>
 
@@ -203,7 +205,7 @@ Assim como no exercício anterior, definimos a distância entre os rollers espel
   </div>
 </div>
 
-!!! Success "Verification"
-    Make sure to have you and/or a more experienced member/mentor of your team [**review your CAD!**](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="_blank"} Your assembly should have 63 instances.
+!!! Success "Verificação"
+    Certifique-se de que você e/ou um membro/mentor mais experiente da sua equipe revise o assembly [**review your CAD!**](../1A/focusing-on-improvement.md "Focusing on Improvement Page"){:target="_blank"} Your assembly should have 63 instances.
 
 <br>
